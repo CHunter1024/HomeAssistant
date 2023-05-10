@@ -1,0 +1,1191 @@
+kiosk_mode:
+  hide_header: true  # 隐藏标题栏
+views:
+  #########################################################################################
+  ####################                                         ############################
+  ####################                 家庭总览                 ############################
+  ####################                                         ############################
+  #########################################################################################
+  - theme: Backend-selected
+    title: 家庭总览
+    path: overview
+    icon: mdi:home-lightbulb-outline
+    type: panel
+    badges: []
+    cards:
+      - type: picture-elements
+        image: /local/ui/background/关灯背景.png
+        elements:
+        ###################################    灯光控制    ###################################
+          - type: image
+            entity: light.xuan_guan_deng_lightbulb
+            tap_action:
+              action: none
+            style:
+              pointer-events: none
+              top: 50%
+              left: 50%
+              width: 100%
+              mix-blend-mode: lighten
+            state_image:
+              'off': /local/ui/透明.png
+              'on': /local/ui/light/玄关开灯.png
+          - type: image
+            entity: light.xuan_guan_deng_lightbulb
+            tap_action:
+              action: toggle
+            style:
+              top: 16%
+              left: 80.5%
+              width: 4%
+            state_image:
+              'off': /local/ui/icon/light_off.png
+              'on': /local/ui/icon/light_on.png
+          - type: image
+            entity: light.can_ting_deng_lightbulb
+            tap_action:
+              action: none
+            style:
+              pointer-events: none
+              top: 50%
+              left: 50%
+              width: 100%
+              mix-blend-mode: lighten
+            state_image:
+              'off': /local/ui/透明.png
+              'on': /local/ui/light/餐厅开灯.png
+          - type: image
+            entity: light.can_ting_deng_lightbulb
+            tap_action:
+              action: toggle
+            style:
+              top: 32%
+              left: 78%
+              width: 4%
+            state_image:
+              'off': /local/ui/icon/light_off.png
+              'on': /local/ui/icon/light_on.png
+          - type: image
+            entity: light.ke_ting_deng_lightbulb
+            tap_action:
+              action: none
+            style:
+              pointer-events: none
+              top: 50%
+              left: 50%
+              width: 100%
+              mix-blend-mode: lighten
+            state_image:
+              'off': /local/ui/透明.png
+              'on': /local/ui/light/客厅开灯.png
+          - type: image
+            entity: light.ke_ting_deng_lightbulb
+            tap_action:
+              action: toggle
+            style:
+              top: 51.5%
+              left: 75%
+              width: 4%
+            state_image:
+              'off': /local/ui/icon/light_off.png
+              'on': /local/ui/icon/light_on.png
+          - type: image
+            entity: light.zou_lang_deng_lightbulb
+            tap_action:
+              action: none
+            style:
+              pointer-events: none
+              top: 50%
+              left: 50%
+              width: 100%
+              mix-blend-mode: lighten
+            state_image:
+              'off': /local/ui/透明.png
+              'on': /local/ui/light/走廊开灯.png
+          - type: image
+            entity: light.zou_lang_deng_lightbulb
+            tap_action:
+              action: toggle
+            style:
+              top: 41.5%
+              left: 64%
+              width: 4%
+            state_image:
+              'off': /local/ui/icon/light_off.png
+              'on': /local/ui/icon/light_on.png
+          - type: image
+            entity: light.chu_fang_deng_lightbulb
+            tap_action:
+              action: none
+            style:
+              pointer-events: none
+              top: 50%
+              left: 50%
+              width: 100%
+              mix-blend-mode: lighten
+            state_image:
+              'off': /local/ui/透明.png
+              'on': /local/ui/light/厨房开灯.png
+          - type: image
+            entity: light.chu_fang_deng_lightbulb
+            tap_action:
+              action: toggle
+            style:
+              top: 16.5%
+              left: 72%
+              width: 4%
+            state_image:
+              'off': /local/ui/icon/light_off.png
+              'on': /local/ui/icon/light_on.png
+          - type: image
+            entity: light.wei_sheng_jian_deng_lightbulb
+            tap_action:
+              action: none
+            style:
+              pointer-events: none
+              top: 50%
+              left: 50%
+              width: 100%
+              mix-blend-mode: lighten
+            state_image:
+              'off': /local/ui/透明.png
+              'on': /local/ui/light/卫生间开灯.png
+          - type: image
+            entity: light.wei_sheng_jian_deng_lightbulb
+            tap_action:
+              action: toggle
+            style:
+              top: 31.5%
+              left: 65.6%
+              width: 4%
+            state_image:
+              'off': /local/ui/icon/light_off.png
+              'on': /local/ui/icon/light_on.png
+          - type: image
+            entity: light.zhu_wo_shi_wei_sheng_jian_deng_lightbulb
+            tap_action:
+              action: none
+            style:
+              pointer-events: none
+              top: 50%
+              left: 50%
+              width: 100%
+              mix-blend-mode: lighten
+            state_image:
+              'off': /local/ui/透明.png
+              'on': /local/ui/light/主卧室卫生间开灯.png
+          - type: image
+            entity: light.zhu_wo_shi_wei_sheng_jian_deng_lightbulb
+            tap_action:
+              action: toggle
+            style:
+              top: 41.5%
+              left: 48%
+              width: 4%
+            state_image:
+              'off': /local/ui/icon/light_off.png
+              'on': /local/ui/icon/light_on.png
+          - type: image
+            entity: light.zhu_wo_shi_deng_lightbulb
+            tap_action:
+              action: none
+            style:
+              pointer-events: none
+              top: 50%
+              left: 50%
+              width: 100%
+              mix-blend-mode: lighten
+            state_image:
+              'off': /local/ui/透明.png
+              'on': /local/ui/light/主卧室开灯.png
+          - type: image
+            entity: light.zhu_wo_shi_deng_lightbulb
+            tap_action:
+              action: toggle
+            style:
+              top: 55%
+              left: 50.2%
+              width: 4%
+            state_image:
+              'off': /local/ui/icon/light_off.png
+              'on': /local/ui/icon/light_on.png
+          - type: image
+            entity: light.di_er_wo_shi_deng_lightbulb
+            tap_action:
+              action: none
+            style:
+              pointer-events: none
+              top: 50%
+              left: 50%
+              width: 100%
+              mix-blend-mode: lighten
+            state_image:
+              'off': /local/ui/透明.png
+              'on': /local/ui/light/第二卧室开灯.png
+          - type: image
+            entity: light.di_er_wo_shi_deng_lightbulb
+            tap_action:
+              action: toggle
+            style:
+              top: 54%
+              left: 63%
+              width: 4%
+            state_image:
+              'off': /local/ui/icon/light_off.png
+              'on': /local/ui/icon/light_on.png
+          - type: image
+            entity: light.di_san_wo_shi_deng_lightbulb
+            tap_action:
+              action: none
+            style:
+              pointer-events: none
+              top: 50%
+              left: 50%
+              width: 100%
+              mix-blend-mode: lighten
+            state_image:
+              'off': /local/ui/透明.png
+              'on': /local/ui/light/第三卧室开灯.png
+          - type: image
+            entity: light.di_san_wo_shi_deng_lightbulb
+            tap_action:
+              action: toggle
+            style:
+              top: 31%
+              left: 55.3%
+              width: 4%
+            state_image:
+              'off': /local/ui/icon/light_off.png
+              'on': /local/ui/icon/light_on.png
+          - type: image
+            entity: light.xiao_yang_tai_deng_lightbulb
+            tap_action:
+              action: none
+            style:
+              pointer-events: none
+              top: 50%
+              left: 50%
+              width: 100%
+              mix-blend-mode: lighten
+            state_image:
+              'off': /local/ui/透明.png
+              'on': /local/ui/light/小阳台开灯.png
+          - type: image
+            entity: light.xiao_yang_tai_deng_lightbulb
+            tap_action:
+              action: toggle
+            style:
+              top: 15%
+              left: 63.6%
+              width: 4%
+            state_image:
+              'off': /local/ui/icon/light_off.png
+              'on': /local/ui/icon/light_on.png
+          - type: image
+            entity: light.yang_tai_deng_lightbulb
+            tap_action:
+              action: none
+            style:
+              pointer-events: none
+              top: 50%
+              left: 50%
+              width: 100%
+              mix-blend-mode: lighten
+            state_image:
+              'off': /local/ui/透明.png
+              'on': /local/ui/light/阳台开灯.png
+          - type: image
+            entity: light.yang_tai_deng_lightbulb
+            tap_action:
+              action: toggle
+            style:
+              top: 68%
+              left: 75%
+              width: 4%
+            state_image:
+              'off': /local/ui/icon/light_off.png
+              'on': /local/ui/icon/light_on.png
+
+        ###################################    侧边栏    ###################################
+          ## 导航
+          - action: none
+            image: /local/ui/sidebar/ON/家庭总览.png
+            style:
+              left: 15%
+              top: 35%
+              width: 20%
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/overview
+            hold_action:
+              action: none
+            type: image
+          - action: none
+            image: /local/ui/sidebar/OFF/所有设备.png
+            style:
+              left: 15%
+              top: 45%
+              width: 20%
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/devices
+            hold_action:
+              action: none
+            type: image
+          - action: none
+            image: /local/ui/sidebar/OFF/媒体控制.png
+            style:
+              left: 15%
+              top: 55%
+              width: 20%
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/media
+            hold_action:
+              action: none
+            type: image
+          ## 头像
+          - action: none
+            entity: person.root
+            state_image:
+              home: /local/ui/avatar/me.png
+              not_home: /local/ui/avatar/me.png
+            style:
+              left: 9%
+              top: 70%
+              width: 7%
+            tap_action: none
+            type: image
+          - action: none
+            entity: person.root
+            state_image:
+              home: /local/ui/avatar/me.png
+              not_home: /local/ui/avatar/me.png
+            style:
+              left: 20%
+              top: 70%
+              width: 7%
+            tap_action: none
+            type: image
+          ## 日期时间
+          - entity: sensor.date
+            hold_action:
+              action: none
+            style:
+              color: rgba(141, 141, 143)
+              font-size: 1.6vw
+              font-weight: 300
+              left: 19.6%
+              letter-spacing: 0.24vw
+              text-align: left
+              top: 15%
+              width: 30%
+            tap_action:
+              action: none
+            type: state-label
+          - entity: sensor.time
+            hold_action:
+              action: none
+            style:
+              color: rgba(218, 188, 136)
+              font-size: 5vw
+              font-weight: 400
+              left: 4.5%
+              letter-spacing: '-0.05vw'
+              max-width: 1px
+              top: 10%
+            tap_action:
+              action: none
+            type: state-label
+          ## 天气
+          - backdrop: false
+            entity: weather.fo_shan_shi_nan_hai_qu
+            name: ' '
+            style: |
+              :host {
+                left: 15%;
+                top:  22%;
+              }
+              ha-card {
+                border-style: none;
+              }
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/weather
+            type: custom:simple-weather-card
+          ## 室内温度
+          - color_thresholds:
+              - color: '#4dd2ff'
+                value: 17
+              - color: '#01a4db'
+                value: 20
+              - color: '#fccd68'
+                value: 26
+              - color: '#ff1a1a'
+                value: 30
+            entities:
+              - sensor.ke_ting_kong_diao_current_temperature
+            icon: mdi:home-thermometer-outline
+            update_interval: 600
+            show:
+              icon: true
+              legend: false
+              name: false
+            style: |
+              :host {
+                left: 15%;
+                top:  90%;
+                width: 24%;
+              }
+              .header {
+                font-size: 100%;
+                position: absolute !important;
+                width: 5% !important;
+                padding: 1% !important;
+                right: 20% !important;
+                top: 15% !important;
+              }
+              ha-card {
+                background: none  !important;
+                padding: 0 !important;
+                border-style: none;
+              }
+              .icon > ha-icon {
+                width:30% !important;
+                height:100% !important;
+              }
+              .state__time{
+                font-size:1vw !important;
+                margin-top: 0.2vw;
+                font-weight: 300 !important;
+                opacity: 0.6 !important;
+              }
+              .states {
+                font-size: 80% !important;
+                padding: 1vw 0vw 0vw 0vw  !important;
+                margin: auto !important;
+                width: 70%;
+              }
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/weather
+            type: custom:mini-graph-card
+
+        ###################################    家庭信息    ###################################
+          - type: custom:mushroom-template-card
+            primary: 灯
+            secondary: '{{states(''sensor.number_lights_on'')}} 盏开着'
+            icon: mdi:lightbulb-group
+            icon_color: |-
+              {% if states('sensor.number_lights_on')  == '0' %}
+
+              {% elif states('sensor.number_lights_on')  > '0' %}
+              yellow
+              {% endif %}
+            style: |
+              :host {
+                left: 40%;
+                top:  89%;
+              }
+              ha-card {
+                border-style: none;
+              }
+            tap_action:
+              action: none
+            hold_action:
+              action: none
+            double_tap_action:
+              action: none
+          - type: custom:mushroom-template-card
+            primary: 空调
+            secondary: '{{states(''sensor.number_climates_on'')}} 台开着'
+            icon: mdi:air-conditioner
+            icon_color: |-
+              {% if states('sensor.number_climates_on')  == '0' %}
+
+              {% elif states('sensor.number_climates_on')  > '0' %}
+              blue
+              {% endif %}
+            style: |
+              :host {
+                left: 55%;
+                top:  89%;
+              }
+              ha-card {
+                border-style: none;
+              }
+            tap_action:
+              action: none
+            hold_action:
+              action: none
+            double_tap_action:
+              action: none        
+
+
+  #########################################################################################
+  ####################                                         ############################
+  ####################                所有设备                  ############################
+  ####################                                         ############################
+  #########################################################################################
+  - theme: Backend-selected
+    title: 所有设备
+    path: devices
+    icon: mdi:apps
+    type: panel
+    badges: []
+    cards:
+      - type: picture-elements
+        image: /local/ui/background/纯背景.png
+        elements:
+        ###################################    设备管理    ###################################
+          - enableColumns: true
+            rows:
+              - columns:
+                  - column: 1
+                    entities:
+                      - entities:
+                          - entity: light.xuan_guan_deng_lightbulb
+                            icon: mdi:lightbulb
+                        title: 玄关
+                    tileOnRow: 1
+                  - column: 1
+                    entities:
+                      - entities:
+                          - entity: light.can_ting_deng_lightbulb
+                            icon: mdi:lightbulb
+                          - entity: climate.can_ting_kong_diao_thermostat
+                            icon: mdi:air-conditioner
+                        title: 餐厅
+                    tileOnRow: 2
+                  - column: 1
+                    entities:
+                      - entities:
+                          - entity: light.chu_fang_deng_lightbulb
+                            icon: mdi:lightbulb
+                        title: 厨房
+                    tileOnRow: 1
+                  - column: 1
+                    entities:
+                      - entities:
+                          - entity: light.wei_sheng_jian_deng_lightbulb
+                            icon: mdi:lightbulb
+                        title: 卫生间
+                    tileOnRow: 1
+                  - column: 1
+                    entities:
+                      - entities:
+                          - entity: light.ke_ting_deng_lightbulb
+                            icon: mdi:lightbulb
+                          - entity: climate.ke_ting_kong_diao_thermostat
+                            icon: mdi:air-conditioner
+                        title: 客厅
+                    tileOnRow: 2
+                  - column: 1
+                    entities:
+                      - entities:
+                          - entity: light.xiao_yang_tai_deng_lightbulb
+                            icon: mdi:lightbulb
+                        title: 小阳台
+                    tileOnRow: 1
+                  - column: 1
+                    entities:
+                      - entities:
+                          - entity: light.di_er_wo_shi_deng_lightbulb
+                            icon: mdi:lightbulb
+                          - entity: climate.di_er_wo_shi_kong_diao_thermostat
+                            icon: mdi:air-conditioner
+                        title: 第二卧室
+                    tileOnRow: 2
+                  - column: 1
+                    entities:
+                      - entities:
+                          - entity: light.di_san_wo_shi_deng_lightbulb
+                            icon: mdi:lightbulb
+                          - entity: climate.di_san_wo_shi_kong_diao_thermostat
+                            icon: mdi:air-conditioner
+                        title: 第三卧室
+                    tileOnRow: 2
+                  - column: 1
+                    entities:
+                      - entities:
+                          - entity: light.zhu_wo_shi_deng_lightbulb
+                            icon: mdi:lightbulb
+                          - entity: light.zhu_wo_shi_wei_sheng_jian_deng_lightbulb
+                            icon: mdi:lightbulb
+                          - entity: climate.zhu_wo_shi_kong_diao_thermostat
+                            icon: mdi:air-conditioner
+                        title: 主卧室
+                    tileOnRow: 3
+                  - column: 1
+                    entities:
+                      - entities:
+                          - entity: light.yang_tai_deng_lightbulb
+                            icon: mdi:lightbulb
+                        title: 阳台
+                    tileOnRow: 1
+            statePositionTop: true
+            style:
+              height: 100%
+              left: 70%
+              top: 52%
+              width: 82%
+            type: custom:homekit-card
+
+        ###################################    侧边栏    ###################################
+          ## 导航
+          - action: none
+            image: /local/ui/sidebar/OFF/家庭总览.png
+            style:
+              left: 15%
+              top: 35%
+              width: 20%
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/overview
+            hold_action:
+              action: none
+            type: image
+          - action: none
+            image: /local/ui/sidebar/ON/所有设备.png
+            style:
+              left: 15%
+              top: 45%
+              width: 20%
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/devices
+            hold_action:
+              action: none
+            type: image
+          - action: none
+            image: /local/ui/sidebar/OFF/媒体控制.png
+            style:
+              left: 15%
+              top: 55%
+              width: 20%
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/media
+            hold_action:
+              action: none
+            type: image
+          ## 头像
+          - action: none
+            entity: person.root
+            state_image:
+              home: /local/ui/avatar/me.png
+              not_home: /local/ui/avatar/me.png
+            style:
+              left: 9%
+              top: 70%
+              width: 7%
+            tap_action: none
+            type: image
+          - action: none
+            entity: person.root
+            state_image:
+              home: /local/ui/avatar/me.png
+              not_home: /local/ui/avatar/me.png
+            style:
+              left: 20%
+              top: 70%
+              width: 7%
+            tap_action: none
+            type: image
+          ## 日期时间
+          - entity: sensor.date
+            hold_action:
+              action: none
+            style:
+              color: rgba(141, 141, 143)
+              font-size: 1.6vw
+              font-weight: 300
+              left: 19.6%
+              letter-spacing: 0.24vw
+              text-align: left
+              top: 15%
+              width: 30%
+            tap_action:
+              action: none
+            type: state-label
+          - entity: sensor.time
+            hold_action:
+              action: none
+            style:
+              color: rgba(218, 188, 136)
+              font-size: 5vw
+              font-weight: 400
+              left: 4.5%
+              letter-spacing: '-0.05vw'
+              max-width: 1px
+              top: 10%
+            tap_action:
+              action: none
+            type: state-label
+          ## 天气
+          - backdrop: false
+            entity: weather.fo_shan_shi_nan_hai_qu
+            name: ' '
+            style: |
+              :host {
+                left: 15%;
+                top:  22%;
+              }
+              ha-card {
+                border-style: none;
+              }
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/weather
+            type: custom:simple-weather-card
+          ## 室内温度
+          - color_thresholds:
+              - color: '#4dd2ff'
+                value: 17
+              - color: '#01a4db'
+                value: 20
+              - color: '#fccd68'
+                value: 26
+              - color: '#ff1a1a'
+                value: 30
+            entities:
+              - sensor.ke_ting_kong_diao_current_temperature
+            icon: mdi:home-thermometer-outline
+            update_interval: 600
+            show:
+              icon: true
+              legend: false
+              name: false
+            style: |
+              :host {
+                left: 15%;
+                top:  90%;
+                width: 24%;
+              }
+              .header {
+                font-size: 100%;
+                position: absolute !important;
+                width: 5% !important;
+                padding: 1% !important;
+                right: 20% !important;
+                top: 15% !important;
+              }
+              ha-card {
+                background: none  !important;
+                padding: 0 !important;
+                border-style: none;
+              }
+              .icon > ha-icon {
+                width:30% !important;
+                height:100% !important;
+              }
+              .state__time{
+                font-size:1vw !important;
+                margin-top: 0.2vw;
+                font-weight: 300 !important;
+                opacity: 0.6 !important;
+              }
+              .states {
+                font-size: 80% !important;
+                padding: 1vw 0vw 0vw 0vw  !important;
+                margin: auto !important;
+                width: 70%;
+              }
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/weather
+            type: custom:mini-graph-card
+
+
+  #########################################################################################
+  ####################                                         ############################
+  ####################               天气预报                   ############################
+  ####################                                         ############################
+  #########################################################################################
+  - theme: Backend-selected
+    title: 天气预报
+    path: weather
+    icon: mdi:weather-cloudy
+    type: panel
+    badges: []
+    cards:
+      - type: picture-elements
+        image: /local/ui/background/纯背景.png
+        elements:
+        ###################################    天气卡片    ###################################
+          - type: custom:weather-card
+            entity: weather.fo_shan_shi_nan_hai_qu
+            houer_forecast: true
+            show_forecast: true
+            icon: /hacsfiles/lovelace-colorfulclouds-weather-card/icons/animated/
+            name: 佛山市南海区
+            secondary_info_attribute: humidity
+            number_of_forecasts: '6'
+            style: |
+              :host {
+                left: 63.5%;
+                top:  105%;
+                height: 200%;
+                width: 65%;
+              }
+              ha-card {
+                border-style: none;
+              }
+
+        ###################################    侧边栏    ###################################
+          ## 导航
+          - action: none
+            image: /local/ui/sidebar/OFF/家庭总览.png
+            style:
+              left: 15%
+              top: 35%
+              width: 20%
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/overview
+            hold_action:
+              action: none
+            type: image
+          - action: none
+            image: /local/ui/sidebar/OFF/所有设备.png
+            style:
+              left: 15%
+              top: 45%
+              width: 20%
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/devices
+            hold_action:
+              action: none
+            type: image
+          - action: none
+            image: /local/ui/sidebar/OFF/媒体控制.png
+            style:
+              left: 15%
+              top: 55%
+              width: 20%
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/media
+            hold_action:
+              action: none
+            type: image
+          ## 头像
+          - action: none
+            entity: person.root
+            state_image:
+              home: /local/ui/avatar/me.png
+              not_home: /local/ui/avatar/me.png
+            style:
+              left: 9%
+              top: 70%
+              width: 7%
+            tap_action: none
+            type: image
+          - action: none
+            entity: person.root
+            state_image:
+              home: /local/ui/avatar/me.png
+              not_home: /local/ui/avatar/me.png
+            style:
+              left: 20%
+              top: 70%
+              width: 7%
+            tap_action: none
+            type: image
+          ## 日期时间
+          - entity: sensor.date
+            hold_action:
+              action: none
+            style:
+              color: rgba(141, 141, 143)
+              font-size: 1.6vw
+              font-weight: 300
+              left: 19.6%
+              letter-spacing: 0.24vw
+              text-align: left
+              top: 15%
+              width: 30%
+            tap_action:
+              action: none
+            type: state-label
+          - entity: sensor.time
+            hold_action:
+              action: none
+            style:
+              color: rgba(218, 188, 136)
+              font-size: 5vw
+              font-weight: 400
+              left: 4.5%
+              letter-spacing: '-0.05vw'
+              max-width: 1px
+              top: 10%
+            tap_action:
+              action: none
+            type: state-label
+          ## 天气
+          - backdrop: false
+            entity: weather.fo_shan_shi_nan_hai_qu
+            name: ' '
+            style: |
+              :host {
+                left: 15%;
+                top:  22%;
+              }
+              ha-card {
+                border-style: none;
+              }
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/weather
+            type: custom:simple-weather-card
+          ## 室内温度
+          - color_thresholds:
+              - color: '#4dd2ff'
+                value: 17
+              - color: '#01a4db'
+                value: 20
+              - color: '#fccd68'
+                value: 26
+              - color: '#ff1a1a'
+                value: 30
+            entities:
+              - sensor.ke_ting_kong_diao_current_temperature
+            icon: mdi:home-thermometer-outline
+            update_interval: 600
+            show:
+              icon: true
+              legend: false
+              name: false
+            style: |
+              :host {
+                left: 15%;
+                top:  90%;
+                width: 24%;
+              }
+              .header {
+                font-size: 100%;
+                position: absolute !important;
+                width: 5% !important;
+                padding: 1% !important;
+                right: 20% !important;
+                top: 15% !important;
+              }
+              ha-card {
+                background: none  !important;
+                padding: 0 !important;
+                border-style: none;
+              }
+              .icon > ha-icon {
+                width:30% !important;
+                height:100% !important;
+              }
+              .state__time{
+                font-size:1vw !important;
+                margin-top: 0.2vw;
+                font-weight: 300 !important;
+                opacity: 0.6 !important;
+              }
+              .states {
+                font-size: 80% !important;
+                padding: 1vw 0vw 0vw 0vw  !important;
+                margin: auto !important;
+                width: 70%;
+              }
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/weather
+            type: custom:mini-graph-card
+
+
+  #########################################################################################
+  ####################                                         ############################
+  ####################               媒体控制                   ############################
+  ####################                                         ############################
+  #########################################################################################
+  - theme: Backend-selected
+    title: 媒体控制
+    path: media
+    icon: mdi:music
+    type: panel
+    badges: []
+    cards:
+      - type: picture-elements
+        image: /local/ui/background/纯背景.png
+        elements:
+        ###################################    音乐控制    ###################################
+          - type: custom:mini-media-player
+            entity: media_player.yun_yin_le
+            artwork: none
+            info: scroll
+            name: 网易云音乐
+            background: none
+            style:
+              left: 63.5%
+              top: 20%
+              width: 60%
+
+        ###################################    侧边栏    ###################################
+          ## 导航
+          - action: none
+            image: /local/ui/sidebar/OFF/家庭总览.png
+            style:
+              left: 15%
+              top: 35%
+              width: 20%
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/overview
+            hold_action:
+              action: none
+            type: image
+          - action: none
+            image: /local/ui/sidebar/OFF/所有设备.png
+            style:
+              left: 15%
+              top: 45%
+              width: 20%
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/devices
+            hold_action:
+              action: none
+            type: image
+          - action: none
+            image: /local/ui/sidebar/ON/媒体控制.png
+            style:
+              left: 15%
+              top: 55%
+              width: 20%
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/media
+            hold_action:
+              action: none
+            type: image
+          ## 头像
+          - action: none
+            entity: person.root
+            state_image:
+              home: /local/ui/avatar/me.png
+              not_home: /local/ui/avatar/me.png
+            style:
+              left: 9%
+              top: 70%
+              width: 7%
+            tap_action: none
+            type: image
+          - action: none
+            entity: person.root
+            state_image:
+              home: /local/ui/avatar/me.png
+              not_home: /local/ui/avatar/me.png
+            style:
+              left: 20%
+              top: 70%
+              width: 7%
+            tap_action: none
+            type: image
+          ## 日期时间
+          - entity: sensor.date
+            hold_action:
+              action: none
+            style:
+              color: rgba(141, 141, 143)
+              font-size: 1.6vw
+              font-weight: 300
+              left: 19.6%
+              letter-spacing: 0.24vw
+              text-align: left
+              top: 15%
+              width: 30%
+            tap_action:
+              action: none
+            type: state-label
+          - entity: sensor.time
+            hold_action:
+              action: none
+            style:
+              color: rgba(218, 188, 136)
+              font-size: 5vw
+              font-weight: 400
+              left: 4.5%
+              letter-spacing: '-0.05vw'
+              max-width: 1px
+              top: 10%
+            tap_action:
+              action: none
+            type: state-label
+          ## 天气
+          - backdrop: false
+            entity: weather.fo_shan_shi_nan_hai_qu
+            name: ' '
+            style: |
+              :host {
+                left: 15%;
+                top:  22%;
+              }
+              ha-card {
+                border-style: none;
+              }
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/weather
+            type: custom:simple-weather-card
+          ## 室内温度
+          - color_thresholds:
+              - color: '#4dd2ff'
+                value: 17
+              - color: '#01a4db'
+                value: 20
+              - color: '#fccd68'
+                value: 26
+              - color: '#ff1a1a'
+                value: 30
+            entities:
+              - sensor.ke_ting_kong_diao_current_temperature
+            icon: mdi:home-thermometer-outline
+            update_interval: 600
+            show:
+              icon: true
+              legend: false
+              name: false
+            style: |
+              :host {
+                left: 15%;
+                top:  90%;
+                width: 24%;
+              }
+              .header {
+                font-size: 100%;
+                position: absolute !important;
+                width: 5% !important;
+                padding: 1% !important;
+                right: 20% !important;
+                top: 15% !important;
+              }
+              ha-card {
+                background: none  !important;
+                padding: 0 !important;
+                border-style: none;
+              }
+              .icon > ha-icon {
+                width:30% !important;
+                height:100% !important;
+              }
+              .state__time{
+                font-size:1vw !important;
+                margin-top: 0.2vw;
+                font-weight: 300 !important;
+                opacity: 0.6 !important;
+              }
+              .states {
+                font-size: 80% !important;
+                padding: 1vw 0vw 0vw 0vw  !important;
+                margin: auto !important;
+                width: 70%;
+              }
+            tap_action:
+              action: navigate
+              navigation_path: /dashboard-pad/weather
+            type: custom:mini-graph-card

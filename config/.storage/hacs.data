@@ -1,0 +1,5859 @@
+{
+  "version": "6",
+  "minor_version": 1,
+  "key": "hacs.data",
+  "data": {
+    "repositories": {
+      "integration": [
+        {
+          "id": "172733314",
+          "full_name": "hacs/integration"
+        },
+        {
+          "id": "191831638",
+          "full_name": "albertogeniola/meross-homeassistant"
+        },
+        {
+          "id": "232269564",
+          "full_name": "5high/konke"
+        },
+        {
+          "id": "234514524",
+          "full_name": "AaronDavidSchneider/SonosAlarm"
+        },
+        {
+          "id": "169460975",
+          "full_name": "akasma74/Hass-Custom-Alarm"
+        },
+        {
+          "id": "272432260",
+          "full_name": "algirdasc/hass-floureon"
+        },
+        {
+          "id": "215825339",
+          "full_name": "alryaz/hass-hekr-component"
+        },
+        {
+          "id": "257104502",
+          "full_name": "amaximus/fkf-garbage-collection"
+        },
+        {
+          "id": "224374747",
+          "full_name": "5high/phicomm-dc1-homeassistant"
+        },
+        {
+          "id": "292720530",
+          "full_name": "alryaz/hass-pandora-cas"
+        },
+        {
+          "id": "258012483",
+          "full_name": "AkA57/liveboxtvuhd"
+        },
+        {
+          "id": "233575809",
+          "full_name": "AdamNaj/linksys_velop"
+        },
+        {
+          "id": "197920457",
+          "full_name": "andersonshatch/midea-ac-py"
+        },
+        {
+          "id": "160728801",
+          "full_name": "asantaga/lightwaverf_HA_EnergySensor"
+        },
+        {
+          "id": "159080189",
+          "full_name": "asantaga/wiserHomeAssistantPlatform"
+        },
+        {
+          "id": "201497401",
+          "full_name": "Anonym-tsk/homeassistant-climate-xiaomi-remote"
+        },
+        {
+          "id": "190378093",
+          "full_name": "And3rsL/VisonicAlarm-for-Hassio"
+        },
+        {
+          "id": "186347733",
+          "full_name": "arjenvrh/audi_connect_ha"
+        },
+        {
+          "id": "252926906",
+          "full_name": "asev/homeassistant-uponor"
+        },
+        {
+          "id": "296028613",
+          "full_name": "ayavilevich/homeassistant-dlink-presence"
+        },
+        {
+          "id": "237695750",
+          "full_name": "bacco007/sensor.opennem"
+        },
+        {
+          "id": "250866164",
+          "full_name": "azogue/eventsensor"
+        },
+        {
+          "id": "223739645",
+          "full_name": "atxbyea/samsungrac"
+        },
+        {
+          "id": "256899380",
+          "full_name": "atymic/project_three_zero_ha"
+        },
+        {
+          "id": "229519365",
+          "full_name": "bacco007/sensor.waternsw"
+        },
+        {
+          "id": "137655647",
+          "full_name": "bertbert72/HomeAssistant_VirginTivo"
+        },
+        {
+          "id": "254203764",
+          "full_name": "ben8p/home-assistant-bunq-balance-sensors"
+        },
+        {
+          "id": "181480967",
+          "full_name": "basschipper/homeassistant-generic-hygrostat"
+        },
+        {
+          "id": "282688934",
+          "full_name": "barban-dev/homeassistant-midea-dehumidifier"
+        },
+        {
+          "id": "192086849",
+          "full_name": "bouwew/sems2mqtt"
+        },
+        {
+          "id": "296946072",
+          "full_name": "boralyl/kodi-recently-added"
+        },
+        {
+          "id": "236146080",
+          "full_name": "binsentsu/home-assistant-solaredge-modbus"
+        },
+        {
+          "id": "250688607",
+          "full_name": "boralyl/steam-wishlist"
+        },
+        {
+          "id": "162808336",
+          "full_name": "bigbadblunt/homeassistant-lightwave2"
+        },
+        {
+          "id": "260169906",
+          "full_name": "Bouni/luxtronik"
+        },
+        {
+          "id": "190260955",
+          "full_name": "bramkragten/mind"
+        },
+        {
+          "id": "259865897",
+          "full_name": "Bouni/drkblutspende"
+        },
+        {
+          "id": "189680764",
+          "full_name": "burnnat/media_player.screenly"
+        },
+        {
+          "id": "201445202",
+          "full_name": "Cadsters/acv-hass-component"
+        },
+        {
+          "id": "262854926",
+          "full_name": "briis/meteobridge"
+        },
+        {
+          "id": "284006518",
+          "full_name": "bremor/bonaire_myclimate"
+        },
+        {
+          "id": "229872760",
+          "full_name": "burnnat/ha-fitness-push"
+        },
+        {
+          "id": "262017793",
+          "full_name": "cagnulein/switchbot_press"
+        },
+        {
+          "id": "202990294",
+          "full_name": "bruxy70/CZ-Public-Transport"
+        },
+        {
+          "id": "261970408",
+          "full_name": "briis/weatherbit"
+        },
+        {
+          "id": "210269734",
+          "full_name": "burnnat/ha-hdhomerun"
+        },
+        {
+          "id": "207620142",
+          "full_name": "caiosweet/Home-Assistant-custom-components-DPC-Alert"
+        },
+        {
+          "id": "179347477",
+          "full_name": "claytonjn/hass-circadian_lighting"
+        },
+        {
+          "id": "195594888",
+          "full_name": "claudegel/sinope-gt125"
+        },
+        {
+          "id": "127689312",
+          "full_name": "claudegel/sinope-1"
+        },
+        {
+          "id": "139892990",
+          "full_name": "custom-components/brewdog"
+        },
+        {
+          "id": "139664351",
+          "full_name": "custom-components/alexa_media_player"
+        },
+        {
+          "id": "224560492",
+          "full_name": "claudegel/sinope-130"
+        },
+        {
+          "id": "146510412",
+          "full_name": "custom-components/climate.e_thermostaat"
+        },
+        {
+          "id": "173563704",
+          "full_name": "custom-components/climate.programmable_thermostat"
+        },
+        {
+          "id": "209854868",
+          "full_name": "custom-components/fedex"
+        },
+        {
+          "id": "145180996",
+          "full_name": "custom-components/feedparser"
+        },
+        {
+          "id": "201963665",
+          "full_name": "custom-components/healthchecksio"
+        },
+        {
+          "id": "131915802",
+          "full_name": "custom-components/places"
+        },
+        {
+          "id": "201805130",
+          "full_name": "custom-components/nordpool"
+        },
+        {
+          "id": "176018567",
+          "full_name": "custom-components/gpodder"
+        },
+        {
+          "id": "184404372",
+          "full_name": "custom-components/qbo"
+        },
+        {
+          "id": "209855108",
+          "full_name": "custom-components/linksys_ap"
+        },
+        {
+          "id": "178101579",
+          "full_name": "custom-components/sensor.airthings_wave"
+        },
+        {
+          "id": "283847957",
+          "full_name": "custom-components/pyscript"
+        },
+        {
+          "id": "182915754",
+          "full_name": "custom-components/grocy"
+        },
+        {
+          "id": "173564471",
+          "full_name": "custom-components/sensor.file_restore"
+        },
+        {
+          "id": "174809046",
+          "full_name": "custom-components/sensor.avanza_stock"
+        },
+        {
+          "id": "207110572",
+          "full_name": "custom-components/sensor.avfallsor"
+        },
+        {
+          "id": "145777833",
+          "full_name": "custom-components/sensor.personalcapital"
+        },
+        {
+          "id": "151550084",
+          "full_name": "custom-components/sensor.owlintuition"
+        },
+        {
+          "id": "195438291",
+          "full_name": "custom-components/sensor.nintendo_wishlist"
+        },
+        {
+          "id": "154845921",
+          "full_name": "custom-components/sensor.ssh"
+        },
+        {
+          "id": "151580533",
+          "full_name": "custom-components/sensor.unifigateway"
+        },
+        {
+          "id": "199888538",
+          "full_name": "custom-components/sensor.stadtreinigung_hamburg"
+        },
+        {
+          "id": "146379582",
+          "full_name": "custom-components/sensor.trakt"
+        },
+        {
+          "id": "209855274",
+          "full_name": "custom-components/srp_energy"
+        },
+        {
+          "id": "171854441",
+          "full_name": "custom-components/youtube"
+        },
+        {
+          "id": "209855510",
+          "full_name": "custom-components/sytadin"
+        },
+        {
+          "id": "209855666",
+          "full_name": "custom-components/ups"
+        },
+        {
+          "id": "139894340",
+          "full_name": "custom-components/weatheralerts"
+        },
+        {
+          "id": "180651910",
+          "full_name": "custom-components/zaptec"
+        },
+        {
+          "id": "228604799",
+          "full_name": "cyberjunky/home-assistant-arpscan_tracker"
+        },
+        {
+          "id": "228649088",
+          "full_name": "cyberjunky/home-assistant-p2000"
+        },
+        {
+          "id": "228618998",
+          "full_name": "cyberjunky/home-assistant-plugwise"
+        },
+        {
+          "id": "228627470",
+          "full_name": "cyberjunky/home-assistant-hvcgroep"
+        },
+        {
+          "id": "228662926",
+          "full_name": "cyberjunky/home-assistant-toon_climate"
+        },
+        {
+          "id": "228685436",
+          "full_name": "cyberjunky/home-assistant-toon_boilerstatus"
+        },
+        {
+          "id": "228678807",
+          "full_name": "cyberjunky/home-assistant-toon_smartmeter"
+        },
+        {
+          "id": "228690854",
+          "full_name": "cyberjunky/home-assistant-ttn_gateway"
+        },
+        {
+          "id": "220661494",
+          "full_name": "Cyr-ius/hass-livebox-component"
+        },
+        {
+          "id": "297379398",
+          "full_name": "Danielhiversen/home_assistant_tractive"
+        },
+        {
+          "id": "293843053",
+          "full_name": "Danielhiversen/home_assistant_adax"
+        },
+        {
+          "id": "158194879",
+          "full_name": "danobot/entity-controller"
+        },
+        {
+          "id": "195459345",
+          "full_name": "daenny/climate_group"
+        },
+        {
+          "id": "203736221",
+          "full_name": "dave-code-ruiz/uhomeuponor"
+        },
+        {
+          "id": "201457186",
+          "full_name": "WillowMist/sensor.mylar"
+        },
+        {
+          "id": "266557774",
+          "full_name": "deblockt/hass-proscenic-790T-vacuum"
+        },
+        {
+          "id": "283518438",
+          "full_name": "definitio/ha-rhvoice"
+        },
+        {
+          "id": "283243425",
+          "full_name": "definitio/ha-sox"
+        },
+        {
+          "id": "255139072",
+          "full_name": "dgomes/ha_erse"
+        },
+        {
+          "id": "163322610",
+          "full_name": "djbulsink/panasonic_ac"
+        },
+        {
+          "id": "177469955",
+          "full_name": "dlarrick/hass-kumo"
+        },
+        {
+          "id": "229014136",
+          "full_name": "doudz/homeassistant-myjdownloader"
+        },
+        {
+          "id": "188698828",
+          "full_name": "dext0r/yandex_smart_home"
+        },
+        {
+          "id": "200073618",
+          "full_name": "dlashua/templatebinarysensor"
+        },
+        {
+          "id": "267076188",
+          "full_name": "dynasticorpheus/gigasetelements-ha"
+        },
+        {
+          "id": "250345421",
+          "full_name": "eifinger/hass-foldingathomecontrol"
+        },
+        {
+          "id": "202322117",
+          "full_name": "eifinger/open_route_service"
+        },
+        {
+          "id": "213959778",
+          "full_name": "elad-bar/ha-dahuavto"
+        },
+        {
+          "id": "169641362",
+          "full_name": "elad-bar/ha-blueiris"
+        },
+        {
+          "id": "220482107",
+          "full_name": "elad-bar/ha-hpprinter"
+        },
+        {
+          "id": "169467285",
+          "full_name": "elad-bar/ha-edgeos"
+        },
+        {
+          "id": "177169766",
+          "full_name": "eseglem/hass-wattbox"
+        },
+        {
+          "id": "255073429",
+          "full_name": "ericpignet/home-assistant-lg_hombot"
+        },
+        {
+          "id": "213950645",
+          "full_name": "exKAjFASH/media_player.elkoep_lara"
+        },
+        {
+          "id": "262140617",
+          "full_name": "eyalcha/read_your_meter"
+        },
+        {
+          "id": "261291147",
+          "full_name": "eyalcha/thermal"
+        },
+        {
+          "id": "290436986",
+          "repository_manifest": {
+            "name": "彩云天气",
+            "render_readme": true,
+            "homeassistant": "0.99.9",
+            "country": [
+              "CN"
+            ]
+          },
+          "full_name": "fineemb/Colorfulclouds-weather",
+          "authors": [
+            "@fineemb"
+          ],
+          "category": "integration",
+          "description": "用于HASS的彩云天气组件",
+          "domain": "colorfulclouds",
+          "etag_repository": "W/\"990915442255b69394434f5c023b9f0ecea0b71333fec00977d87ed3a5e6c558\"",
+          "last_updated": "2023-05-02T03:46:09Z",
+          "stargazers_count": 91,
+          "topics": [
+            "weather"
+          ],
+          "installed_commit": "36247f2",
+          "installed": true,
+          "last_commit": "36247f2",
+          "last_version": "v1.2.8",
+          "manifest_name": "colorfulclouds",
+          "releases": true,
+          "version_installed": "v1.2.8",
+          "last_fetched": 1683620373.138176
+        },
+        {
+          "id": "237880993",
+          "full_name": "fineemb/Smartmi-smart-heater"
+        },
+        {
+          "id": "296320952",
+          "full_name": "fineemb/xiaomi-cloud"
+        },
+        {
+          "id": "229060565",
+          "full_name": "fineemb/Xiaomi-Smart-Multipurpose-Kettle"
+        },
+        {
+          "id": "285560672",
+          "full_name": "FL550/dwd_weather"
+        },
+        {
+          "id": "220685552",
+          "full_name": "freakshock88/hass-populartimes"
+        },
+        {
+          "id": "226707533",
+          "full_name": "freol35241/ltss"
+        },
+        {
+          "id": "217507414",
+          "full_name": "fineemb/Yeelink-ven-fan"
+        },
+        {
+          "id": "264655935",
+          "full_name": "gadgetchnnel/entities_calendar"
+        },
+        {
+          "id": "183212377",
+          "full_name": "fondberg/spotcast"
+        },
+        {
+          "id": "263757123",
+          "full_name": "finity69x2/nws_alerts"
+        },
+        {
+          "id": "261311061",
+          "full_name": "garbled1/homeassistant_ecowitt"
+        },
+        {
+          "id": "229755760",
+          "full_name": "garbled1/balboa_homeassistan"
+        },
+        {
+          "id": "222292912",
+          "full_name": "gcobb321/icloud3"
+        },
+        {
+          "id": "201599575",
+          "full_name": "gcorgnet/sensor.emby_upcoming_media"
+        },
+        {
+          "id": "264490983",
+          "full_name": "GeorgeSG/ha-slack-user"
+        },
+        {
+          "id": "199306003",
+          "full_name": "gieljnssns/buienalarm-sensor-homeassistant"
+        },
+        {
+          "id": "199306511",
+          "full_name": "gieljnssns/kostalpiko-sensor-homeassistant"
+        },
+        {
+          "id": "261873234",
+          "full_name": "gjohansson-ST/sector"
+        },
+        {
+          "id": "265716369",
+          "full_name": "gilsonmandalogo/hacs-minerstat"
+        },
+        {
+          "id": "207794683",
+          "full_name": "gregoryduckworth/GoogleGeocode-HASS"
+        },
+        {
+          "id": "292197182",
+          "full_name": "hcoohb/hass-yeelightbt"
+        },
+        {
+          "id": "263075818",
+          "full_name": "GuySie/ha-meural"
+        },
+        {
+          "id": "143340728",
+          "full_name": "herikw/home-assistant-custom-components"
+        },
+        {
+          "id": "264499592",
+          "full_name": "heyajohnny/cryptoinfo"
+        },
+        {
+          "id": "234983286",
+          "full_name": "Home-Is-Where-You-Hang-Your-Hack/sensor.goveetemp_bt_hci"
+        },
+        {
+          "id": "243122556",
+          "full_name": "Hellowlol/ha-tide"
+        },
+        {
+          "id": "164841067",
+          "full_name": "isabellaalstrom/sensor.krisinformation"
+        },
+        {
+          "id": "234118477",
+          "full_name": "heyajohnny/afvalinfo"
+        },
+        {
+          "id": "269316095",
+          "full_name": "iMicknl/ha-tahoma"
+        },
+        {
+          "id": "242700009",
+          "full_name": "ITTV-tools/homeassistant-kostalplenticore"
+        },
+        {
+          "id": "231989179",
+          "full_name": "JAAlperin/hass-bardolph"
+        },
+        {
+          "id": "183989659",
+          "full_name": "JayBlackedOut/hass-nhlapi"
+        },
+        {
+          "id": "235943258",
+          "full_name": "jason0x43/hacs-hubitat"
+        },
+        {
+          "id": "221855213",
+          "full_name": "jcwillox/hass-auto-backup"
+        },
+        {
+          "id": "273333188",
+          "full_name": "jeroenterheerdt/HADailySensor"
+        },
+        {
+          "id": "263179176",
+          "full_name": "jeroenterheerdt/HAsmartirrigation"
+        },
+        {
+          "id": "190982718",
+          "full_name": "jihao/colorfulclouds-hass"
+        },
+        {
+          "id": "187201747",
+          "full_name": "jihao/rokid-webhook-hass"
+        },
+        {
+          "id": "198758494",
+          "full_name": "jihao/traccar-cn-hass"
+        },
+        {
+          "id": "278596510",
+          "full_name": "jesserockz/ha-leafspy"
+        },
+        {
+          "id": "223541049",
+          "full_name": "jaruba/ha-samsungtv-tizen"
+        },
+        {
+          "id": "192664631",
+          "full_name": "jm-73/Indego"
+        },
+        {
+          "id": "297106424",
+          "full_name": "joggs/home_assistant_ebeco"
+        },
+        {
+          "id": "239339530",
+          "full_name": "Johnwulp/rad-afval"
+        },
+        {
+          "id": "147953507",
+          "full_name": "jomwells/ambilights"
+        },
+        {
+          "id": "193746664",
+          "full_name": "jomwells/ambilight-yeelight"
+        },
+        {
+          "id": "235659413",
+          "full_name": "JonasPed/homeassistant-eloverblik"
+        },
+        {
+          "id": "170309600",
+          "full_name": "JurajNyiri/HomeAssistant-Atrea"
+        },
+        {
+          "id": "175020245",
+          "full_name": "JurajNyiri/HomeAssistant-Tavos"
+        },
+        {
+          "id": "199291345",
+          "full_name": "JurajNyiri/HomeAssistant-qBitTorrentAlternativeSpeed"
+        },
+        {
+          "id": "197058358",
+          "full_name": "jxlarrea/ha-emfitqs"
+        },
+        {
+          "id": "262803775",
+          "full_name": "jscruz/sensor.carbon_intensity_uk"
+        },
+        {
+          "id": "300358676",
+          "full_name": "JurajNyiri/HomeAssistant-Tapo-Control"
+        },
+        {
+          "id": "159025199",
+          "full_name": "kalanda/homeassistant-aemet-sensor"
+        },
+        {
+          "id": "233079250",
+          "full_name": "kodi1/darksky_m"
+        },
+        {
+          "id": "232077394",
+          "full_name": "kirei/hass-chargeamps"
+        },
+        {
+          "id": "233089370",
+          "full_name": "kodi1/esp_wd"
+        },
+        {
+          "id": "246939713",
+          "full_name": "jonkristian/wasteplan_trv"
+        },
+        {
+          "id": "233090507",
+          "full_name": "kodi1/meteoalarm"
+        },
+        {
+          "id": "233092112",
+          "full_name": "kodi1/songpal_m"
+        },
+        {
+          "id": "233092629",
+          "full_name": "kodi1/tvh_rec"
+        },
+        {
+          "id": "286554328",
+          "full_name": "KoljaWindeler/kaco"
+        },
+        {
+          "id": "246410785",
+          "full_name": "KoljaWindeler/ics"
+        },
+        {
+          "id": "242635439",
+          "full_name": "kuchel77/diskspace"
+        },
+        {
+          "id": "132661981",
+          "full_name": "legrego/homeassistant-elasticsearch"
+        },
+        {
+          "id": "230151505",
+          "full_name": "laszlojakab/homeassistant-dijnet"
+        },
+        {
+          "id": "258852884",
+          "full_name": "laszlojakab/homeassistant-easycontrols"
+        },
+        {
+          "id": "279680951",
+          "full_name": "kukulich/home-assistant-jablotron100"
+        },
+        {
+          "id": "254253124",
+          "full_name": "konnected-io/noonlight-hass"
+        },
+        {
+          "id": "183222061",
+          "full_name": "lichtteil/local_luftdaten"
+        },
+        {
+          "id": "204192861",
+          "full_name": "Limych/ha-average"
+        },
+        {
+          "id": "199313405",
+          "full_name": "Limych/ha-beward"
+        },
+        {
+          "id": "210194956",
+          "full_name": "Limych/ha-car_wash"
+        },
+        {
+          "id": "206868881",
+          "full_name": "Limych/ha-gismeteo"
+        },
+        {
+          "id": "228063780",
+          "full_name": "Limych/ha-iaquk"
+        },
+        {
+          "id": "197950768",
+          "full_name": "ljmerza/ha-our-groceries"
+        },
+        {
+          "id": "219363790",
+          "full_name": "lindell/home-assistant-tv4-play"
+        },
+        {
+          "id": "256709811",
+          "full_name": "Limych/ha-jq300"
+        },
+        {
+          "id": "200035037",
+          "full_name": "LordBoos/discord_game"
+        },
+        {
+          "id": "242335771",
+          "full_name": "lindell/home-assistant-svt-play"
+        },
+        {
+          "id": "183064800",
+          "full_name": "ljmerza/ha-email-sensor"
+        },
+        {
+          "id": "246657442",
+          "full_name": "lolouk44/CurrentCost_HA_CC"
+        },
+        {
+          "id": "243841075",
+          "full_name": "lociii/homeassistant-csgo"
+        },
+        {
+          "id": "262203345",
+          "full_name": "mac-zhou/midea-ac-py"
+        },
+        {
+          "id": "254347436",
+          "full_name": "mampfes/hacs_waste_collection_schedule"
+        },
+        {
+          "id": "195883127",
+          "full_name": "Martinvdm/garbage-nissewaard-homeassistant"
+        },
+        {
+          "id": "197578489",
+          "full_name": "mlowijs/HomeAssistant-TeslaCustomComponent"
+        },
+        {
+          "id": "295627573",
+          "full_name": "michaellunzer/Home-Assistant-Custom-Component-Fortnite"
+        },
+        {
+          "id": "291317330",
+          "full_name": "mletenay/home-assistant-ev-charge-control"
+        },
+        {
+          "id": "203244705",
+          "full_name": "Mofeywalker/openmensa-hass-component"
+        },
+        {
+          "id": "289251122",
+          "full_name": "mletenay/home-assistant-goodwe-inverter"
+        },
+        {
+          "id": "239366330",
+          "full_name": "mikelawrence/senseme-hacs"
+        },
+        {
+          "id": "272094506",
+          "full_name": "mrk-its/homeassistant-blitzortung"
+        },
+        {
+          "id": "253842395",
+          "full_name": "msp1974/homeassistant-jlrincontrol"
+        },
+        {
+          "id": "255662264",
+          "full_name": "MTrab/landroid_cloud"
+        },
+        {
+          "id": "269588712",
+          "full_name": "mvdwetering/huesyncbox"
+        },
+        {
+          "id": "192604318",
+          "full_name": "mudape/iphonedetect"
+        },
+        {
+          "id": "278930028",
+          "full_name": "nagyrobi/home-assistant-custom-components-linkplay"
+        },
+        {
+          "id": "286186485",
+          "full_name": "nielsfaber/scheduler-component"
+        },
+        {
+          "id": "153870340",
+          "full_name": "nickneos/HA_harmony_climate_component"
+        },
+        {
+          "id": "154417419",
+          "full_name": "nstrelow/ha_philips_android_tv"
+        },
+        {
+          "id": "144888844",
+          "full_name": "Paul-dH/Home-Assisant-Sensor-OvApi"
+        },
+        {
+          "id": "140907992",
+          "full_name": "nicole-ashley/homeassistant-goldair-climate"
+        },
+        {
+          "id": "250022973",
+          "full_name": "ollo69/ha-smartthinq-sensors"
+        },
+        {
+          "id": "247070270",
+          "full_name": "ollo69/ha-samsungtv-smart"
+        },
+        {
+          "id": "237102126",
+          "full_name": "peetereczek/ztm"
+        },
+        {
+          "id": "259270792",
+          "full_name": "peternijssen/home-assistant-jumbo"
+        },
+        {
+          "id": "196057008",
+          "full_name": "pilotak/homeassistant-attributes"
+        },
+        {
+          "id": "236123258",
+          "full_name": "pfunkmallone/HACS-camect-integration"
+        },
+        {
+          "id": "196055705",
+          "full_name": "pilotak/homeassistant-clientraw"
+        },
+        {
+          "id": "199549304",
+          "full_name": "PiotrMachowski/Home-Assistant-custom-components-Google-Keep"
+        },
+        {
+          "id": "193371469",
+          "full_name": "PiotrMachowski/Home-Assistant-custom-components-Antistorm"
+        },
+        {
+          "id": "193371652",
+          "full_name": "PiotrMachowski/Home-Assistant-custom-components-Looko2"
+        },
+        {
+          "id": "207881337",
+          "full_name": "pinkywafer/Anniversaries"
+        },
+        {
+          "id": "193588464",
+          "full_name": "PiotrMachowski/Home-Assistant-custom-components-Rozkladzik"
+        },
+        {
+          "id": "193588612",
+          "full_name": "PiotrMachowski/Home-Assistant-custom-components-iMPK"
+        },
+        {
+          "id": "224073673",
+          "full_name": "pinkywafer/Calendarific"
+        },
+        {
+          "id": "193371566",
+          "full_name": "PiotrMachowski/Home-Assistant-custom-components-Burze.dzis.net"
+        },
+        {
+          "id": "193371922",
+          "full_name": "PiotrMachowski/Home-Assistant-custom-components-Tauron-AMIplus"
+        },
+        {
+          "id": "271398374",
+          "full_name": "PiotrMachowski/Home-Assistant-custom-components-Saver"
+        },
+        {
+          "id": "166045890",
+          "full_name": "pippyn/Home-Assistant-Sensor-Afvalbeheer"
+        },
+        {
+          "id": "209996125",
+          "full_name": "Poeschl/Remote-PicoTTS"
+        },
+        {
+          "id": "281956859",
+          "full_name": "postlund/dlink_hnap"
+        },
+        {
+          "id": "238568340",
+          "full_name": "Pouzor/freebox_player"
+        },
+        {
+          "id": "219035415",
+          "full_name": "ptimatth/GeorideHA"
+        },
+        {
+          "id": "289550686",
+          "full_name": "raman325/ha-zoom-automation"
+        },
+        {
+          "id": "197983504",
+          "full_name": "rdehuyss/homeassistant-custom_components-denkovi"
+        },
+        {
+          "id": "260264517",
+          "full_name": "r-renato/ha-climacell-weather"
+        },
+        {
+          "id": "268118148",
+          "full_name": "py-smart-gardena/hass-gardena-smart-system"
+        },
+        {
+          "id": "225305915",
+          "full_name": "remco770/garbage-bar-homeassistant"
+        },
+        {
+          "id": "257634153",
+          "full_name": "rob196/home-assistant-fxmarketapi"
+        },
+        {
+          "id": "255380953",
+          "full_name": "rkoebrugge/hacs-youless-component"
+        },
+        {
+          "id": "140618233",
+          "full_name": "RobHofmann/HomeAssistant-GreeClimateComponent"
+        },
+        {
+          "id": "241427839",
+          "full_name": "robbinjanssen/home-assistant-omnik-inverter"
+        },
+        {
+          "id": "196605143",
+          "full_name": "RobHofmann/HomeAssistant-PhilipsAndroid2014"
+        },
+        {
+          "id": "213551635",
+          "full_name": "roberodin/ha-samsungtv-custom"
+        },
+        {
+          "id": "117426840",
+          "full_name": "robinostlund/homeassistant-volkswagencarnet"
+        },
+        {
+          "id": "135166048",
+          "full_name": "robmarkcole/HASS-Machinebox-Classificationbox"
+        },
+        {
+          "id": "160022220",
+          "full_name": "robmarkcole/HASS-amazon-rekognition"
+        },
+        {
+          "id": "149443194",
+          "full_name": "rsnodgrass/hass-adtpulse"
+        },
+        {
+          "id": "200989730",
+          "full_name": "rsnodgrass/hass-flo-water"
+        },
+        {
+          "id": "200927325",
+          "full_name": "rsnodgrass/hass-poolmath"
+        },
+        {
+          "id": "205416078",
+          "full_name": "rsnodgrass/hass-sensorpush"
+        },
+        {
+          "id": "153006394",
+          "full_name": "rt400/School-Vacation"
+        },
+        {
+          "id": "235385658",
+          "full_name": "rsnodgrass/hass-xantech"
+        },
+        {
+          "id": "235915302",
+          "full_name": "ryanmac8/Home-Assistant-Marta"
+        },
+        {
+          "id": "279861920",
+          "full_name": "rt400/ReversoTTS-HA"
+        },
+        {
+          "id": "222845480",
+          "full_name": "ryannazaretian/hacs-nexia-climate-integration"
+        },
+        {
+          "id": "224743334",
+          "full_name": "safepay/cover.hd_powerview"
+        },
+        {
+          "id": "194971711",
+          "full_name": "safepay/sensor.willyweather"
+        },
+        {
+          "id": "195308808",
+          "full_name": "safepay/sensor.fronius"
+        },
+        {
+          "id": "228579545",
+          "full_name": "sebr/bhyve-home-assistant"
+        },
+        {
+          "id": "248046910",
+          "full_name": "sermayoral/ha-samsungtv-encrypted"
+        },
+        {
+          "id": "220678749",
+          "full_name": "shogunxam/Home-Assistant-custom-components-cfr-toscana"
+        },
+        {
+          "id": "231840220",
+          "full_name": "shutupflanders/sensor.moneydashboard"
+        },
+        {
+          "id": "246417951",
+          "full_name": "SLG/home-assistant-whatpulse"
+        },
+        {
+          "id": "261849832",
+          "full_name": "sockless-coding/garo_wallbox"
+        },
+        {
+          "id": "199332790",
+          "full_name": "snarky-snark/home-assistant-variables"
+        },
+        {
+          "id": "260410453",
+          "full_name": "sockless-coding/panasonic_cc"
+        },
+        {
+          "id": "210966517",
+          "full_name": "snicker/zwift_hass"
+        },
+        {
+          "id": "209955487",
+          "full_name": "slesinger/HomeAssistant-BMR"
+        },
+        {
+          "id": "267433712",
+          "full_name": "slesinger/HomeAssistant-PREdistribuce"
+        },
+        {
+          "id": "177978011",
+          "full_name": "StyraHem/ShellyForHASS"
+        },
+        {
+          "id": "292616002",
+          "full_name": "swartjean/ha-seedboxes-cc"
+        },
+        {
+          "id": "289579468",
+          "full_name": "swartjean/ha-eskom-loadshedding"
+        },
+        {
+          "id": "181743867",
+          "full_name": "tefinger/hass-brematic"
+        },
+        {
+          "id": "265059207",
+          "full_name": "ThermIQ/thermiq_mqtt-ha"
+        },
+        {
+          "id": "121891488",
+          "full_name": "thevoltagesource/LennoxiComfort"
+        },
+        {
+          "id": "194140521",
+          "full_name": "thomasloven/hass-browser_mod"
+        },
+        {
+          "id": "202220932",
+          "full_name": "thomasloven/hass-favicon"
+        },
+        {
+          "id": "200897141",
+          "full_name": "thomasloven/hass-lovelace_gen"
+        },
+        {
+          "id": "164155243",
+          "full_name": "TimSoethout/goodwe-sems-home-assistant"
+        },
+        {
+          "id": "251020820",
+          "full_name": "tikismoke/home-assistant-nespressoble"
+        },
+        {
+          "id": "261496794",
+          "full_name": "tikismoke/home-assistant-plcbus"
+        },
+        {
+          "id": "195620540",
+          "full_name": "timvancann/homeassistant-growatt"
+        },
+        {
+          "id": "207794499",
+          "full_name": "tmechen/ber_status"
+        },
+        {
+          "id": "200399989",
+          "full_name": "tmonck/clean_up_snapshots"
+        },
+        {
+          "id": "225248441",
+          "full_name": "tomaae/homeassistant-mikrotik_router"
+        },
+        {
+          "id": "257275420",
+          "full_name": "tomaae/homeassistant-openmediavault"
+        },
+        {
+          "id": "277201070",
+          "full_name": "toreamun/amshan-homeassistant"
+        },
+        {
+          "id": "299875200",
+          "full_name": "toreamun/victorsmartkill-homeassistant"
+        },
+        {
+          "id": "298816063",
+          "full_name": "troykelly/hacs-trackimo"
+        },
+        {
+          "id": "220313935",
+          "full_name": "turbokongen/hass-AMS"
+        },
+        {
+          "id": "240459262",
+          "full_name": "tuxuser/abfallapi_jumomind_ha"
+        },
+        {
+          "id": "272337216",
+          "full_name": "turbulator/pandora-cas"
+        },
+        {
+          "id": "237628853",
+          "full_name": "tuxuser/abfallapi_regioit_ha"
+        },
+        {
+          "id": "167885769",
+          "full_name": "twrecked/hass-aarlo"
+        },
+        {
+          "id": "204700563",
+          "full_name": "twrecked/hass-momentary"
+        },
+        {
+          "id": "245267534",
+          "full_name": "twrecked/hass-virtual"
+        },
+        {
+          "id": "76125161",
+          "full_name": "tybritten/ical-sensor-homeassistant"
+        },
+        {
+          "id": "272140589",
+          "full_name": "ualex73/monitor_docker"
+        },
+        {
+          "id": "247566230",
+          "full_name": "Verbalinsurection/next_rocket_launch"
+        },
+        {
+          "id": "120696364",
+          "full_name": "vinteo/hass-opensprinkler"
+        },
+        {
+          "id": "265916869",
+          "full_name": "vanstinator/hass-raincloud"
+        },
+        {
+          "id": "258012818",
+          "full_name": "vigonotion/hass-simpleicons"
+        },
+        {
+          "id": "234875951",
+          "full_name": "vlumikero/home-assistant-securitas"
+        },
+        {
+          "id": "190418598",
+          "full_name": "walthowd/ha-automower"
+        },
+        {
+          "id": "235316264",
+          "full_name": "websylv/homeassistant-meteoswiss"
+        },
+        {
+          "id": "299967654",
+          "full_name": "willholdoway/hifiberry"
+        },
+        {
+          "id": "127251446",
+          "full_name": "xirixiz/homeassistant-afvalwijzer"
+        },
+        {
+          "id": "261031401",
+          "full_name": "youdroid/home-assistant-couchpotato"
+        },
+        {
+          "id": "262645913",
+          "full_name": "youdroid/home-assistant-gitea"
+        },
+        {
+          "id": "261614146",
+          "full_name": "youdroid/home-assistant-sickchill"
+        },
+        {
+          "id": "202987887",
+          "full_name": "zachowj/hass-node-red"
+        },
+        {
+          "id": "203592862",
+          "full_name": "blindlight86/HA_USR-R16"
+        },
+        {
+          "id": "299476136",
+          "full_name": "9rpp/securifi"
+        },
+        {
+          "id": "282427417",
+          "full_name": "bremor/public_transport_victoria"
+        },
+        {
+          "id": "307586942",
+          "full_name": "bremor/bureau_of_meteorology"
+        },
+        {
+          "id": "307503425",
+          "full_name": "caiosweet/Home-Assistant-custom-components-INGV"
+        },
+        {
+          "id": "308690707",
+          "full_name": "djtimca/hagooglewifi"
+        },
+        {
+          "id": "304573324",
+          "full_name": "crowbarz/ha-sql_json"
+        },
+        {
+          "id": "223993584",
+          "full_name": "custom-components/ble_monitor"
+        },
+        {
+          "id": "178838527",
+          "full_name": "filipvh/hass-nhc2"
+        },
+        {
+          "id": "266779715",
+          "full_name": "iprak/yahoofinance"
+        },
+        {
+          "id": "309018094",
+          "full_name": "itchannel/fordpass-ha"
+        },
+        {
+          "id": "299123388",
+          "full_name": "jseidl/hass-magic_areas"
+        },
+        {
+          "id": "249381778",
+          "full_name": "rospogrigio/localtuya"
+        },
+        {
+          "id": "268722568",
+          "full_name": "Sennevds/media_player.template"
+        },
+        {
+          "id": "303827752",
+          "full_name": "sbabcock23/hass-tryfi"
+        },
+        {
+          "id": "164489685",
+          "full_name": "syssi/nextbike"
+        },
+        {
+          "id": "129353521",
+          "full_name": "syssi/xiaomi_raw"
+        },
+        {
+          "id": "121934877",
+          "full_name": "syssi/xiaomi_airconditioningcompanion"
+        },
+        {
+          "id": "101482973",
+          "full_name": "syssi/xiaomi_airpurifier"
+        },
+        {
+          "id": "307098646",
+          "full_name": "nielsfaber/alarmo"
+        },
+        {
+          "id": "97201395",
+          "full_name": "syssi/xiaomiplug"
+        },
+        {
+          "id": "307974458",
+          "full_name": "TekniskSupport/home-assistant-resrobot"
+        },
+        {
+          "id": "305147191",
+          "full_name": "zigul/HomeAssistant-CEZdistribuce"
+        },
+        {
+          "id": "287318591",
+          "full_name": "Thomas55555/husqvarna_automower"
+        },
+        {
+          "id": "188106531",
+          "full_name": "moralmunky/Home-Assistant-Mail-And-Packages"
+        },
+        {
+          "id": "222118751",
+          "full_name": "AlexxIT/SonoffLAN"
+        },
+        {
+          "id": "146660369",
+          "full_name": "custom-components/media_player.braviatv_psk"
+        },
+        {
+          "id": "302145522",
+          "full_name": "djtimca/harocketlaunchlive"
+        },
+        {
+          "id": "245694520",
+          "full_name": "asev/homeassistant-helios"
+        },
+        {
+          "id": "314593331",
+          "full_name": "djtimca/hasatellitetracker"
+        },
+        {
+          "id": "317051290",
+          "full_name": "eyalcha/kan_program"
+        },
+        {
+          "id": "319343045",
+          "full_name": "caronc/ha-ultrasync"
+        },
+        {
+          "id": "316527506",
+          "full_name": "iprak/winix"
+        },
+        {
+          "id": "316807165",
+          "full_name": "HomeAssistant-Mods/home-assistant-miele"
+        },
+        {
+          "id": "312896602",
+          "full_name": "lendy007/homeassistant-skodaconnect"
+        },
+        {
+          "id": "316597224",
+          "full_name": "dphae/bsh"
+        },
+        {
+          "id": "316421110",
+          "full_name": "rccoleman/lamarzocco"
+        },
+        {
+          "id": "228299254",
+          "full_name": "rsnodgrass/hass-lunos"
+        },
+        {
+          "id": "313759590",
+          "full_name": "ryanmac8/HA-Mint-Mobile"
+        },
+        {
+          "id": "318801320",
+          "full_name": "thebino/rki_covid"
+        },
+        {
+          "id": "318359434",
+          "full_name": "FutureTense/keymaster"
+        },
+        {
+          "id": "325097827",
+          "full_name": "andvikt/mega_hacs"
+        },
+        {
+          "id": "325635211",
+          "full_name": "kesteraernoudt/dobiss"
+        },
+        {
+          "id": "311913208",
+          "full_name": "gazoodle/gecko-home-assistant"
+        },
+        {
+          "id": "299556199",
+          "full_name": "xraver/mercedes_me_api"
+        },
+        {
+          "id": "303793543",
+          "full_name": "tomasbedrich/home-assistant-skydance"
+        },
+        {
+          "id": "315447202",
+          "full_name": "KoljaWindeler/ytube_music_player"
+        },
+        {
+          "id": "157618389",
+          "full_name": "thomasloven/hass-fontawesome"
+        },
+        {
+          "id": "327779379",
+          "full_name": "itchannel/optus-ha"
+        },
+        {
+          "id": "257988102",
+          "full_name": "cgarwood/homeassistant-fullykiosk"
+        },
+        {
+          "id": "328361159",
+          "full_name": "jellespijker/home-assistant-ultimaker"
+        },
+        {
+          "id": "326288498",
+          "full_name": "jugla/worldtidesinfocustom"
+        },
+        {
+          "id": "306822538",
+          "full_name": "exxamalte/home-assistant-custom-components-nsw-rural-fire-service-fire-danger"
+        },
+        {
+          "id": "291484700",
+          "full_name": "AlexxIT/XiaomiGateway3"
+        },
+        {
+          "id": "334523683",
+          "full_name": "B5r1oJ0A9G/teufel_raumfeld"
+        },
+        {
+          "id": "276915021",
+          "full_name": "fondberg/easee_hass"
+        },
+        {
+          "id": "325755578",
+          "full_name": "ReneNulschDE/mbapi2020"
+        },
+        {
+          "id": "325962977",
+          "full_name": "msekoranja/emsc-hacs-repository"
+        },
+        {
+          "id": "319744131",
+          "full_name": "martindybal/taphome-homeassistant"
+        },
+        {
+          "id": "236611771",
+          "full_name": "prairiesnpr/hass-tdameritrade"
+        },
+        {
+          "id": "335750566",
+          "full_name": "metbril/home-assistant-brandstofprijzen"
+        },
+        {
+          "id": "332651510",
+          "full_name": "jcgoette/baby_buddy_homeassistant"
+        },
+        {
+          "id": "295523408",
+          "full_name": "jvitkauskas/homeassistant_salus"
+        },
+        {
+          "id": "327695137",
+          "full_name": "jtbgroup/kodi-media-sensors"
+        },
+        {
+          "id": "232424544",
+          "full_name": "tschamm/boschshc-hass"
+        },
+        {
+          "id": "328671547",
+          "full_name": "dmoranf/home-assistant-wattio"
+        },
+        {
+          "id": "326220257",
+          "full_name": "marotoweb/home-assistant-vacuum-viomise"
+        },
+        {
+          "id": "325470745",
+          "full_name": "ha0y/xiaomi_miot_raw"
+        },
+        {
+          "id": "186605347",
+          "full_name": "bosch-thermostat/home-assistant-bosch-custom-component"
+        },
+        {
+          "id": "100234318",
+          "full_name": "syssi/philipslight"
+        },
+        {
+          "id": "332911333",
+          "full_name": "rgc99/irrigation_unlimited"
+        },
+        {
+          "id": "313850121",
+          "full_name": "al-one/hass-miio-yeelink"
+        },
+        {
+          "id": "318182014",
+          "repository_manifest": {
+            "name": "Xiaomi Miot Auto",
+            "zip_release": true,
+            "filename": "xiaomi_miot.zip",
+            "render_readme": true,
+            "homeassistant": "2022.7.0"
+          },
+          "full_name": "al-one/hass-xiaomi-miot",
+          "authors": [
+            "@al-one"
+          ],
+          "category": "integration",
+          "description": "Automatic integrate all Xiaomi devices to HomeAssistant via miot-spec, support Wi-Fi, BLE, ZigBee devices. 小米米家智能家居设备接入Hass集成",
+          "domain": "xiaomi_miot",
+          "downloads": 14469,
+          "etag_repository": "W/\"673c8249814648c28a98d04b205a0667209ed2048b97d00cce0fcf973882f8e8\"",
+          "last_updated": "2023-05-08T10:36:33Z",
+          "stargazers_count": 2485,
+          "topics": [
+            "iot",
+            "miio",
+            "miot",
+            "miot-spec",
+            "xiaoai",
+            "xiaomi",
+            "xiaomi-miot"
+          ],
+          "installed_commit": "7ea1eaa",
+          "installed": true,
+          "last_commit": "233adc1",
+          "last_version": "v0.7.8",
+          "manifest_name": "Xiaomi Miot Auto",
+          "open_issues": 169,
+          "releases": true,
+          "version_installed": "v0.7.8",
+          "last_fetched": 1683637453.613193
+        },
+        {
+          "id": "337387822",
+          "full_name": "muhlba91/onyx-homeassistant-integration"
+        },
+        {
+          "id": "320324937",
+          "full_name": "tetienne/veolia-custom-component"
+        },
+        {
+          "id": "334076222",
+          "full_name": "mawinkler/astroweather"
+        },
+        {
+          "id": "339464185",
+          "full_name": "erikkastelec/hass-WEM-Portal"
+        },
+        {
+          "id": "152294445",
+          "full_name": "custom-components/remote_homeassistant"
+        },
+        {
+          "id": "342026799",
+          "full_name": "amaximus/pollen_hu"
+        },
+        {
+          "id": "338782385",
+          "full_name": "frimtec/hass-compal-wifi"
+        },
+        {
+          "id": "323346718",
+          "full_name": "fsaris/home-assistant-awox"
+        },
+        {
+          "id": "339124227",
+          "full_name": "fsaris/home-assistant-zonneplan-one"
+        },
+        {
+          "id": "340616586",
+          "full_name": "Limych/ha-narodmon"
+        },
+        {
+          "id": "340759468",
+          "full_name": "muxa/home-assistant-niwa-tides"
+        },
+        {
+          "id": "259739166",
+          "full_name": "markgdev/home-assistant_OctopusAgile"
+        },
+        {
+          "id": "319346850",
+          "full_name": "Limych/ha-snowtire"
+        },
+        {
+          "id": "236358405",
+          "full_name": "nick2525/broadlink_s1c_s2c"
+        },
+        {
+          "id": "344636306",
+          "full_name": "wimb0/home-assistant-saj-modbus"
+        },
+        {
+          "id": "293488791",
+          "full_name": "Antoni-Czaplicki/vulcan-for-hassio"
+        },
+        {
+          "id": "342208616",
+          "full_name": "dm82m/hass-Deltasol-KM2"
+        },
+        {
+          "id": "330644825",
+          "full_name": "leikoilja/ha-google-home"
+        },
+        {
+          "id": "211393677",
+          "full_name": "piitaya/home-assistant-qubino-wire-pilot"
+        },
+        {
+          "id": "349455097",
+          "full_name": "KevinHaendel/ha-ubee"
+        },
+        {
+          "id": "242528119",
+          "full_name": "ruuvi-friends/ruuvi-hass.io"
+        },
+        {
+          "id": "344660161",
+          "full_name": "neggert/hass-egauge"
+        },
+        {
+          "id": "266595512",
+          "full_name": "hellqvio86/home_assistant_casambi"
+        },
+        {
+          "id": "347143701",
+          "full_name": "rccoleman/channels_dvr_recently_recorded"
+        },
+        {
+          "id": "340664955",
+          "full_name": "dimagoltsman/ha-proof-dashcam-integration"
+        },
+        {
+          "id": "229140999",
+          "full_name": "cathiele/homeassistant-goecharger"
+        },
+        {
+          "id": "330645002",
+          "full_name": "MTrab/danfoss_ally"
+        },
+        {
+          "id": "356053801",
+          "full_name": "pcourbin/imaprotect"
+        },
+        {
+          "id": "358505160",
+          "full_name": "eifinger/hass-weenect"
+        },
+        {
+          "id": "357338258",
+          "full_name": "Limych/ha-temperature-feels-like"
+        },
+        {
+          "id": "299753146",
+          "repository_manifest": {
+            "name": "Xiaomi Cloud Map Extractor",
+            "render_readme": true,
+            "zip_release": true,
+            "filename": "xiaomi_cloud_map_extractor.zip"
+          },
+          "full_name": "PiotrMachowski/Home-Assistant-custom-components-Xiaomi-Cloud-Map-Extractor",
+          "authors": [
+            "@PiotrMachowski"
+          ],
+          "category": "integration",
+          "description": "This custom integration provides a way to present a live view of a map for Xiaomi (Roborock/Viomi/Roidmi/Dreame) vacuums without a need for rooting.",
+          "domain": "xiaomi_cloud_map_extractor",
+          "downloads": 45138,
+          "etag_repository": "W/\"3a5b49ca64251b57d0aec0efff5d8d18664b8b747b6f7aaab80a195d56044ece\"",
+          "last_updated": "2023-05-03T19:24:10Z",
+          "stargazers_count": 923,
+          "topics": [
+            "cloud",
+            "dreame",
+            "map",
+            "roborock",
+            "robot",
+            "roidmi",
+            "vacuum",
+            "vacuum-map",
+            "viomi",
+            "xiaomi",
+            "xiaomi-smart-home",
+            "xiaomi-vacuum"
+          ],
+          "installed_commit": "b4ae1d4",
+          "installed": true,
+          "last_commit": "396c24e",
+          "last_version": "v2.2.0",
+          "manifest_name": "Xiaomi Cloud Map Extractor",
+          "releases": true,
+          "version_installed": "v2.2.0",
+          "last_fetched": 1683462605.71745
+        },
+        {
+          "id": "358585486",
+          "full_name": "danieldotnl/ha-multiscrape"
+        },
+        {
+          "id": "264415552",
+          "full_name": "Pyhass/Hive-Custom-Component"
+        },
+        {
+          "id": "356725611",
+          "full_name": "djerik/wavinsentio-ha"
+        },
+        {
+          "id": "362214884",
+          "full_name": "dreed47/redfin"
+        },
+        {
+          "id": "357930725",
+          "full_name": "elad-bar/ha-shinobi"
+        },
+        {
+          "id": "312080478",
+          "full_name": "LaggAt/hacs-govee"
+        },
+        {
+          "id": "279538782",
+          "full_name": "pcourbin/ecodevices_rt2"
+        },
+        {
+          "id": "342427139",
+          "full_name": "HASwitchPlate/openHASP-custom-component"
+        },
+        {
+          "id": "363468409",
+          "full_name": "mbillow/ha-redpocket"
+        },
+        {
+          "id": "356778495",
+          "full_name": "AlexxIT/WebRTC"
+        },
+        {
+          "id": "356827073",
+          "full_name": "koying/openrgb_ha"
+        },
+        {
+          "id": "341500126",
+          "full_name": "krahabb/meross_lan"
+        },
+        {
+          "id": "236572107",
+          "full_name": "AlexxIT/YandexStation"
+        },
+        {
+          "id": "365567023",
+          "full_name": "sprocket-9/hacs-nuvo-serial"
+        },
+        {
+          "id": "353966616",
+          "full_name": "viktak/ha-cc-openweathermap_all"
+        },
+        {
+          "id": "354887961",
+          "full_name": "viktak/ha-cc-abalin-nameday"
+        },
+        {
+          "id": "348464316",
+          "full_name": "ec-blaster/magicswitchbot-homeassistant"
+        },
+        {
+          "id": "282509738",
+          "full_name": "GuilleGF/hassio-ovh"
+        },
+        {
+          "id": "305188358",
+          "full_name": "midstar/heatmiser_wifi_ha"
+        },
+        {
+          "id": "364208180",
+          "full_name": "koying/jellyfin_ha"
+        },
+        {
+          "id": "347985393",
+          "full_name": "Mr-Groch/HA-Emulated-Color-Temp-Light"
+        },
+        {
+          "id": "311594993",
+          "full_name": "slashback100/presence_simulation"
+        },
+        {
+          "id": "356030453",
+          "full_name": "TheByteStuff/RemoteSyslog_Service"
+        },
+        {
+          "id": "351828005",
+          "full_name": "myhomeiot/DahuaVTO"
+        },
+        {
+          "id": "362513331",
+          "full_name": "shaiu/technicolor"
+        },
+        {
+          "id": "340596609",
+          "full_name": "osk2/panasonic_smart_app"
+        },
+        {
+          "id": "362145464",
+          "full_name": "Petro31/ha-integration-multizone-controller"
+        },
+        {
+          "id": "366911690",
+          "full_name": "rroller/dahua"
+        },
+        {
+          "id": "361961255",
+          "full_name": "make-all/metlink-nz"
+        },
+        {
+          "id": "373370853",
+          "full_name": "rsnodgrass/hass-helium"
+        },
+        {
+          "id": "269205129",
+          "full_name": "h4de5/home-assistant-vimar"
+        },
+        {
+          "id": "372058588",
+          "full_name": "amaximus/met_alerts_hu"
+        },
+        {
+          "id": "354515979",
+          "full_name": "Mr-Groch/ambihue"
+        },
+        {
+          "id": "259867685",
+          "full_name": "hasl-sensor/integration"
+        },
+        {
+          "id": "295123287",
+          "full_name": "rt400/Jewish-Sabbaths-Holidays"
+        },
+        {
+          "id": "134057086",
+          "full_name": "syssi/xiaomi_cooker"
+        },
+        {
+          "id": "129049262",
+          "full_name": "syssi/xiaomi_fan"
+        },
+        {
+          "id": "373845609",
+          "full_name": "bramstroker/homeassistant-powercalc"
+        },
+        {
+          "id": "85400693",
+          "full_name": "PaulAnnekov/home-assistant-padavan-tracker"
+        },
+        {
+          "id": "365332200",
+          "full_name": "Racailloux/home-assistant-pijuice"
+        },
+        {
+          "id": "201740996",
+          "full_name": "custom-components/readme"
+        },
+        {
+          "id": "374763546",
+          "full_name": "xilense/aimp_custom_component"
+        },
+        {
+          "id": "323152128",
+          "full_name": "GuyLewin/home-assistant-crunch-o-meter"
+        },
+        {
+          "id": "307678069",
+          "full_name": "Wibias/hass-variables"
+        },
+        {
+          "id": "373101151",
+          "full_name": "CJNE/ha-sunspec"
+        },
+        {
+          "id": "256928191",
+          "full_name": "Aohzan/ecodevices"
+        },
+        {
+          "id": "351604227",
+          "full_name": "Sha-Darim/brandriskute"
+        },
+        {
+          "id": "352169259",
+          "full_name": "aex351/home-assistant-neerslag-app"
+        },
+        {
+          "id": "366713850",
+          "full_name": "alexander0042/pirate-weather-ha"
+        },
+        {
+          "id": "363203831",
+          "full_name": "benleb/sureha"
+        },
+        {
+          "id": "378010382",
+          "full_name": "alryaz/hass-tns-energo"
+        },
+        {
+          "id": "376390299",
+          "full_name": "golles/ha-knmi"
+        },
+        {
+          "id": "384704004",
+          "full_name": "dylandoamaral/trakt-integration"
+        },
+        {
+          "id": "261277563",
+          "full_name": "edekeijzer/osrm_travel_time"
+        },
+        {
+          "id": "290261325",
+          "full_name": "basnijholt/adaptive-lighting"
+        },
+        {
+          "id": "377060365",
+          "full_name": "alryaz/hass-lkcomu-interrao"
+        },
+        {
+          "id": "388918745",
+          "full_name": "CreasolTech/home-assistant-creasol-dombus"
+        },
+        {
+          "id": "355159299",
+          "full_name": "alryaz/hass-moscow-pgu"
+        },
+        {
+          "id": "362058414",
+          "full_name": "Chouffy/home_assistant_libratone_zipp"
+        },
+        {
+          "id": "311536795",
+          "full_name": "blakeblackshear/frigate-hass-integration"
+        },
+        {
+          "id": "255258767",
+          "full_name": "Aohzan/ipx800"
+        },
+        {
+          "id": "384910725",
+          "full_name": "hwmland/homeassistant-xmrpool_stat"
+        },
+        {
+          "id": "322881712",
+          "full_name": "juacas/honor_x3"
+        },
+        {
+          "id": "377012187",
+          "full_name": "jcgoette/weight_gurus_homeassistant"
+        },
+        {
+          "id": "250488711",
+          "full_name": "marcelwestrahome/home-assistant-niu-component"
+        },
+        {
+          "id": "279184610",
+          "full_name": "madpilot/hass-amber-electric"
+        },
+        {
+          "id": "391413239",
+          "full_name": "Tiemooowh/homeassistant-teletask"
+        },
+        {
+          "id": "368653916",
+          "full_name": "moox-it/hass-moox-track"
+        },
+        {
+          "id": "378213601",
+          "full_name": "nyffchanium/argoclima-integration"
+        },
+        {
+          "id": "336054515",
+          "full_name": "lbbrhzn/ocpp"
+        },
+        {
+          "id": "379688863",
+          "full_name": "TheRealWaldo/thermal"
+        },
+        {
+          "id": "388979130",
+          "full_name": "troykelly/homeassistant-au-nsw-covid"
+        },
+        {
+          "id": "227452940",
+          "full_name": "JoshuaMulliken/ha-wyzeapi"
+        },
+        {
+          "id": "379781545",
+          "full_name": "rroller/netgear"
+        },
+        {
+          "id": "396695907",
+          "full_name": "mullerdavid/hass_GreeExt"
+        },
+        {
+          "id": "325329098",
+          "full_name": "IATkachenko/HA-SleepAsAndroid"
+        },
+        {
+          "id": "290193894",
+          "full_name": "sillyfrog/Automate-Pulse-v2"
+        },
+        {
+          "id": "395991055",
+          "full_name": "amaximus/anniversary"
+        },
+        {
+          "id": "362700564",
+          "full_name": "alandtse/tesla"
+        },
+        {
+          "id": "383732864",
+          "full_name": "cyberjunky/home-assistant-garmin_connect"
+        },
+        {
+          "id": "346474804",
+          "full_name": "DurgNomis-drol/ha_toyota"
+        },
+        {
+          "id": "382335433",
+          "full_name": "djansen1987/SAJeSolar"
+        },
+        {
+          "id": "398739214",
+          "full_name": "HCookie/Webhook-Service-home-assistant"
+        },
+        {
+          "id": "383608593",
+          "full_name": "h4de5/home-assistant-toshiba_ac"
+        },
+        {
+          "id": "382905556",
+          "full_name": "kotborealis/home-assistant-custom-components-cover-time-based-synced"
+        },
+        {
+          "id": "395770920",
+          "full_name": "firstof9/ha-openei"
+        },
+        {
+          "id": "402156016",
+          "full_name": "golles/ha-kamstrup_403"
+        },
+        {
+          "id": "403401396",
+          "full_name": "eifinger/hass-here-weather"
+        },
+        {
+          "id": "213346369",
+          "full_name": "scottyphillips/echonetlite_homeassistant"
+        },
+        {
+          "id": "403123516",
+          "full_name": "barleybobs/homeassistant-ecowater-softener"
+        },
+        {
+          "id": "323155307",
+          "full_name": "aceindy/Duepi_EVO"
+        },
+        {
+          "id": "392188182",
+          "full_name": "alryaz/hass-energosbyt-plus"
+        },
+        {
+          "id": "403062943",
+          "full_name": "jugla/battery_consumption"
+        },
+        {
+          "id": "408429126",
+          "full_name": "koying/mqtt_discoverystream_ha"
+        },
+        {
+          "id": "401454435",
+          "full_name": "hif2k1/battery_sim"
+        },
+        {
+          "id": "319608056",
+          "full_name": "dckiller51/bodymiscale"
+        },
+        {
+          "id": "401145616",
+          "full_name": "CJNE/ha-myenergi"
+        },
+        {
+          "id": "401856574",
+          "full_name": "jobvk/Home-Assistant-Windcentrale"
+        },
+        {
+          "id": "356033332",
+          "full_name": "BigNocciolino/CryptoTracker"
+        },
+        {
+          "id": "417802358",
+          "full_name": "Chouffy/home_assistant_tgtg"
+        },
+        {
+          "id": "420504770",
+          "full_name": "amaximus/water_quality_fvm"
+        },
+        {
+          "id": "326352749",
+          "full_name": "giachello/mlgw"
+        },
+        {
+          "id": "402612874",
+          "full_name": "iprak/weatherapi"
+        },
+        {
+          "id": "411736321",
+          "full_name": "mampfes/hacs_dwd_pollenflug"
+        },
+        {
+          "id": "390073284",
+          "full_name": "jjlawren/sonos_cloud"
+        },
+        {
+          "id": "422834940",
+          "full_name": "N0ciple/hass-kef-connector"
+        },
+        {
+          "id": "398781181",
+          "full_name": "ofalvai/home-assistant-candy"
+        },
+        {
+          "id": "410667735",
+          "full_name": "kubawolanin/ha-reaper"
+        },
+        {
+          "id": "418810115",
+          "full_name": "travisghansen/hass-pfsense"
+        },
+        {
+          "id": "251039581",
+          "full_name": "hultenvp/solis-sensor"
+        },
+        {
+          "id": "407205510",
+          "full_name": "alryaz/hass-pik-intercom"
+        },
+        {
+          "id": "408074547",
+          "full_name": "sugoi-wada/acer-air-monitor-2018"
+        },
+        {
+          "id": "302985427",
+          "full_name": "wizmo2/zidoo-player"
+        },
+        {
+          "id": "301509152",
+          "full_name": "BenPru/novus300_Rs485"
+        },
+        {
+          "id": "417400028",
+          "full_name": "ScratMan/HASmartThermostat"
+        },
+        {
+          "id": "422954081",
+          "full_name": "DeebotUniverse/Deebot-4-Home-Assistant"
+        },
+        {
+          "id": "386049746",
+          "full_name": "viragelabs/virage_dashboard"
+        },
+        {
+          "id": "422931599",
+          "full_name": "KartoffelToby/better_thermostat"
+        },
+        {
+          "id": "406939721",
+          "full_name": "tomasbedrich/home-assistant-hikconnect"
+        },
+        {
+          "id": "427867835",
+          "full_name": "briis/hass-weatherflow"
+        },
+        {
+          "id": "427773030",
+          "full_name": "spycle/tuneblade"
+        },
+        {
+          "id": "433577406",
+          "full_name": "htmltiger/config-editor"
+        },
+        {
+          "id": "180032210",
+          "full_name": "dolezsa/thermal_comfort"
+        },
+        {
+          "id": "424574671",
+          "full_name": "roslovets/SP110E-HASS"
+        },
+        {
+          "id": "222687548",
+          "full_name": "dwainscheeren/dwains-lovelace-dashboard"
+        },
+        {
+          "id": "405007807",
+          "full_name": "macxq/foxess-ha"
+        },
+        {
+          "id": "432522624",
+          "full_name": "Aohzan/ipx800v5"
+        },
+        {
+          "id": "431440766",
+          "full_name": "LAB02-Research/HASS.Agent-Notifier"
+        },
+        {
+          "id": "398601732",
+          "full_name": "ThomasPrior/FlexpoolInfo"
+        },
+        {
+          "id": "334925385",
+          "full_name": "weltenwort/home-assistant-rct-power-integration"
+        },
+        {
+          "id": "380367845",
+          "full_name": "fuatakgun/eufy_security"
+        },
+        {
+          "id": "439467929",
+          "full_name": "nbogojevic/homeassistant-midea-air-appliances-lan"
+        },
+        {
+          "id": "250498561",
+          "full_name": "briis/securityspy"
+        },
+        {
+          "id": "292390011",
+          "full_name": "edwork/homeassistant-peloton-sensor"
+        },
+        {
+          "id": "425931056",
+          "full_name": "dahlb/ha_kia_hyundai"
+        },
+        {
+          "id": "137126619",
+          "full_name": "davesmeghead/visonic"
+        },
+        {
+          "id": "344446335",
+          "full_name": "RogerSelwyn/O365-HomeAssistant"
+        },
+        {
+          "id": "441028036",
+          "full_name": "dvd-dev/hilo"
+        },
+        {
+          "id": "424346523",
+          "full_name": "9a4gl/hass-centrometal-boiler"
+        },
+        {
+          "id": "413680511",
+          "full_name": "widewing/ha-toyota-na"
+        },
+        {
+          "id": "441920613",
+          "full_name": "klejejs/ha-thermia-heat-pump-integration"
+        },
+        {
+          "id": "441942093",
+          "full_name": "jugla/keyatome"
+        },
+        {
+          "id": "426814988",
+          "full_name": "aneeshd/schedule_state"
+        },
+        {
+          "id": "445609628",
+          "full_name": "soloam/ha-pid-controller"
+        },
+        {
+          "id": "443529332",
+          "full_name": "ardevd/ha-bobcatminer"
+        },
+        {
+          "id": "419786466",
+          "full_name": "WillCodeForCats/solaredge-modbus-multi"
+        },
+        {
+          "id": "432434646",
+          "full_name": "guerrerotook/securitas-direct-new-api"
+        },
+        {
+          "id": "442001863",
+          "full_name": "amosyuen/ha-tplink-deco"
+        },
+        {
+          "id": "380330823",
+          "full_name": "augustas2/eldes"
+        },
+        {
+          "id": "450192057",
+          "full_name": "ClusterM/skykettle-ha"
+        },
+        {
+          "id": "447307317",
+          "full_name": "bruxy70/Holidays"
+        },
+        {
+          "id": "441294260",
+          "full_name": "c-st/auto_areas"
+        },
+        {
+          "id": "440617082",
+          "full_name": "elahd/ha-nyc311"
+        },
+        {
+          "id": "267583249",
+          "full_name": "hultenvp/home_assistant_omnik_solar"
+        },
+        {
+          "id": "447878635",
+          "full_name": "IATkachenko/HA-YandexWeather"
+        },
+        {
+          "id": "451209586",
+          "full_name": "J-Lindvig/Flagdays_DK"
+        },
+        {
+          "id": "448980525",
+          "full_name": "mdeweerd/zha-toolkit"
+        },
+        {
+          "id": "446609758",
+          "full_name": "MesserschmittX/ha-nicehash-excavator-monitor"
+        },
+        {
+          "id": "319401286",
+          "full_name": "peribeir/homeassistant-rademacher"
+        },
+        {
+          "id": "269113518",
+          "full_name": "plamish/xcomfort"
+        },
+        {
+          "id": "323923603",
+          "full_name": "petretiandrea/home-assistant-tapo-p100"
+        },
+        {
+          "id": "427902632",
+          "full_name": "StephanJoubert/home_assistant_solarman"
+        },
+        {
+          "id": "442181774",
+          "full_name": "tadasdanielius/daikin_altherma"
+        },
+        {
+          "id": "448604854",
+          "full_name": "TomBrien/cardiffwaste-ha"
+        },
+        {
+          "id": "389366750",
+          "full_name": "tykeal/homeassistant-rental-control"
+        },
+        {
+          "id": "413798425",
+          "full_name": "UI-Lovelace-Minimalist/UI"
+        },
+        {
+          "id": "453143227",
+          "full_name": "MrSleeps/Juwel-HeliaLux-Home-Assistant-Custom-Component"
+        },
+        {
+          "id": "453890532",
+          "full_name": "jrfernandes/ontario_energy_board"
+        },
+        {
+          "id": "441369133",
+          "full_name": "ZacheryThomas/homeassistant-smartrent"
+        },
+        {
+          "id": "453785158",
+          "full_name": "youdroid/home-assistant-gogs"
+        },
+        {
+          "id": "454951296",
+          "full_name": "thecode/ha-rpi_gpio"
+        },
+        {
+          "id": "452272431",
+          "full_name": "larry-wong/bemfa"
+        },
+        {
+          "id": "454942078",
+          "full_name": "sakowicz/home-assistant-tenda-tracker"
+        },
+        {
+          "id": "455217528",
+          "full_name": "brianegge/home-assistant-sdnotify"
+        },
+        {
+          "id": "443297453",
+          "full_name": "Blear/HassLife"
+        },
+        {
+          "id": "398767994",
+          "full_name": "luuuis/hass_wibeee"
+        },
+        {
+          "id": "316396217",
+          "full_name": "evilmarty/mjpeg-timelapse"
+        },
+        {
+          "id": "442878365",
+          "full_name": "hostcc/hass-gs-alarm"
+        },
+        {
+          "id": "460392242",
+          "full_name": "DSorlov/swemail"
+        },
+        {
+          "id": "387116237",
+          "full_name": "hwmland/homeassistant-xmrig"
+        },
+        {
+          "id": "419381725",
+          "full_name": "wlcrs/huawei_solar"
+        },
+        {
+          "id": "294037465",
+          "full_name": "swingerman/ha-dual-smart-thermostat"
+        },
+        {
+          "id": "462430932",
+          "full_name": "amaximus/fire_protection_hu"
+        },
+        {
+          "id": "259900367",
+          "full_name": "Bouni/abfallplus"
+        },
+        {
+          "id": "463624702",
+          "full_name": "dahlb/ha_hatch"
+        },
+        {
+          "id": "455174197",
+          "full_name": "dummylabs/thewatchman"
+        },
+        {
+          "id": "462065554",
+          "full_name": "GuyLewin/home-assistant-lifetime-fitness"
+        },
+        {
+          "id": "448323715",
+          "full_name": "iMicknl/ha-nest-protect"
+        },
+        {
+          "id": "456292486",
+          "full_name": "jnxxx/homeassistant-dabblerdk_powermeterreader"
+        },
+        {
+          "id": "461906076",
+          "full_name": "markvader/ha-rpi_rf"
+        },
+        {
+          "id": "442225646",
+          "full_name": "morosanmihail/HA-LondonTfL"
+        },
+        {
+          "id": "460167330",
+          "full_name": "mattrayner/pod-point-home-assistant-component"
+        },
+        {
+          "id": "459761427",
+          "full_name": "pawelhulek/pgnig-sensor"
+        },
+        {
+          "id": "459709817",
+          "full_name": "patrickhilker/tedee_hass_integration"
+        },
+        {
+          "id": "319820836",
+          "full_name": "RobertD502/home-assistant-iocare"
+        },
+        {
+          "id": "232813686",
+          "full_name": "RogerSelwyn/Home_Assistant_SkyQ_MediaPlayer"
+        },
+        {
+          "id": "460108030",
+          "full_name": "syssi/homeassistant-goecharger-mqtt"
+        },
+        {
+          "id": "394704821",
+          "full_name": "wills106/homeassistant-solax-modbus"
+        },
+        {
+          "id": "124766061",
+          "full_name": "toringer/home-assistant-sbanken"
+        },
+        {
+          "id": "465062337",
+          "full_name": "mauro-midolo/homeassistant_electrolux_status"
+        },
+        {
+          "id": "468093553",
+          "full_name": "amaximus/radioactivity_hu"
+        },
+        {
+          "id": "467638459",
+          "full_name": "joleys/niko-home-control-II"
+        },
+        {
+          "id": "478745957",
+          "full_name": "droso-hass/idfm"
+        },
+        {
+          "id": "366332990",
+          "full_name": "JohNan/homeassistant-wellbeing"
+        },
+        {
+          "id": "224258177",
+          "full_name": "Cyr-ius/hass-heatzy"
+        },
+        {
+          "id": "346329169",
+          "full_name": "dmamontov/hass-miwifi"
+        },
+        {
+          "id": "474183846",
+          "full_name": "sanghviharshit/ha-mila"
+        },
+        {
+          "id": "233289477",
+          "full_name": "linsvensson/sensor.greenely"
+        },
+        {
+          "id": "442594482",
+          "full_name": "pawelhulek/kontomierz-sensor"
+        },
+        {
+          "id": "463623003",
+          "full_name": "ryanwinter/hass-rainforest-emu-2"
+        },
+        {
+          "id": "472497355",
+          "full_name": "MTrab/energidataservice"
+        },
+        {
+          "id": "198794376",
+          "full_name": "toringer/home-assistant-metnowcast"
+        },
+        {
+          "id": "336798340",
+          "full_name": "tomaae/homeassistant-truenas"
+        },
+        {
+          "id": "481763130",
+          "full_name": "dgomes/ha_generic_water_heater"
+        },
+        {
+          "id": "483269510",
+          "full_name": "chises/ha-oilfox"
+        },
+        {
+          "id": "485895021",
+          "full_name": "dahlb/ha_blueair"
+        },
+        {
+          "id": "341046872",
+          "full_name": "aijayadams/hass-blueair"
+        },
+        {
+          "id": "485971293",
+          "full_name": "drakhart/ha-super-soco-custom"
+        },
+        {
+          "id": "454859084",
+          "full_name": "ekutner/home-connect-hass"
+        },
+        {
+          "id": "490422137",
+          "full_name": "ddanssaert/home-assistant-ipcamlive"
+        },
+        {
+          "id": "373750934",
+          "full_name": "cnstudio/Taipower-Bimonthly-Energy-Cost-homeassistant"
+        },
+        {
+          "id": "483187645",
+          "full_name": "geoffreylagaisse/Hass-Microsoft-Graph"
+        },
+        {
+          "id": "471000066",
+          "full_name": "elden1337/hass-peaq"
+        },
+        {
+          "id": "461802716",
+          "full_name": "Kaptensanders/skolmat"
+        },
+        {
+          "id": "437278224",
+          "full_name": "kongo09/hass-dell-printer"
+        },
+        {
+          "id": "375838748",
+          "full_name": "Kannix2005/homeassistant-selve"
+        },
+        {
+          "id": "485281791",
+          "full_name": "LAB02-Research/HASS.Agent-MediaPlayer"
+        },
+        {
+          "id": "480112024",
+          "full_name": "patrickribbing/sjofartsverket_viva-component"
+        },
+        {
+          "id": "479221839",
+          "full_name": "NickM-27/swatch-hass-integration"
+        },
+        {
+          "id": "480127478",
+          "full_name": "Ludy87/ecotrend-ista"
+        },
+        {
+          "id": "471478227",
+          "full_name": "mbillow/ha-chargepoint"
+        },
+        {
+          "id": "480281490",
+          "full_name": "mtarjoianu/ha_lektrico"
+        },
+        {
+          "id": "443905243",
+          "full_name": "Ludy87/xplora_watch"
+        },
+        {
+          "id": "476357279",
+          "full_name": "music-assistant/hass-music-assistant"
+        },
+        {
+          "id": "459336824",
+          "full_name": "regulad/hass-lacrosseview"
+        },
+        {
+          "id": "481715988",
+          "full_name": "PimDoos/kia_connect"
+        },
+        {
+          "id": "360213486",
+          "full_name": "roleoroleo/yi-hack_ha_integration"
+        },
+        {
+          "id": "488091347",
+          "full_name": "ThomasPrior/2minersInfo"
+        },
+        {
+          "id": "434912125",
+          "full_name": "wernerhp/ha.integration.load_shedding"
+        },
+        {
+          "id": "484708274",
+          "full_name": "Vaskivskyi/ha-asusrouter"
+        },
+        {
+          "id": "430818561",
+          "full_name": "WillCodeForCats/tekmar-482"
+        },
+        {
+          "id": "199718799",
+          "full_name": "snikch/climate.escea"
+        },
+        {
+          "id": "125756318",
+          "full_name": "amaximus/bkk_stop"
+        },
+        {
+          "id": "495607253",
+          "full_name": "jippi/hass-nordnet"
+        },
+        {
+          "id": "456340193",
+          "full_name": "danielrivard/homeassistant-innova"
+        },
+        {
+          "id": "410867791",
+          "full_name": "hasscc/hass-edge-tts"
+        },
+        {
+          "id": "497924778",
+          "full_name": "dave-code-ruiz/elkbledom"
+        },
+        {
+          "id": "482473793",
+          "full_name": "Aohzan/hass-prixcarburant"
+        },
+        {
+          "id": "503045365",
+          "full_name": "Kleinrotti/hass-senertec"
+        },
+        {
+          "id": "501368149",
+          "full_name": "J-Lindvig/Fuelprices_DK"
+        },
+        {
+          "id": "499901994",
+          "full_name": "LavermanJJ/home-assistant-solarfocus"
+        },
+        {
+          "id": "488931467",
+          "full_name": "ryanbateman/bvg-sensor"
+        },
+        {
+          "id": "282714722",
+          "full_name": "mchwalisz/home-assistant-senec"
+        },
+        {
+          "id": "497322735",
+          "full_name": "NemesisRE/sensor.plex_recently_added"
+        },
+        {
+          "id": "472077314",
+          "full_name": "pawkakol1/worlds-air-quality-index"
+        },
+        {
+          "id": "496755553",
+          "full_name": "thecode/ha-onewire-sysbus"
+        },
+        {
+          "id": "356655356",
+          "full_name": "tofuSCHNITZEL/home-assistant-wienerlinien"
+        },
+        {
+          "id": "501618674",
+          "full_name": "andrzejchm/blebox_shutterbox_tilt"
+        },
+        {
+          "id": "504880554",
+          "full_name": "elahd/ha-cyclepay"
+        },
+        {
+          "id": "396083412",
+          "full_name": "georgezhao2010/midea_ac_lan"
+        },
+        {
+          "id": "504337320",
+          "full_name": "godely/ha-dremel-3d-printer"
+        },
+        {
+          "id": "506738088",
+          "full_name": "netsoft-ruidias/ha-custom-component-sodexo"
+        },
+        {
+          "id": "503856080",
+          "full_name": "netsoft-ruidias/ha-custom-component-myedenred"
+        },
+        {
+          "id": "508800396",
+          "full_name": "netsoft-ruidias/ha-custom-component-coverflex"
+        },
+        {
+          "id": "509121113",
+          "full_name": "seven-io/home-assistant"
+        },
+        {
+          "id": "505598474",
+          "full_name": "netsoft-ruidias/ha-custom-component-precoscombustiveis"
+        },
+        {
+          "id": "248462859",
+          "full_name": "pyalarmdotcom/alarmdotcom"
+        },
+        {
+          "id": "504664392",
+          "full_name": "basilfx/homeassistant-biketrax"
+        },
+        {
+          "id": "517429793",
+          "full_name": "Breina/PowerTagGateway"
+        },
+        {
+          "id": "507038522",
+          "full_name": "Breina/nad_controller"
+        },
+        {
+          "id": "520565579",
+          "full_name": "danielsmith-eu/home-assistant-themeparks-integration"
+        },
+        {
+          "id": "391700886",
+          "full_name": "deblockt/hass-aria2"
+        },
+        {
+          "id": "514029149",
+          "full_name": "anarion80/sodexo_dla_ciebie"
+        },
+        {
+          "id": "514391925",
+          "full_name": "fapfaff/homeassistant-appwash"
+        },
+        {
+          "id": "438167239",
+          "full_name": "dmamontov/hass-ledfx"
+        },
+        {
+          "id": "381052530",
+          "full_name": "georgezhao2010/fordpass_china"
+        },
+        {
+          "id": "507584200",
+          "full_name": "infradom/ecopower_dynamic_grid_prices"
+        },
+        {
+          "id": "200665691",
+          "full_name": "franc6/ics_calendar"
+        },
+        {
+          "id": "511504216",
+          "full_name": "Skarbo/hass-scinan-thermostat"
+        },
+        {
+          "id": "379621461",
+          "full_name": "tomasmcguinness/homeassistant-mixergy"
+        },
+        {
+          "id": "512169290",
+          "full_name": "tinuva/ha-coct-loadshedding"
+        },
+        {
+          "id": "517642950",
+          "full_name": "itchannel/apex-ha"
+        },
+        {
+          "id": "403243434",
+          "full_name": "MislavMandaric/home-assistant-vaillant-vsmart"
+        },
+        {
+          "id": "512007926",
+          "full_name": "xannor/ha_reolink_discovery"
+        },
+        {
+          "id": "516625225",
+          "full_name": "ydogandjiev/hass-sutro"
+        },
+        {
+          "id": "526379993",
+          "full_name": "0xAlon/tami4edge"
+        },
+        {
+          "id": "527179792",
+          "full_name": "DarwinsBuddy/WienerNetzeSmartmeter"
+        },
+        {
+          "id": "474172189",
+          "full_name": "adamoutler/anycubic-homeassistant"
+        },
+        {
+          "id": "523250759",
+          "full_name": "dmamontov/hass-seafile"
+        },
+        {
+          "id": "523485043",
+          "full_name": "killer0071234/ha-hiq"
+        },
+        {
+          "id": "333849286",
+          "full_name": "kpoppel/homeassistant-eforsyning"
+        },
+        {
+          "id": "504081359",
+          "full_name": "markvader/sonic"
+        },
+        {
+          "id": "340926904",
+          "full_name": "kpoppel/homeassistant-novafos"
+        },
+        {
+          "id": "291157903",
+          "full_name": "dgomes/ha_rrd_recorder"
+        },
+        {
+          "id": "271984369",
+          "full_name": "henricm/ha-ferroamp"
+        },
+        {
+          "id": "523827471",
+          "full_name": "perara/systemair-save-connect"
+        },
+        {
+          "id": "505066911",
+          "full_name": "mathieu-mp/homeassistant-intex-spa"
+        },
+        {
+          "id": "527278013",
+          "full_name": "stephan192/hochwasserportal"
+        },
+        {
+          "id": "269665267",
+          "full_name": "mvdwetering/yamaha_ynca"
+        },
+        {
+          "id": "463389296",
+          "repository_manifest": {
+            "name": "🇨🇳 HACS 极速版",
+            "zip_release": true,
+            "hide_default_branch": true,
+            "homeassistant": "2022.11.0",
+            "hacs": "0.19.0",
+            "filename": "hacs.zip"
+          },
+          "full_name": "hacs-china/integration",
+          "authors": [
+            "@ludeeus"
+          ],
+          "category": "integration",
+          "description": "🇨🇳 HACS 极速版",
+          "domain": "hacs",
+          "downloads": 6817,
+          "etag_repository": "W/\"4123c81375630424acecd143caa03b7dbb30c503367475efd3fe27d615780c3b\"",
+          "last_updated": "2023-02-10T03:39:02Z",
+          "stargazers_count": 199,
+          "installed_commit": "420862c",
+          "installed": true,
+          "last_commit": "420862c",
+          "last_version": "1.30.1.1",
+          "manifest_name": "HACS",
+          "releases": true,
+          "version_installed": "1.30.1.1",
+          "last_fetched": 1677972818.129868
+        },
+        {
+          "id": "531686897",
+          "full_name": "0xAlon/dolphin"
+        },
+        {
+          "id": "539629703",
+          "full_name": "Danieldiazi/homeassistant-meteogalicia"
+        },
+        {
+          "id": "419449609",
+          "full_name": "BottlecapDave/HomeAssistant-FirstBus"
+        },
+        {
+          "id": "512213802",
+          "full_name": "alemuro/ha-cecotec-conga"
+        },
+        {
+          "id": "523291160",
+          "full_name": "amitfin/daily_schedule"
+        },
+        {
+          "id": "525588589",
+          "full_name": "cjaliaga/home-assistant-aquarea"
+        },
+        {
+          "id": "401282856",
+          "full_name": "BottlecapDave/HomeAssistant-OctopusEnergy"
+        },
+        {
+          "id": "527414830",
+          "full_name": "amosyuen/ha-eight-sleep-climate"
+        },
+        {
+          "id": "541978646",
+          "full_name": "DeerMaximum/Technische-Alternative-CMI"
+        },
+        {
+          "id": "534317237",
+          "full_name": "DeerMaximum/QR-Code-Generator"
+        },
+        {
+          "id": "542686924",
+          "full_name": "JaccoR/hass-entso-e"
+        },
+        {
+          "id": "545119372",
+          "full_name": "Fr3d/camect-ha"
+        },
+        {
+          "id": "537001731",
+          "full_name": "emes30/facebook_messenger"
+        },
+        {
+          "id": "535287543",
+          "full_name": "hardbyte/ha-evnex"
+        },
+        {
+          "id": "538235457",
+          "full_name": "juacas/zte_tracker"
+        },
+        {
+          "id": "536765576",
+          "full_name": "kamaradclimber/rte-ecowatt"
+        },
+        {
+          "id": "542062483",
+          "full_name": "LAB02-Research/HASS.Agent-Integration"
+        },
+        {
+          "id": "534083455",
+          "full_name": "FaserF/ha-deutschebahn"
+        },
+        {
+          "id": "531321012",
+          "full_name": "lewei50/ha_iammeter"
+        },
+        {
+          "id": "530452578",
+          "full_name": "modrzew/hass-flashforge-adventurer-3"
+        },
+        {
+          "id": "524376939",
+          "full_name": "PimDoos/onesmartcontrolha"
+        },
+        {
+          "id": "531349329",
+          "full_name": "sh00t2kill/dolphin-robot"
+        },
+        {
+          "id": "360408082",
+          "full_name": "RobertD502/home-assistant-flair"
+        },
+        {
+          "id": "544426802",
+          "full_name": "Tasshack/dreame-vacuum"
+        },
+        {
+          "id": "532263303",
+          "full_name": "toringer/home-assistant-met-next-6-hours-forecast"
+        },
+        {
+          "id": "529926820",
+          "full_name": "v1ack/lelight"
+        },
+        {
+          "id": "519811207",
+          "full_name": "trvqhuy/nestup_evn"
+        },
+        {
+          "id": "535833284",
+          "full_name": "Vaskivskyi/ha-chroma"
+        },
+        {
+          "id": "556789449",
+          "new": true,
+          "full_name": "arifwn/homeassistant-whatspie-integration"
+        },
+        {
+          "id": "564355840",
+          "new": true,
+          "full_name": "Anrolosia/Shopping-List-with-Grocy"
+        },
+        {
+          "id": "577620239",
+          "new": true,
+          "full_name": "albinmedoc/ha-cleanmate"
+        },
+        {
+          "id": "136170574",
+          "new": true,
+          "full_name": "c1pher-cn/homeassistan-ezviz"
+        },
+        {
+          "id": "577981941",
+          "new": true,
+          "full_name": "avolmensky/panasonic_eolia"
+        },
+        {
+          "id": "337228671",
+          "new": true,
+          "full_name": "CJNE/ha-porscheconnect"
+        },
+        {
+          "id": "555221653",
+          "new": true,
+          "full_name": "astrandb/viva"
+        },
+        {
+          "id": "580805288",
+          "new": true,
+          "full_name": "BobTheShoplifter/HomeAssistant-Posten"
+        },
+        {
+          "id": "439944813",
+          "new": true,
+          "full_name": "astrandb/miele"
+        },
+        {
+          "id": "544910198",
+          "new": true,
+          "full_name": "battlemoose/waternsw-waterinsights-ha"
+        },
+        {
+          "id": "541834155",
+          "new": true,
+          "full_name": "dcmeglio/homeassistant-petsafe"
+        },
+        {
+          "id": "581307720",
+          "new": true,
+          "full_name": "CM000n/qss"
+        },
+        {
+          "id": "494545750",
+          "new": true,
+          "full_name": "elden1337/hass-peaqhvac"
+        },
+        {
+          "id": "521964078",
+          "new": true,
+          "full_name": "FaserF/ha-rewe"
+        },
+        {
+          "id": "552532860",
+          "new": true,
+          "full_name": "evantaur/seiverkot-consumption"
+        },
+        {
+          "id": "574693804",
+          "new": true,
+          "full_name": "gndean/home-assistant-hypervolt-charger"
+        },
+        {
+          "id": "328566789",
+          "new": true,
+          "full_name": "giachello/beoplay"
+        },
+        {
+          "id": "563077911",
+          "new": true,
+          "full_name": "CubicPill/china_southern_power_grid_stat"
+        },
+        {
+          "id": "265587564",
+          "new": true,
+          "full_name": "golles/Home-Assistant-Sensor-MC66C"
+        },
+        {
+          "id": "532472578",
+          "new": true,
+          "full_name": "greghesp/ha-evonic"
+        },
+        {
+          "id": "562402396",
+          "new": true,
+          "full_name": "hmn/siku-integration"
+        },
+        {
+          "id": "469351480",
+          "new": true,
+          "full_name": "IgnacioHR/de-dietrich-c230-ha"
+        },
+        {
+          "id": "490231724",
+          "new": true,
+          "full_name": "jbouwh/ha-elro-connects"
+        },
+        {
+          "id": "545025660",
+          "new": true,
+          "full_name": "JonasJoKuJonas/homeassistant-WebUntis"
+        },
+        {
+          "id": "567001290",
+          "new": true,
+          "full_name": "knudsvik/EnergyScore"
+        },
+        {
+          "id": "566085483",
+          "new": true,
+          "full_name": "LaggAt/ha-jokes"
+        },
+        {
+          "id": "512965887",
+          "new": true,
+          "full_name": "leonardlcl/mhtzn"
+        },
+        {
+          "id": "552426092",
+          "new": true,
+          "full_name": "kamaradclimber/heishamon-homeassistant"
+        },
+        {
+          "id": "555110808",
+          "new": true,
+          "full_name": "lewei50/ha_iammeter_modbus"
+        },
+        {
+          "id": "356385629",
+          "new": true,
+          "full_name": "Hyundai-Kia-Connect/kia_uvo"
+        },
+        {
+          "id": "537806998",
+          "new": true,
+          "full_name": "lociii/homeassistant-overwolf-status"
+        },
+        {
+          "id": "570874359",
+          "new": true,
+          "full_name": "masaccio/ha-kingspan-watchman-sensit"
+        },
+        {
+          "id": "369883961",
+          "new": true,
+          "full_name": "lorenzo-deluca/homeassistant-silence"
+        },
+        {
+          "id": "458237432",
+          "new": true,
+          "full_name": "meichthys/uptime_kuma"
+        },
+        {
+          "id": "556352757",
+          "new": true,
+          "full_name": "mmillmor/geo_home"
+        },
+        {
+          "id": "547177218",
+          "new": true,
+          "full_name": "mb-software/homeassistant-powerbrain"
+        },
+        {
+          "id": "560282866",
+          "new": true,
+          "full_name": "monty68/uniled"
+        },
+        {
+          "id": "570991919",
+          "new": true,
+          "full_name": "MTrab/clever"
+        },
+        {
+          "id": "522245338",
+          "new": true,
+          "full_name": "ndom91/homeassistant-checkly"
+        },
+        {
+          "id": "562404203",
+          "new": true,
+          "full_name": "olibos/HomeAssistant-RecycleApp"
+        },
+        {
+          "id": "572278409",
+          "new": true,
+          "full_name": "petergridge/Irrigation-V5"
+        },
+        {
+          "id": "190927503",
+          "new": true,
+          "full_name": "plmilord/Hass.io-custom-component-spaclient"
+        },
+        {
+          "id": "525954717",
+          "new": true,
+          "full_name": "rowysock/home-assistant-HomeWhiz"
+        },
+        {
+          "id": "560848165",
+          "new": true,
+          "full_name": "RonnyWinkler/homeassistant.homey"
+        },
+        {
+          "id": "544105569",
+          "new": true,
+          "full_name": "rrooggiieerr/homeassistant-benqprojector"
+        },
+        {
+          "id": "534750752",
+          "new": true,
+          "full_name": "rrooggiieerr/homeassistant-xyscreens"
+        },
+        {
+          "id": "560307075",
+          "new": true,
+          "full_name": "scaarup/aula"
+        },
+        {
+          "id": "531891521",
+          "new": true,
+          "full_name": "sh00t2kill/petoneer_custom_component"
+        },
+        {
+          "id": "552555459",
+          "new": true,
+          "full_name": "Sholofly/lghorizon"
+        },
+        {
+          "id": "570006201",
+          "new": true,
+          "full_name": "sfstar/hass-victron"
+        },
+        {
+          "id": "554898014",
+          "new": true,
+          "full_name": "tijsverkoyen/HomeAssistant-FusionSolar"
+        },
+        {
+          "id": "334364176",
+          "new": true,
+          "full_name": "tom-winkler/ha-webfleet-integration"
+        },
+        {
+          "id": "573233876",
+          "new": true,
+          "full_name": "Sian-Lee-SA/Home-Assistant-Switch-Manager"
+        },
+        {
+          "id": "542621509",
+          "new": true,
+          "full_name": "user2684/imou_life"
+        },
+        {
+          "id": "524730333",
+          "new": true,
+          "full_name": "vasqued2/ha-teamtracker"
+        },
+        {
+          "id": "487536666",
+          "new": true,
+          "full_name": "veista/nilan"
+        },
+        {
+          "id": "572282256",
+          "new": true,
+          "full_name": "wez/govee-lan-hass"
+        },
+        {
+          "id": "520066480",
+          "new": true,
+          "full_name": "vmakeev/huawei_mesh_router"
+        },
+        {
+          "id": "572284948",
+          "new": true,
+          "full_name": "yo-han/Home-Assistant-Carelink"
+        },
+        {
+          "id": "544550612",
+          "new": true,
+          "full_name": "ZsBT/hass-w1000-portal"
+        },
+        {
+          "id": "371474642",
+          "full_name": "gtjadsonsantos/consul"
+        },
+        {
+          "id": "402333014",
+          "new": true,
+          "full_name": "a529987659852/openwbmqtt"
+        },
+        {
+          "id": "309178213",
+          "full_name": "gtjadsonsantos/controlid"
+        },
+        {
+          "id": "585050790",
+          "new": true,
+          "full_name": "itchannel/tdarr_ha"
+        },
+        {
+          "id": "334284822",
+          "full_name": "ohheyrj/home-assistant-aws-codepipeline"
+        },
+        {
+          "id": "309195773",
+          "full_name": "gtjadsonsantos/vapix"
+        },
+        {
+          "id": "584257648",
+          "new": true,
+          "full_name": "popeen/Home-Assistant-Custom-Component-TCL-Remote"
+        },
+        {
+          "id": "583379046",
+          "new": true,
+          "full_name": "Strixx76/mold_risk_index"
+        },
+        {
+          "id": "582268944",
+          "new": true,
+          "full_name": "mampfes/ha_epex_spot"
+        },
+        {
+          "id": "582608844",
+          "new": true,
+          "full_name": "redlukas/emu_mbus_center"
+        },
+        {
+          "id": "590806135",
+          "new": true,
+          "full_name": "amosyuen/ha-registry"
+        },
+        {
+          "id": "580152298",
+          "new": true,
+          "full_name": "Aohzan/hass-polar"
+        },
+        {
+          "id": "593780777",
+          "new": true,
+          "full_name": "archef2000/homeassistant-upsplus"
+        },
+        {
+          "id": "374314958",
+          "new": true,
+          "full_name": "alexdelprete/ha-abb-powerone-pvi-sunspec"
+        },
+        {
+          "id": "582464471",
+          "new": true,
+          "full_name": "bkbilly/oralb_ble"
+        },
+        {
+          "id": "579801670",
+          "new": true,
+          "full_name": "bdunn44/hass-jellyfish-lighting"
+        },
+        {
+          "id": "232299868",
+          "new": true,
+          "full_name": "astrandb/sentio"
+        },
+        {
+          "id": "591644026",
+          "new": true,
+          "full_name": "Daanoz/ha-google-photos"
+        },
+        {
+          "id": "587122619",
+          "new": true,
+          "full_name": "dahlb/ha_carrier"
+        },
+        {
+          "id": "548554162",
+          "new": true,
+          "full_name": "dcmeglio/homeassistant-waste_management"
+        },
+        {
+          "id": "582955421",
+          "new": true,
+          "full_name": "dingo35/ha-SmartEVSEv3"
+        },
+        {
+          "id": "568186049",
+          "new": true,
+          "full_name": "duhow/hass-aigues-barcelona"
+        },
+        {
+          "id": "445977563",
+          "new": true,
+          "full_name": "denpamusic/homeassistant-plum-ecomax"
+        },
+        {
+          "id": "581264508",
+          "new": true,
+          "full_name": "dominikamann/oekofen-pellematic-compact"
+        },
+        {
+          "id": "573737078",
+          "new": true,
+          "full_name": "faanskit/ha-esolar"
+        },
+        {
+          "id": "598381225",
+          "new": true,
+          "full_name": "drc38/Fronius_solarweb"
+        },
+        {
+          "id": "605635573",
+          "new": true,
+          "full_name": "frenck/spook"
+        },
+        {
+          "id": "577080457",
+          "new": true,
+          "full_name": "iprak/sensi"
+        },
+        {
+          "id": "566598076",
+          "new": true,
+          "full_name": "dscao/ikuai"
+        },
+        {
+          "id": "397776105",
+          "new": true,
+          "full_name": "HandyHat/ha-hildebrandglow-dcc"
+        },
+        {
+          "id": "586345918",
+          "new": true,
+          "full_name": "Kartax/home-assistant-binance"
+        },
+        {
+          "id": "420701401",
+          "new": true,
+          "full_name": "klacol/homeassistant-clage_homeserver"
+        },
+        {
+          "id": "534848317",
+          "new": true,
+          "full_name": "juicejuice/homeassistant_redback"
+        },
+        {
+          "id": "533014913",
+          "new": true,
+          "full_name": "jonasbkarlsson/ev_smart_charging"
+        },
+        {
+          "id": "601894276",
+          "new": true,
+          "full_name": "leonardlcl/general_link"
+        },
+        {
+          "id": "584497784",
+          "new": true,
+          "full_name": "mampfes/ha_freeair_connect"
+        },
+        {
+          "id": "477001098",
+          "full_name": "kongo09/philips-airpurifier-coap"
+        },
+        {
+          "id": "578872078",
+          "new": true,
+          "full_name": "mandarons/ha-bouncie"
+        },
+        {
+          "id": "594007512",
+          "new": true,
+          "full_name": "marcolivierarsenault/moonraker-home-assistant"
+        },
+        {
+          "id": "583896361",
+          "new": true,
+          "full_name": "Mr-Groch/HA-ESA-NASK-Air-Quality"
+        },
+        {
+          "id": "584473299",
+          "new": true,
+          "full_name": "Pigotka/ha-cc-jablotron-cloud"
+        },
+        {
+          "id": "585709486",
+          "new": true,
+          "full_name": "msvisser/remeha_home"
+        },
+        {
+          "id": "589430688",
+          "new": true,
+          "full_name": "PiotrMachowski/Home-Assistant-custom-components-GNE-PV-Monitoring"
+        },
+        {
+          "id": "348835574",
+          "new": true,
+          "full_name": "popeen/Home-Assistant-Custom-Component-MotalaVattenAvfall"
+        },
+        {
+          "id": "585689945",
+          "new": true,
+          "full_name": "popeen/Home-Assistant-Custom-Component-Temperatur-Nu"
+        },
+        {
+          "id": "124688531",
+          "new": true,
+          "full_name": "rytilahti/homeassistant-upnp-availability"
+        },
+        {
+          "id": "520791578",
+          "new": true,
+          "full_name": "ProudElm/solaredgeoptimizers"
+        },
+        {
+          "id": "585145942",
+          "new": true,
+          "full_name": "schwarzenbergf/irtrans"
+        },
+        {
+          "id": "600885053",
+          "new": true,
+          "full_name": "signalkraft/mypyllant-component"
+        },
+        {
+          "id": "535062704",
+          "new": true,
+          "full_name": "rsnodgrass/hass-integrations"
+        },
+        {
+          "id": "324913968",
+          "new": true,
+          "full_name": "hg1337/homeassistant-dwd"
+        },
+        {
+          "id": "594842145",
+          "new": true,
+          "full_name": "InTheDaylight14/nginx-proxy-manager-switches"
+        },
+        {
+          "id": "565137157",
+          "new": true,
+          "full_name": "sftgunner/edinplus-integration"
+        },
+        {
+          "id": "589348474",
+          "new": true,
+          "full_name": "epaulsen/energytariff"
+        },
+        {
+          "id": "270386127",
+          "new": true,
+          "full_name": "gicamm/homeassistant-comelit"
+        },
+        {
+          "id": "478078274",
+          "new": true,
+          "full_name": "sergeylysov/sst_cloud"
+        },
+        {
+          "id": "589771870",
+          "new": true,
+          "full_name": "myTselection/youfone_be"
+        },
+        {
+          "id": "598336481",
+          "new": true,
+          "full_name": "t0mer/ims-custom-component"
+        },
+        {
+          "id": "528492198",
+          "new": true,
+          "full_name": "myTselection/telenet_telemeter"
+        },
+        {
+          "id": "601113362",
+          "new": true,
+          "full_name": "t0mer/manish-custom-notifier"
+        },
+        {
+          "id": "586474647",
+          "new": true,
+          "full_name": "myTselection/pixometer"
+        },
+        {
+          "id": "443140011",
+          "new": true,
+          "full_name": "tlskinneriv/awnet_local"
+        },
+        {
+          "id": "603596768",
+          "new": true,
+          "full_name": "Andre0512/hon"
+        },
+        {
+          "id": "596993645",
+          "new": true,
+          "full_name": "Sese-Schneider/ha-personio"
+        },
+        {
+          "id": "528618549",
+          "new": true,
+          "full_name": "chaimchaikin/molad-ha"
+        },
+        {
+          "id": "609302851",
+          "new": true,
+          "full_name": "bkbilly/tpms_ble"
+        },
+        {
+          "id": "551559468",
+          "repository_manifest": {
+            "name": "云音乐",
+            "country": "CN",
+            "render_readme": true
+          },
+          "full_name": "shaonianzhentan/ha_cloud_music",
+          "authors": [
+            "@shaonianzhentan"
+          ],
+          "category": "integration",
+          "description": "新版云音乐",
+          "domain": "ha_cloud_music",
+          "etag_repository": "W/\"874d89c388abf2419629645f94f5d1d160e651801af59b99d8391c967c47bf40\"",
+          "last_updated": "2023-04-04T12:11:25Z",
+          "stargazers_count": 27,
+          "installed_commit": "c4e61a6",
+          "installed": true,
+          "last_commit": "c4e61a6",
+          "last_version": "2023.3.30",
+          "manifest_name": "云音乐",
+          "releases": true,
+          "version_installed": "2023.3.30",
+          "last_fetched": 1680669219.225083
+        },
+        {
+          "id": "400117627",
+          "new": true,
+          "full_name": "hasscc/petkit"
+        },
+        {
+          "id": "555675718",
+          "new": true,
+          "full_name": "sHedC/homeassistant-mastertherm"
+        },
+        {
+          "id": "550121200",
+          "new": true,
+          "full_name": "Jezza34000/homeassistant_weback_component"
+        },
+        {
+          "id": "369774988",
+          "new": true,
+          "full_name": "petergridge/openweathermaphistory"
+        },
+        {
+          "id": "292081477",
+          "new": true,
+          "full_name": "parautenbach/hass-shairport-sync"
+        },
+        {
+          "id": "231824299",
+          "new": true,
+          "full_name": "ha-warmup/warmup"
+        },
+        {
+          "id": "582143144",
+          "new": true,
+          "full_name": "robbinjanssen/home-assistant-ojmicroline-thermostat"
+        },
+        {
+          "id": "604796673",
+          "new": true,
+          "full_name": "myTselection/Carbu_com"
+        },
+        {
+          "id": "416059983",
+          "new": true,
+          "full_name": "pail23/stiebel_eltron_isg_component"
+        },
+        {
+          "id": "606857916",
+          "new": true,
+          "full_name": "stackia/ha-deye-dehumidifier"
+        },
+        {
+          "id": "568434741",
+          "new": true,
+          "full_name": "mbuchber/ha_heliotherm"
+        },
+        {
+          "id": "594751789",
+          "new": true,
+          "full_name": "daxingplay/home-assistant-vaillant-plus"
+        },
+        {
+          "id": "607493281",
+          "new": true,
+          "full_name": "austinmroczek/neovolta"
+        },
+        {
+          "id": "615891516",
+          "new": true,
+          "full_name": "dahlb/ha_sense"
+        },
+        {
+          "id": "603834302",
+          "new": true,
+          "full_name": "rwoldberg/ldata-ha"
+        },
+        {
+          "id": "610297310",
+          "new": true,
+          "full_name": "thisisthetechie/home-assistant-sickgear"
+        },
+        {
+          "id": "612717689",
+          "new": true,
+          "full_name": "amitfin/retry"
+        },
+        {
+          "id": "606563418",
+          "new": true,
+          "full_name": "HrGaertner/HA-vent-optimization"
+        },
+        {
+          "id": "597502676",
+          "new": true,
+          "full_name": "maciej-or/hikvision_next"
+        },
+        {
+          "id": "512922944",
+          "new": true,
+          "full_name": "rnovacek/homeassistant_cz_energy_spot_prices"
+        },
+        {
+          "id": "622332920",
+          "new": true,
+          "full_name": "jbergler/hass-ttlock"
+        },
+        {
+          "id": "597517839",
+          "new": true,
+          "full_name": "rexave/hass-orange-internet-on-the-move"
+        },
+        {
+          "id": "625887812",
+          "new": true,
+          "full_name": "joselcaguilar/azure-openai-ha"
+        },
+        {
+          "id": "625369698",
+          "new": true,
+          "full_name": "IvanSanchez/homeassistant-freeds"
+        },
+        {
+          "id": "607766615",
+          "new": true,
+          "full_name": "emics/ham_radio_propagation"
+        },
+        {
+          "id": "491066500",
+          "new": true,
+          "full_name": "airalab/homeassistant-robonomics-integration"
+        },
+        {
+          "id": "620855349",
+          "new": true,
+          "full_name": "fredck/lightener"
+        },
+        {
+          "id": "597539627",
+          "new": true,
+          "full_name": "bodyscape/cielo_home"
+        },
+        {
+          "id": "624779425",
+          "new": true,
+          "full_name": "aturri/ha-zcsazzurro"
+        },
+        {
+          "id": "627970137",
+          "new": true,
+          "full_name": "toringer/home-assistant-heru"
+        },
+        {
+          "id": "608596416",
+          "new": true,
+          "full_name": "lizardsystems/hass-taipit"
+        },
+        {
+          "id": "618475836",
+          "new": true,
+          "full_name": "geertmeersman/telenet"
+        },
+        {
+          "id": "603218187",
+          "new": true,
+          "full_name": "acesyde/hassio_mylight_integration"
+        },
+        {
+          "id": "630565367",
+          "new": true,
+          "full_name": "DeerMaximum/Technische-Alternative-CoE"
+        }
+      ],
+      "theme": [
+        {
+          "id": "231083679",
+          "full_name": "aFFekopp/dark_teal"
+        },
+        {
+          "id": "233715171",
+          "full_name": "78wesley/Home-Assistant-Darkish-Theme"
+        },
+        {
+          "id": "253311340",
+          "full_name": "3ative/3ative-blue-theme"
+        },
+        {
+          "id": "233445397",
+          "full_name": "am80l/sundown"
+        },
+        {
+          "id": "230974064",
+          "full_name": "arsaboo/oxford_blue_theme"
+        },
+        {
+          "id": "162468030",
+          "full_name": "awolkers/home-assistant-themes"
+        },
+        {
+          "id": "222422187",
+          "full_name": "basnijholt/lovelace-ios-dark-mode-theme"
+        },
+        {
+          "id": "255366214",
+          "full_name": "Banditen01/vintage_theme"
+        },
+        {
+          "id": "234750356",
+          "full_name": "basnijholt/lovelace-ios-light-mode-theme"
+        },
+        {
+          "id": "236318024",
+          "repository_manifest": {
+            "name": "iOS Themes - Dark Mode and Light Mode",
+            "hacs": "0.21.2",
+            "filename": "ios-themes.yaml",
+            "render_readme": true
+          },
+          "full_name": "basnijholt/lovelace-ios-themes",
+          "category": "theme",
+          "description": "❤️📱🏠🤖 Themes inspired by iOS Dark ⬛️ and Light ◻️ Mode for Lovelace Home Assistant with different backgrounds by @basnijholt",
+          "etag_repository": "W/\"cedeeba5133c57c2969a078f1c3f83b7615e7cdb12537a27bb4982bd39bc2c82\"",
+          "last_updated": "2022-11-20T20:05:49Z",
+          "stargazers_count": 425,
+          "installed_commit": "30fdac5",
+          "installed": true,
+          "last_commit": "30fdac5",
+          "last_version": "v2.11.0",
+          "releases": true,
+          "version_installed": "v2.11.0",
+          "last_fetched": 1683375838.030742
+        },
+        {
+          "id": "202203063",
+          "full_name": "bbbenji/synthwave-hass"
+        },
+        {
+          "id": "261924981",
+          "full_name": "DickSwart/swart_ninja_dark_theme"
+        },
+        {
+          "id": "235436539",
+          "full_name": "chaptergy/noctis-grey"
+        },
+        {
+          "id": "227988032",
+          "full_name": "estiens/sweet_pink_hass_theme"
+        },
+        {
+          "id": "309056232",
+          "full_name": "einschmidt/github_dark_theme"
+        },
+        {
+          "id": "309053262",
+          "full_name": "einschmidt/github_light_theme"
+        },
+        {
+          "id": "234581410",
+          "full_name": "fi-sch/ux_goodie_theme"
+        },
+        {
+          "id": "236277163",
+          "full_name": "hekm77/reeder_dark_theme"
+        },
+        {
+          "id": "209891408",
+          "full_name": "home-assistant-community-themes/amoled"
+        },
+        {
+          "id": "235984421",
+          "full_name": "home-assistant-community-themes/blackened"
+        },
+        {
+          "id": "225969186",
+          "full_name": "home-assistant-community-themes/aqua-fiesta"
+        },
+        {
+          "id": "216173358",
+          "full_name": "home-assistant-community-themes/christmas"
+        },
+        {
+          "id": "215075805",
+          "full_name": "home-assistant-community-themes/blue-night"
+        },
+        {
+          "id": "220641275",
+          "full_name": "home-assistant-community-themes/dark-orange"
+        },
+        {
+          "id": "214979604",
+          "full_name": "home-assistant-community-themes/dark-mint"
+        },
+        {
+          "id": "215075899",
+          "full_name": "home-assistant-community-themes/grey-night"
+        },
+        {
+          "id": "217374413",
+          "full_name": "home-assistant-community-themes/halloween"
+        },
+        {
+          "id": "235057110",
+          "full_name": "home-assistant-community-themes/material-dark-red"
+        },
+        {
+          "id": "216183299",
+          "full_name": "home-assistant-community-themes/material-dark-pink"
+        },
+        {
+          "id": "214664317",
+          "full_name": "home-assistant-community-themes/midnight"
+        },
+        {
+          "id": "216178553",
+          "full_name": "home-assistant-community-themes/material-dark-green"
+        },
+        {
+          "id": "223938651",
+          "full_name": "home-assistant-community-themes/midnight-blue"
+        },
+        {
+          "id": "270638476",
+          "full_name": "home-assistant-community-themes/nord"
+        },
+        {
+          "id": "216165131",
+          "full_name": "home-assistant-community-themes/solarized-light"
+        },
+        {
+          "id": "255270395",
+          "full_name": "home-assistant-community-themes/stell-blue-with-colors"
+        },
+        {
+          "id": "230672465",
+          "full_name": "houtknots/UglyChristmas-Theme"
+        },
+        {
+          "id": "234375294",
+          "full_name": "home-assistant-community-themes/vaporwave-pink"
+        },
+        {
+          "id": "216181396",
+          "full_name": "home-assistant-community-themes/teal"
+        },
+        {
+          "id": "306914292",
+          "full_name": "JOHLC/transparentblue"
+        },
+        {
+          "id": "234032927",
+          "full_name": "JuanMTech/google_light_theme"
+        },
+        {
+          "id": "284293899",
+          "full_name": "JuanMTech/ios_dark_mode_theme"
+        },
+        {
+          "id": "284294048",
+          "full_name": "JuanMTech/ios_light_mode_theme"
+        },
+        {
+          "id": "262748544",
+          "full_name": "Kibibit/hass-kibibit-theme"
+        },
+        {
+          "id": "292621909",
+          "full_name": "mikosoft83/hass-windows10-themes"
+        },
+        {
+          "id": "221287384",
+          "full_name": "naofireblade/clear-theme"
+        },
+        {
+          "id": "249722008",
+          "full_name": "Nihvel/your_name"
+        },
+        {
+          "id": "277068969",
+          "full_name": "orickcorreia/caule-themes-pack-1"
+        },
+        {
+          "id": "221288367",
+          "full_name": "naofireblade/clear-theme-dark"
+        },
+        {
+          "id": "223028160",
+          "full_name": "pbeckcom/green_slate_theme"
+        },
+        {
+          "id": "197006509",
+          "full_name": "seangreen2/slate_theme"
+        },
+        {
+          "id": "226567922",
+          "full_name": "Poeschl/slate_red"
+        },
+        {
+          "id": "274111031",
+          "full_name": "wowgamr/animated-weather-card"
+        },
+        {
+          "id": "320117484",
+          "full_name": "myleskeeffe/clear-theme-dark-vibrant"
+        },
+        {
+          "id": "231829137",
+          "full_name": "aFFekopp/noctis"
+        },
+        {
+          "id": "234022648",
+          "full_name": "JuanMTech/google_dark_theme"
+        },
+        {
+          "id": "387055527",
+          "full_name": "tgcowell/waves"
+        },
+        {
+          "id": "403381222",
+          "full_name": "williamahartman/noctis-solarized"
+        },
+        {
+          "id": "407627914",
+          "full_name": "pacjo/google_dark_animated"
+        },
+        {
+          "id": "441738040",
+          "full_name": "KTibow/lovelace-soft-theme"
+        },
+        {
+          "id": "443651710",
+          "full_name": "Neekster/MidnightTeal"
+        },
+        {
+          "id": "448355900",
+          "full_name": "SnakeFist007/ha_vastayan_bond"
+        },
+        {
+          "id": "458636658",
+          "full_name": "JuanMTech/ios-theme"
+        },
+        {
+          "id": "457458731",
+          "full_name": "AmoebeLabs/HA-Theme_M3-07-DarkOliveGreen"
+        },
+        {
+          "id": "456201687",
+          "repository_manifest": {
+            "name": "Mushroom Themes",
+            "homeassistant": "2022.11.0b0",
+            "render_readme": true
+          },
+          "full_name": "piitaya/lovelace-mushroom-themes",
+          "category": "theme",
+          "description": "Additional themes for Lovelace Mushroom Cards 🍄",
+          "etag_repository": "W/\"99a2f4aebffa0528706cd39bfd42ab6cea778abab84dca96d2d1e736a0f8fb30\"",
+          "last_updated": "2022-11-03T11:39:08Z",
+          "stargazers_count": 148,
+          "topics": [
+            "mushroom"
+          ],
+          "installed_commit": "6d03328",
+          "installed": true,
+          "last_commit": "6d03328",
+          "last_version": "v0.0.9",
+          "releases": true,
+          "version_installed": "v0.0.9",
+          "last_fetched": 1683044228.162781
+        },
+        {
+          "id": "458817847",
+          "full_name": "AmoebeLabs/HA-Theme_M3-04-Magenta"
+        },
+        {
+          "id": "458664750",
+          "full_name": "JuanMTech/google-theme"
+        },
+        {
+          "id": "461936688",
+          "full_name": "robinwittebol/whatsapp-theme"
+        },
+        {
+          "id": "464998514",
+          "full_name": "flejz/hass-cyberpunk-2077-theme"
+        },
+        {
+          "id": "470262899",
+          "full_name": "coltondick/nordic-theme-main"
+        },
+        {
+          "id": "479056577",
+          "full_name": "Matt-PMCT/Green-and-Dark-HA-Theme"
+        },
+        {
+          "id": "486045869",
+          "full_name": "Madelena/Metrology-for-Hass"
+        },
+        {
+          "id": "480992848",
+          "full_name": "JuanMTech/macOS-Theme"
+        },
+        {
+          "id": "498774862",
+          "full_name": "AmoebeLabs/HA-Theme_M3-C11-Purple"
+        },
+        {
+          "id": "570909059",
+          "new": true,
+          "full_name": "catppuccin/home-assistant"
+        },
+        {
+          "id": "485813852",
+          "new": true,
+          "full_name": "digitaljamie/google-theme"
+        },
+        {
+          "id": "534353896",
+          "full_name": "th3jesta/ha-lcars"
+        },
+        {
+          "id": "574163721",
+          "new": true,
+          "full_name": "TilmanGriesel/graphite"
+        }
+      ],
+      "plugin": [
+        {
+          "id": "287840715",
+          "full_name": "abmantis/ozw-network-visualization-card"
+        },
+        {
+          "id": "200081161",
+          "full_name": "amaximus/bkk-stop-card"
+        },
+        {
+          "id": "257102434",
+          "full_name": "amaximus/fkf-garbage-collection-card"
+        },
+        {
+          "id": "207018200",
+          "full_name": "amaximus/garbage-collection-card"
+        },
+        {
+          "id": "207292725",
+          "full_name": "AmoebeLabs/flex-horseshoe-card"
+        },
+        {
+          "id": "214365813",
+          "full_name": "Anonym-tsk/lovelace-starline-card"
+        },
+        {
+          "id": "253019926",
+          "full_name": "artem-sedykh/mini-humidifier"
+        },
+        {
+          "id": "268163975",
+          "full_name": "artem-sedykh/mini-climate-card"
+        },
+        {
+          "id": "201292040",
+          "full_name": "azuwis/zigbee2mqtt-networkmap"
+        },
+        {
+          "id": "271886611",
+          "full_name": "badguy99/PlantPictureCard"
+        },
+        {
+          "id": "202546107",
+          "full_name": "bbbenji/synthwave-hass-extras"
+        },
+        {
+          "id": "269474857",
+          "full_name": "ben8p/lovelace-tab-redirect-card"
+        },
+        {
+          "id": "303857065",
+          "full_name": "benct/lovelace-battery-entity-row"
+        },
+        {
+          "id": "184658908",
+          "full_name": "benct/lovelace-github-entity-row"
+        },
+        {
+          "id": "178921037",
+          "full_name": "benct/lovelace-multiple-entity-row"
+        },
+        {
+          "id": "180229356",
+          "full_name": "benct/lovelace-xiaomi-vacuum-card"
+        },
+        {
+          "id": "215327195",
+          "full_name": "bokub/rgb-light-card"
+        },
+        {
+          "id": "192732887",
+          "full_name": "bramkragten/swipe-card"
+        },
+        {
+          "id": "192732636",
+          "repository_manifest": {},
+          "full_name": "bramkragten/weather-card",
+          "category": "plugin",
+          "description": "Weather Card with animated icons for Home Assistant Lovelace",
+          "etag_repository": "W/\"28512f2298e91e7d8edaefbab0b39488d4a98f74b77574327e8195b48cd4e08e\"",
+          "last_updated": "2023-05-05T21:07:06Z",
+          "stargazers_count": 383,
+          "installed_commit": "8773e03",
+          "installed": true,
+          "last_commit": "8773e03",
+          "last_version": "v1.5.0",
+          "releases": true,
+          "version_installed": "v1.5.0",
+          "last_fetched": 1683368042.334941
+        },
+        {
+          "id": "194037195",
+          "full_name": "Ceerbeerus/beerbolaget-card"
+        },
+        {
+          "id": "235449701",
+          "full_name": "chaptergy/lightalarm-card"
+        },
+        {
+          "id": "143850865",
+          "full_name": "custom-cards/beer-card"
+        },
+        {
+          "id": "163363577",
+          "full_name": "custom-cards/bar-card"
+        },
+        {
+          "id": "187245418",
+          "full_name": "custom-cards/bignumber-card"
+        },
+        {
+          "id": "146194325",
+          "repository_manifest": {
+            "name": "button-card",
+            "render_readme": true,
+            "filename": "button-card.js"
+          },
+          "full_name": "custom-cards/button-card",
+          "category": "plugin",
+          "description": "❇️ Lovelace button-card for home assistant",
+          "downloads": 41264,
+          "etag_repository": "W/\"2670441e71726a83867fb723b07a8afab61ee1827d79fd703816513f8560b974\"",
+          "last_updated": "2023-05-04T01:25:40Z",
+          "stargazers_count": 1391,
+          "installed_commit": "3d8c382",
+          "installed": true,
+          "last_commit": "3d8c382",
+          "last_version": "v3.5.0",
+          "releases": true,
+          "version_installed": "v3.5.0",
+          "last_fetched": 1683594580.335693
+        },
+        {
+          "id": "164022050",
+          "full_name": "custom-cards/check-button-card"
+        },
+        {
+          "id": "142545838",
+          "full_name": "custom-cards/canvas-gauge-card"
+        },
+        {
+          "id": "141952963",
+          "full_name": "custom-cards/circle-sensor-card"
+        },
+        {
+          "id": "180000010",
+          "full_name": "custom-cards/cover-element"
+        },
+        {
+          "id": "188686483",
+          "full_name": "custom-cards/decluttering-card"
+        },
+        {
+          "id": "143762825",
+          "full_name": "custom-cards/dual-gauge-card"
+        },
+        {
+          "id": "187245461",
+          "full_name": "custom-cards/entity-attributes-card"
+        },
+        {
+          "id": "187245495",
+          "full_name": "custom-cards/gauge-card"
+        },
+        {
+          "id": "187245511",
+          "full_name": "custom-cards/group-card"
+        },
+        {
+          "id": "179491130",
+          "full_name": "custom-cards/group-element"
+        },
+        {
+          "id": "151318225",
+          "full_name": "custom-cards/light-entity-row"
+        },
+        {
+          "id": "156292058",
+          "full_name": "custom-cards/flex-table-card"
+        },
+        {
+          "id": "196132939",
+          "full_name": "custom-cards/nintendo-wishlist-card"
+        },
+        {
+          "id": "165156754",
+          "full_name": "custom-cards/pc-card"
+        },
+        {
+          "id": "187247927",
+          "full_name": "custom-cards/plan-coordinates"
+        },
+        {
+          "id": "159711605",
+          "full_name": "custom-cards/secondaryinfo-entity-row"
+        },
+        {
+          "id": "146335411",
+          "full_name": "custom-cards/rmv-card"
+        },
+        {
+          "id": "173955605",
+          "full_name": "custom-cards/spotify-card"
+        },
+        {
+          "id": "248954055",
+          "full_name": "custom-cards/stack-in-card"
+        },
+        {
+          "id": "185304888",
+          "full_name": "custom-cards/text-action-element"
+        },
+        {
+          "id": "147764937",
+          "full_name": "custom-cards/surveillance-card"
+        },
+        {
+          "id": "203294272",
+          "full_name": "custom-cards/unused-card"
+        },
+        {
+          "id": "192835334",
+          "full_name": "CyrisXD/love-lock-card"
+        },
+        {
+          "id": "254206234",
+          "full_name": "danimart1991/pvpc-hourly-pricing-card"
+        },
+        {
+          "id": "296396632",
+          "full_name": "DarkFox/rejseplanen-stog-card"
+        },
+        {
+          "id": "195497310",
+          "full_name": "DavidFW1960/bom-weather-card"
+        },
+        {
+          "id": "198066338",
+          "full_name": "DarkFox/rejseplanen-card"
+        },
+        {
+          "id": "273007955",
+          "full_name": "DBa2016/power-usage-card-regex"
+        },
+        {
+          "id": "231145540",
+          "full_name": "dcramer/lovelace-nextbus-card"
+        },
+        {
+          "id": "269011342",
+          "full_name": "Deejayfool/hass-shutter-card"
+        },
+        {
+          "id": "274738925",
+          "full_name": "denysdovhan/purifier-card"
+        },
+        {
+          "id": "193262086",
+          "full_name": "dimagoltsman/content-card-remote-control"
+        },
+        {
+          "id": "197929015",
+          "full_name": "dmulcahey/zha-network-card"
+        },
+        {
+          "id": "261291295",
+          "full_name": "denysdovhan/vacuum-card"
+        },
+        {
+          "id": "263901624",
+          "full_name": "dimagoltsman/generic-remote-control-card"
+        },
+        {
+          "id": "265313034",
+          "full_name": "dimagoltsman/refreshable-picture-card"
+        },
+        {
+          "id": "157674859",
+          "full_name": "dnguyen800/air-visual-card"
+        },
+        {
+          "id": "236664033",
+          "full_name": "dooz127/swipe-glance-card"
+        },
+        {
+          "id": "260597137",
+          "full_name": "fineemb/lovelace-air-filter-card"
+        },
+        {
+          "id": "247134044",
+          "full_name": "faeibson/lovelace-multiline-text-input-card"
+        },
+        {
+          "id": "307058107",
+          "full_name": "fineemb/lovelace-car-card"
+        },
+        {
+          "id": "286408741",
+          "full_name": "ezand/lovelace-posten-card"
+        },
+        {
+          "id": "259784620",
+          "full_name": "fineemb/lovelace-cn-map-card"
+        },
+        {
+          "id": "291480917",
+          "repository_manifest": {
+            "name": "Colorfulclouds Weather Card",
+            "render_readme": true,
+            "filename": "colorfulclouds-weather-card.js",
+            "country": [
+              "CN"
+            ]
+          },
+          "full_name": "fineemb/lovelace-colorfulclouds-weather-card",
+          "category": "plugin",
+          "description": "这是一个适用于彩云天气集成的Lovelace卡片",
+          "etag_repository": "W/\"b40c422ad9e7275a6dd9a2e6a4359cf577af3317f157dc20efd06511e41ba2b4\"",
+          "last_updated": "2022-06-02T18:43:02Z",
+          "stargazers_count": 45,
+          "topics": [
+            "lovelace-custom-card",
+            "weather"
+          ],
+          "installed_commit": "1910cb7",
+          "installed": true,
+          "last_commit": "1910cb7",
+          "last_version": "v1.3.2",
+          "releases": true,
+          "version_installed": "v1.3.2",
+          "last_fetched": 1681834592.657829
+        },
+        {
+          "id": "240906060",
+          "full_name": "fineemb/lovelace-dc1-card"
+        },
+        {
+          "id": "214792276",
+          "full_name": "fineemb/lovelace-fan-xiaomi"
+        },
+        {
+          "id": "237887092",
+          "full_name": "fineemb/lovelace-thermostat-card"
+        },
+        {
+          "id": "250552447",
+          "full_name": "finity69x2/binary-control-button-row"
+        },
+        {
+          "id": "191663150",
+          "full_name": "finity69x2/fan-control-entity-row"
+        },
+        {
+          "id": "287409957",
+          "full_name": "finity69x2/cover-control-button-row"
+        },
+        {
+          "id": "286860710",
+          "full_name": "finity69x2/cover-position-preset-row"
+        },
+        {
+          "id": "226862969",
+          "full_name": "finity69x2/light-brightness-preset-row"
+        },
+        {
+          "id": "245239101",
+          "full_name": "gadgetchnnel/lovelace-card-preloader"
+        },
+        {
+          "id": "182113743",
+          "full_name": "gadgetchnnel/lovelace-text-input-row"
+        },
+        {
+          "id": "184333163",
+          "full_name": "gadgetchnnel/lovelace-card-templater"
+        },
+        {
+          "id": "174016256",
+          "full_name": "gadgetchnnel/lovelace-home-feed-card"
+        },
+        {
+          "id": "261262884",
+          "full_name": "GeorgeSG/lovelace-time-picker-card"
+        },
+        {
+          "id": "160042309",
+          "full_name": "gurbyz/power-wheel-card"
+        },
+        {
+          "id": "220679143",
+          "full_name": "hasl-sensor/lovelace-hasl-departure-card"
+        },
+        {
+          "id": "220679530",
+          "full_name": "hasl-sensor/lovelace-hasl-traffic-status-card"
+        },
+        {
+          "id": "304967918",
+          "full_name": "htmltiger/numberbox-card"
+        },
+        {
+          "id": "172177543",
+          "repository_manifest": {
+            "name": "Config Template Card",
+            "render_readme": true,
+            "homeassistant": "0.110.0"
+          },
+          "full_name": "iantrich/config-template-card",
+          "category": "plugin",
+          "description": "📝 Templatable Lovelace Configurations",
+          "downloads": 32186,
+          "etag_repository": "W/\"513eff6571b1ef9ecca2b66213eb80840a0ab37f1ad0d0ee03ac933260b8a5cc\"",
+          "last_updated": "2023-04-30T12:39:08Z",
+          "stargazers_count": 333,
+          "installed_commit": "d616b6c",
+          "installed": true,
+          "last_commit": "d616b6c",
+          "last_version": "1.3.6",
+          "releases": true,
+          "version_installed": "1.3.6",
+          "last_fetched": 1683605871.859707
+        },
+        {
+          "id": "175927964",
+          "full_name": "iantrich/podcast-card"
+        },
+        {
+          "id": "215633404",
+          "full_name": "iantrich/restriction-card"
+        },
+        {
+          "id": "164367214",
+          "full_name": "iantrich/roku-card"
+        },
+        {
+          "id": "179788256",
+          "full_name": "iantrich/text-divider-row"
+        },
+        {
+          "id": "181124811",
+          "full_name": "iantrich/radial-menu"
+        },
+        {
+          "id": "194824532",
+          "full_name": "Imbuzi/meteo-france-weather-card"
+        },
+        {
+          "id": "273405252",
+          "full_name": "ironsheep/lovelace-lightning-detector-card"
+        },
+        {
+          "id": "231015759",
+          "full_name": "ikaruswill/lovelace-fan-xiaomi"
+        },
+        {
+          "id": "281214271",
+          "full_name": "ironsheep/lovelace-rpi-monitor-card"
+        },
+        {
+          "id": "164887047",
+          "full_name": "isabellaalstrom/krisinfo-card"
+        },
+        {
+          "id": "195671060",
+          "full_name": "isabellaalstrom/lovelace-grocy-chores-card"
+        },
+        {
+          "id": "237812136",
+          "full_name": "iswitch/ha-yandex-icons"
+        },
+        {
+          "id": "245159052",
+          "full_name": "jcwillox/lovelace-canary"
+        },
+        {
+          "id": "244872232",
+          "full_name": "jcwillox/lovelace-paper-buttons-row"
+        },
+        {
+          "id": "283578257",
+          "full_name": "JonahKr/power-distribution-card"
+        },
+        {
+          "id": "238802974",
+          "full_name": "jeremywillans/lovelace-roomba-vacuum-card"
+        },
+        {
+          "id": "163446489",
+          "full_name": "jonkristian/entur-card"
+        },
+        {
+          "id": "148520838",
+          "repository_manifest": {},
+          "full_name": "kalkih/mini-media-player",
+          "category": "plugin",
+          "description": "Minimalistic media card for Home Assistant Lovelace UI",
+          "downloads": 71788,
+          "etag_repository": "W/\"88abf211e564e200bf52eed08274f0d5369cce48e0eb42b117a5d53b4e0931c2\"",
+          "last_updated": "2023-03-29T19:09:33Z",
+          "stargazers_count": 1264,
+          "topics": [
+            "automation",
+            "custom",
+            "sonos"
+          ],
+          "installed_commit": "b45330d",
+          "installed": true,
+          "last_commit": "b45330d",
+          "last_version": "v1.16.5",
+          "releases": true,
+          "version_installed": "v1.16.5",
+          "last_fetched": 1683513196.832197
+        },
+        {
+          "id": "172998062",
+          "repository_manifest": {},
+          "full_name": "kalkih/simple-weather-card",
+          "category": "plugin",
+          "description": "Minimalistic weather card for Home Assistant",
+          "downloads": 31497,
+          "etag_repository": "W/\"c65f06f7688c84314b637fc5bc063ff76bf8d1b2eae64f901fb1b36a733f14d9\"",
+          "last_updated": "2023-04-18T09:12:57Z",
+          "stargazers_count": 214,
+          "topics": [
+            "weather"
+          ],
+          "installed_commit": "77cf4ba",
+          "installed": true,
+          "last_commit": "77cf4ba",
+          "last_version": "v0.8.3",
+          "releases": true,
+          "version_installed": "v0.8.3",
+          "last_fetched": 1683468763.68144
+        },
+        {
+          "id": "292008305",
+          "full_name": "Kibibit/kb-steam-card"
+        },
+        {
+          "id": "276636213",
+          "full_name": "konnectedvn/lovelace-vertical-slider-cover-card"
+        },
+        {
+          "id": "290281267",
+          "full_name": "KTibow/fullscreen-card"
+        },
+        {
+          "id": "168570875",
+          "full_name": "ljmerza/fitbit-card"
+        },
+        {
+          "id": "169783299",
+          "full_name": "ljmerza/github-card"
+        },
+        {
+          "id": "197960232",
+          "full_name": "ljmerza/our-groceries-card"
+        },
+        {
+          "id": "168744428",
+          "full_name": "ljmerza/light-entity-card"
+        },
+        {
+          "id": "183499944",
+          "full_name": "ljmerza/tracking-number-card"
+        },
+        {
+          "id": "236945951",
+          "full_name": "lukevink/lovelace-buien-rain-card"
+        },
+        {
+          "id": "180464361",
+          "full_name": "ljmerza/travel-time-card"
+        },
+        {
+          "id": "257005990",
+          "full_name": "madmicio/LG-WebOS-Remote-Control"
+        },
+        {
+          "id": "257123327",
+          "full_name": "madmicio/channel-pad"
+        },
+        {
+          "id": "188572845",
+          "full_name": "marrobHD/rotel-card"
+        },
+        {
+          "id": "187339794",
+          "full_name": "marrobHD/tv-card"
+        },
+        {
+          "id": "275672933",
+          "full_name": "mattieha/select-list-card"
+        },
+        {
+          "id": "256292682",
+          "full_name": "maxwroc/battery-state-card"
+        },
+        {
+          "id": "302895020",
+          "full_name": "maxwroc/github-flexi-card"
+        },
+        {
+          "id": "204049047",
+          "full_name": "Mofeywalker/openmensa-lovelace-card"
+        },
+        {
+          "id": "158654878",
+          "full_name": "nervetattoo/simple-thermostat"
+        },
+        {
+          "id": "286270157",
+          "full_name": "nielsfaber/scheduler-card"
+        },
+        {
+          "id": "238414582",
+          "full_name": "peetereczek/ztm-stop-card"
+        },
+        {
+          "id": "236127727",
+          "full_name": "pfunkmallone/HACS-camect-custom_card"
+        },
+        {
+          "id": "205261230",
+          "full_name": "PiotrMachowski/Home-Assistant-Lovelace-HTML-Jinja2-Template-card"
+        },
+        {
+          "id": "218178802",
+          "full_name": "PiotrMachowski/Home-Assistant-Lovelace-Local-Conditional-card"
+        },
+        {
+          "id": "199546187",
+          "full_name": "PiotrMachowski/lovelace-google-keep-card"
+        },
+        {
+          "id": "193372044",
+          "repository_manifest": {
+            "name": "Xiaomi Vacuum Map Card",
+            "render_readme": true,
+            "filename": "xiaomi-vacuum-map-card.js"
+          },
+          "full_name": "PiotrMachowski/lovelace-xiaomi-vacuum-map-card",
+          "category": "plugin",
+          "description": "This card provides a user-friendly way to fully control Xiaomi, Valetudo, Neato and Roomba (+ possibly other) vacuums in Home Assistant.",
+          "downloads": 44081,
+          "etag_repository": "W/\"0d5872dbbe7dec5a438560c120d49b97ec3920a888b8fc68dc606b595c6269b7\"",
+          "last_updated": "2023-04-27T10:43:48Z",
+          "stargazers_count": 1072,
+          "topics": [
+            "lovelace-card",
+            "neato",
+            "roborock",
+            "roomba",
+            "roomba980",
+            "vacuum",
+            "valetudo",
+            "valetudo-re",
+            "xiaomi",
+            "xiaomi-vacuum"
+          ],
+          "installed_commit": "2ca412e",
+          "installed": true,
+          "last_commit": "2ca412e",
+          "last_version": "v2.1.2",
+          "releases": true,
+          "version_installed": "v2.1.2",
+          "last_fetched": 1683584108.825282
+        },
+        {
+          "id": "193408399",
+          "full_name": "PiotrMachowski/lovelace-html-card"
+        },
+        {
+          "id": "197759180",
+          "repository_manifest": {},
+          "full_name": "postlund/search-card",
+          "category": "plugin",
+          "description": "Quickly search for entities from a Lovelace card.",
+          "etag_repository": "W/\"b58d80859530af773b2e35f4425cd080bbe4495486fddac0e4f6b27dbf72d765\"",
+          "last_updated": "2022-10-07T18:53:17Z",
+          "stargazers_count": 90,
+          "installed_commit": "1b91042",
+          "installed": true,
+          "last_commit": "1b91042",
+          "last_fetched": 1681780076.693207
+        },
+        {
+          "id": "186765704",
+          "full_name": "nervetattoo/banner-card"
+        },
+        {
+          "id": "142051833",
+          "full_name": "ofekashery/vertical-stack-in-card"
+        },
+        {
+          "id": "260940136",
+          "full_name": "r-renato/ha-card-weather-conditions"
+        },
+        {
+          "id": "215037975",
+          "full_name": "r-renato/ha-card-waze-travel-time"
+        },
+        {
+          "id": "289188530",
+          "full_name": "reptilex/tesla-style-solar-power-card"
+        },
+        {
+          "id": "197715418",
+          "full_name": "RodBr/miflora-card"
+        },
+        {
+          "id": "216008446",
+          "full_name": "royto/logbook-card"
+        },
+        {
+          "id": "279157206",
+          "full_name": "rsnodgrass/water-heater-card"
+        },
+        {
+          "id": "241706284",
+          "full_name": "Savjee/button-text-card"
+        },
+        {
+          "id": "237532750",
+          "full_name": "sbryfcz/harmony-card"
+        },
+        {
+          "id": "259126760",
+          "full_name": "Sian-Lee-SA/honeycomb-menu"
+        },
+        {
+          "id": "202874270",
+          "full_name": "TheLastProject/lovelace-media-art-background"
+        },
+        {
+          "id": "284283867",
+          "full_name": "TarheelGrad1998/gallery-card"
+        },
+        {
+          "id": "191580766",
+          "full_name": "tcarlsen/lovelace-light-with-profiles"
+        },
+        {
+          "id": "236317072",
+          "full_name": "sdelliot/pie-chart-card"
+        },
+        {
+          "id": "167744584",
+          "full_name": "thomasloven/lovelace-auto-entities"
+        },
+        {
+          "id": "281453608",
+          "full_name": "thomasloven/lovelace-badge-card"
+        },
+        {
+          "id": "190927524",
+          "repository_manifest": {
+            "name": "card-mod",
+            "homeassistant": "0.98.0"
+          },
+          "full_name": "thomasloven/lovelace-card-mod",
+          "category": "plugin",
+          "description": "🔹 Add CSS styles to (almost) any lovelace card",
+          "etag_repository": "W/\"ba8789aa44bb1dd9ec12c701e827a6641d198d1a92958281698ee1b0db449122\"",
+          "last_updated": "2023-05-03T21:52:02Z",
+          "stargazers_count": 699,
+          "installed_commit": "b8c48b9",
+          "installed": true,
+          "last_commit": "b8c48b9",
+          "last_version": "3.2.2",
+          "releases": true,
+          "selected_tag": "3.1.4",
+          "show_beta": true,
+          "version_installed": "3.1.4",
+          "last_fetched": 1683584130.964472
+        },
+        {
+          "id": "161403328",
+          "repository_manifest": {
+            "name": "card-tools",
+            "homeassistant": "0.100.0"
+          },
+          "full_name": "thomasloven/lovelace-card-tools",
+          "category": "plugin",
+          "description": "🔹A collection of tools for other lovelace plugins to use",
+          "etag_repository": "W/\"2f3821522eb7fcea218bf4324ba2d43584210b57e7726b7da13849d363ba0941\"",
+          "last_updated": "2023-04-10T09:48:29Z",
+          "stargazers_count": 213,
+          "installed_commit": "477f3d4",
+          "installed": true,
+          "last_commit": "477f3d4",
+          "last_version": "11",
+          "releases": true,
+          "version_installed": "11",
+          "last_fetched": 1682705915.809532
+        },
+        {
+          "id": "150781994",
+          "full_name": "thomasloven/lovelace-fold-entity-row"
+        },
+        {
+          "id": "249942054",
+          "full_name": "thomasloven/lovelace-hui-element"
+        },
+        {
+          "id": "156434866",
+          "full_name": "thomasloven/lovelace-layout-card"
+        },
+        {
+          "id": "231674882",
+          "full_name": "thomasloven/lovelace-template-entity-row"
+        },
+        {
+          "id": "158756598",
+          "full_name": "thomasloven/lovelace-state-switch"
+        },
+        {
+          "id": "144899700",
+          "full_name": "thomasloven/lovelace-slider-entity-row"
+        },
+        {
+          "id": "180528950",
+          "full_name": "thomasloven/lovelace-more-info-card"
+        },
+        {
+          "id": "286038496",
+          "full_name": "tomvanswam/compass-card"
+        },
+        {
+          "id": "264796130",
+          "full_name": "turbulator/pandora-cas-card"
+        },
+        {
+          "id": "197245179",
+          "full_name": "twrecked/lovelace-hass-aarlo"
+        },
+        {
+          "id": "223008910",
+          "full_name": "Villhellm/custom-sidebar"
+        },
+        {
+          "id": "283542587",
+          "full_name": "Villhellm/lovelace-clock-card"
+        },
+        {
+          "id": "202743061",
+          "full_name": "Villhellm/lovelace-animated-background"
+        },
+        {
+          "id": "259904390",
+          "full_name": "Voxxie/lovelace-jumbo-card"
+        },
+        {
+          "id": "313269367",
+          "full_name": "Kibibit/kb-better-graph-colors"
+        },
+        {
+          "id": "313270182",
+          "full_name": "Kibibit/kb-frosted-cards"
+        },
+        {
+          "id": "139634406",
+          "full_name": "ciotlosm/lovelace-thermostat-dark-card"
+        },
+        {
+          "id": "315044466",
+          "full_name": "amaximus/transmission-card"
+        },
+        {
+          "id": "321140869",
+          "full_name": "ben8p/lovelace-auto-reload-card"
+        },
+        {
+          "id": "321773656",
+          "full_name": "nervetattoo/themable-grid"
+        },
+        {
+          "id": "320381430",
+          "full_name": "tomasrudh/analogclock"
+        },
+        {
+          "id": "300754203",
+          "full_name": "sopelj/lovelace-kanji-clock-card"
+        },
+        {
+          "id": "188323494",
+          "full_name": "ExperienceLovelace/ha-floorplan"
+        },
+        {
+          "id": "179808576",
+          "full_name": "hulkhaugen/hass-bha-icons"
+        },
+        {
+          "id": "237620254",
+          "full_name": "tholgir/TodoIst-Task-List"
+        },
+        {
+          "id": "328957716",
+          "full_name": "Kirbo/ha-lovelace-elapsed-time-card"
+        },
+        {
+          "id": "328132422",
+          "full_name": "jtbgroup/kodi-playlist-card"
+        },
+        {
+          "id": "331701152",
+          "full_name": "RomRider/apexcharts-card"
+        },
+        {
+          "id": "330454534",
+          "full_name": "rccoleman/lovelace-lamarzocco-config-card"
+        },
+        {
+          "id": "335019855",
+          "full_name": "IhorSyerkov/linak-desk-card"
+        },
+        {
+          "id": "335713085",
+          "full_name": "grinstantin/todoist-card"
+        },
+        {
+          "id": "342944383",
+          "full_name": "aex351/home-assistant-neerslag-card"
+        },
+        {
+          "id": "341931266",
+          "full_name": "fufar/simple-clock-card"
+        },
+        {
+          "id": "234961647",
+          "full_name": "piitaya/lovelace-climate-mode-entity-row"
+        },
+        {
+          "id": "341707887",
+          "full_name": "amaximus/pollen-hu-card"
+        },
+        {
+          "id": "350509867",
+          "full_name": "dylandoamaral/uptime-card"
+        },
+        {
+          "id": "326033921",
+          "full_name": "finity69x2/toggle-control-button-row"
+        },
+        {
+          "id": "358962656",
+          "full_name": "bernikr/lovelace-notify-card"
+        },
+        {
+          "id": "351472550",
+          "full_name": "jampez77/Multiline-Entity-Card"
+        },
+        {
+          "id": "345753205",
+          "full_name": "finity69x2/fan-percent-button-row"
+        },
+        {
+          "id": "343112953",
+          "full_name": "jtbgroup/kodi-search-card"
+        },
+        {
+          "id": "352399227",
+          "full_name": "mampfes/ha-knx-uf-iconset"
+        },
+        {
+          "id": "308752409",
+          "full_name": "tmjo/charger-card"
+        },
+        {
+          "id": "366862031",
+          "full_name": "elax46/custom-brand-icons"
+        },
+        {
+          "id": "361205663",
+          "full_name": "MrBartusek/MeteoalarmCard"
+        },
+        {
+          "id": "350886220",
+          "full_name": "finity69x2/fan-mode-button-row"
+        },
+        {
+          "id": "363428919",
+          "full_name": "JurajNyiri/PlexMeetsHomeAssistant"
+        },
+        {
+          "id": "366482637",
+          "repository_manifest": {
+            "name": "Sun Card",
+            "render_readme": true,
+            "filename": "home-assistant-sun-card.js"
+          },
+          "full_name": "AitorDB/home-assistant-sun-card",
+          "category": "plugin",
+          "description": "Home assistant sun card based on Google weather design",
+          "downloads": 61333,
+          "etag_repository": "W/\"3a9daa0e21f9e7d4978fb7e94f066cda6721e545f6bfd07769c91d5ed4b11287\"",
+          "last_updated": "2023-03-17T10:15:06Z",
+          "stargazers_count": 375,
+          "topics": [
+            "sun",
+            "sun-card"
+          ],
+          "installed_commit": "e49ff08",
+          "installed": true,
+          "last_commit": "e49ff08",
+          "last_version": "v0.1.4",
+          "releases": true,
+          "version_installed": "v0.1.4",
+          "last_fetched": 1679980545.373265
+        },
+        {
+          "id": "370997019",
+          "full_name": "bernikr/lovelace-webos-keyboard-card"
+        },
+        {
+          "id": "361776538",
+          "full_name": "adizanni/floor3d-card"
+        },
+        {
+          "id": "373832981",
+          "full_name": "wassy92x/lovelace-digital-clock"
+        },
+        {
+          "id": "329411371",
+          "full_name": "wassy92x/lovelace-ha-dashboard"
+        },
+        {
+          "id": "373857882",
+          "full_name": "wassy92x/lovelace-entities-btn-group"
+        },
+        {
+          "id": "151280062",
+          "repository_manifest": {
+            "name": "mini-graph-card",
+            "render_readme": true
+          },
+          "full_name": "kalkih/mini-graph-card",
+          "category": "plugin",
+          "description": "Minimalistic graph card for Home Assistant Lovelace UI",
+          "downloads": 176067,
+          "etag_repository": "W/\"05e4506524ae842cbb0b92c63811100e67fd4d1fc9471e3094a883b8bba41549\"",
+          "last_updated": "2023-05-01T19:14:09Z",
+          "stargazers_count": 2329,
+          "topics": [
+            "automation",
+            "custom",
+            "graph"
+          ],
+          "installed_commit": "210fb4c",
+          "installed": true,
+          "last_commit": "210fb4c",
+          "last_version": "v0.11.0",
+          "releases": true,
+          "show_beta": true,
+          "version_installed": "v0.11.0",
+          "last_fetched": 1683540966.345966
+        },
+        {
+          "id": "376904517",
+          "full_name": "rianadon/timer-bar-card"
+        },
+        {
+          "id": "378256174",
+          "full_name": "rianadon/opensprinkler-card"
+        },
+        {
+          "id": "391372854",
+          "full_name": "nielsfaber/alarmo-card"
+        },
+        {
+          "id": "362551242",
+          "full_name": "itobey/update-time-card"
+        },
+        {
+          "id": "384434522",
+          "full_name": "arallsopp/hass-hue-icons"
+        },
+        {
+          "id": "394082552",
+          "full_name": "dermotduffy/frigate-hass-card"
+        },
+        {
+          "id": "402799177",
+          "full_name": "tungmeister/hass-blind-card"
+        },
+        {
+          "id": "334448958",
+          "full_name": "ownbee/bootstrap-grid-card"
+        },
+        {
+          "id": "246549747",
+          "full_name": "totaldebug/atomic-calendar-revive"
+        },
+        {
+          "id": "302122266",
+          "full_name": "queimadus/cover-icon-element"
+        },
+        {
+          "id": "423082071",
+          "full_name": "pmongloid/flipdown-timer-card"
+        },
+        {
+          "id": "420365062",
+          "full_name": "queimadus/last-changed-element"
+        },
+        {
+          "id": "413430860",
+          "full_name": "gerardag/person-entity-card"
+        },
+        {
+          "id": "439367892",
+          "full_name": "KartoffelToby/better-thermostat-ui-card"
+        },
+        {
+          "id": "433577603",
+          "full_name": "htmltiger/config-editor-card"
+        },
+        {
+          "id": "437989480",
+          "full_name": "9a4gl/lovelace-centrometal-boiler-card"
+        },
+        {
+          "id": "440374794",
+          "full_name": "alexarch21/history-explorer-card"
+        },
+        {
+          "id": "413812496",
+          "full_name": "dbuezas/lovelace-plotly-graph-card"
+        },
+        {
+          "id": "449416816",
+          "full_name": "johanfrick/custom-sonos-card"
+        },
+        {
+          "id": "452251255",
+          "full_name": "mathoudebine/homeassistant-browser-control-card"
+        },
+        {
+          "id": "449218690",
+          "full_name": "rautesamtr/thermal_comfort_icons"
+        },
+        {
+          "id": "431901513",
+          "full_name": "swingerman/lovelace-fluid-level-background-card"
+        },
+        {
+          "id": "444350375",
+          "repository_manifest": {
+            "name": "Mushroom",
+            "filename": "mushroom.js",
+            "homeassistant": "2022.11.0",
+            "render_readme": true
+          },
+          "full_name": "piitaya/lovelace-mushroom",
+          "category": "plugin",
+          "description": "Mushroom Cards - Build a beautiful dashboard easily 🍄",
+          "downloads": 27428,
+          "etag_repository": "W/\"d64b6086e9757e6816315a16445c0730b8b6b4deaf5239d970ec48d3cff22194\"",
+          "last_updated": "2023-05-08T19:18:50Z",
+          "stargazers_count": 2268,
+          "topics": [
+            "card",
+            "mushroom"
+          ],
+          "installed_commit": "eaadfcd",
+          "installed": true,
+          "last_commit": "eaadfcd",
+          "last_version": "v2.7.1",
+          "open_issues": 258,
+          "releases": true,
+          "version_installed": "v2.7.1",
+          "last_fetched": 1683637558.312991
+        },
+        {
+          "id": "450898706",
+          "full_name": "frozenwizard/onlylocklock"
+        },
+        {
+          "id": "458491675",
+          "full_name": "MesserschmittX/lovelace-nicehash-excavator-monitor-card"
+        },
+        {
+          "id": "466196192",
+          "full_name": "gadgetchnnel/lovelace-header-cards"
+        },
+        {
+          "id": "294609880",
+          "full_name": "Makin-Things/bom-radar-card"
+        },
+        {
+          "id": "491303842",
+          "full_name": "a-p-z/datetime-card"
+        },
+        {
+          "id": "489295753",
+          "full_name": "javawizard/ha-navbar-position"
+        },
+        {
+          "id": "457767453",
+          "full_name": "Kaptensanders/skolmat-card"
+        },
+        {
+          "id": "487680971",
+          "full_name": "Makin-Things/weather-radar-card"
+        },
+        {
+          "id": "267558148",
+          "full_name": "Mariusthvdb/custom-ui"
+        },
+        {
+          "id": "489457357",
+          "full_name": "junalmeida/homeassistant-minimalistic-area-card"
+        },
+        {
+          "id": "455846088",
+          "full_name": "MindFreeze/ha-sankey-chart"
+        },
+        {
+          "id": "491465538",
+          "full_name": "Mariusthvdb/custom-icons"
+        },
+        {
+          "id": "447474061",
+          "full_name": "rgc99/irrigation-unlimited-card"
+        },
+        {
+          "id": "484538222",
+          "full_name": "ulic75/power-flow-card"
+        },
+        {
+          "id": "484333657",
+          "full_name": "Shreyas-R/lovelace-wallpanel-screensaver"
+        },
+        {
+          "id": "492996183",
+          "full_name": "Gh61/lovelace-hue-like-light-card"
+        },
+        {
+          "id": "498794033",
+          "full_name": "custom-cards/slider-button-card"
+        },
+        {
+          "id": "497829589",
+          "full_name": "fratsloos/fr24_card"
+        },
+        {
+          "id": "497319128",
+          "repository_manifest": {
+            "name": "Kiosk Mode",
+            "filename": "kiosk-mode.js",
+            "render_readme": true
+          },
+          "full_name": "NemesisRE/kiosk-mode",
+          "category": "plugin",
+          "description": "🙈 Hides the Home Assistant header and/or sidebar",
+          "downloads": 2325,
+          "etag_repository": "W/\"cf2583f02b7e669612308e0feef3e9ac18fe5effebed91522104782e87b01278\"",
+          "last_updated": "2023-05-08T08:22:55Z",
+          "stargazers_count": 87,
+          "topics": [
+            "customization"
+          ],
+          "default_branch": "master",
+          "installed_commit": "32166a2",
+          "installed": true,
+          "last_commit": "32166a2",
+          "last_version": "v1.9.0",
+          "open_issues": 1,
+          "published_tags": [
+            "v1.9.0",
+            "v1.8.3",
+            "1.8.2",
+            "1.8.1",
+            "1.7.8"
+          ],
+          "releases": true,
+          "version_installed": "v1.9.0",
+          "last_fetched": 1683616040.786451
+        },
+        {
+          "id": "501725479",
+          "full_name": "zanna-37/hass-swipe-navigation"
+        },
+        {
+          "id": "497322919",
+          "full_name": "NemesisRE/upcoming-media-card"
+        },
+        {
+          "id": "499270202",
+          "full_name": "decompil3d/lovelace-hourly-weather"
+        },
+        {
+          "id": "488086721",
+          "full_name": "Makin-Things/platinum-weather-card"
+        },
+        {
+          "id": "505459170",
+          "full_name": "usernein/tv-card"
+        },
+        {
+          "id": "509260172",
+          "full_name": "georgezhao2010/lovelace-curtain-card"
+        },
+        {
+          "id": "214786112",
+          "full_name": "AmoebeLabs/swiss-army-knife-card"
+        },
+        {
+          "id": "392931946",
+          "full_name": "deblockt/aria2-card"
+        },
+        {
+          "id": "309506416",
+          "full_name": "j-a-n/lovelace-wallpanel"
+        },
+        {
+          "id": "203036108",
+          "full_name": "Hypfer/lovelace-valetudo-map-card"
+        },
+        {
+          "id": "454440949",
+          "full_name": "marcokreeft87/room-card"
+        },
+        {
+          "id": "524783308",
+          "full_name": "berrywhite96/lovelace-shutter-row"
+        },
+        {
+          "id": "452866308",
+          "full_name": "kinghat/tabbed-card"
+        },
+        {
+          "id": "520644302",
+          "full_name": "MathisAlepis/lovelace-tam-card"
+        },
+        {
+          "id": "537793361",
+          "full_name": "Nyaran/myjdownloader-card"
+        },
+        {
+          "id": "522634019",
+          "full_name": "pkissling/clock-weather-card"
+        },
+        {
+          "id": "556306418",
+          "new": true,
+          "full_name": "amitfin/lovelace-daily-schedule-card"
+        },
+        {
+          "id": "567030726",
+          "new": true,
+          "full_name": "daredoes/default-dashboard"
+        },
+        {
+          "id": "446955395",
+          "new": true,
+          "full_name": "iablon/HomeAssistant-Touchpad-Card"
+        },
+        {
+          "id": "559360809",
+          "new": true,
+          "full_name": "daredoes/linked-lovelace-ui"
+        },
+        {
+          "id": "364769821",
+          "new": true,
+          "full_name": "ljmerza/harmony-remote-card"
+        },
+        {
+          "id": "572297252",
+          "new": true,
+          "full_name": "petergridge/Irrigation-Card"
+        },
+        {
+          "id": "545945955",
+          "full_name": "marcokreeft87/formulaone-card"
+        },
+        {
+          "id": "526408682",
+          "new": true,
+          "full_name": "vasqued2/ha-teamtracker-card"
+        },
+        {
+          "id": "536329656",
+          "new": true,
+          "full_name": "PRProd/HA-Firemote"
+        },
+        {
+          "id": "540873855",
+          "new": true,
+          "full_name": "vpdchart/vpdchart-card"
+        },
+        {
+          "id": "587494301",
+          "new": true,
+          "full_name": "czz/timbox-remote-control-card"
+        },
+        {
+          "id": "543068603",
+          "new": true,
+          "full_name": "abualy/philips-tv-remote-card"
+        },
+        {
+          "id": "587057164",
+          "new": true,
+          "full_name": "kizza/magic-home-party-card"
+        },
+        {
+          "id": "577071460",
+          "new": true,
+          "full_name": "madmicio/ph-meter-temperature"
+        },
+        {
+          "id": "596085141",
+          "new": true,
+          "full_name": "lozzd/octopus-energy-rates-card"
+        },
+        {
+          "id": "599334003",
+          "new": true,
+          "full_name": "pkscout/simple-weather-clock"
+        },
+        {
+          "id": "594389396",
+          "new": true,
+          "full_name": "Sese-Schneider/ha-energy-overview-card"
+        },
+        {
+          "id": "583449944",
+          "new": true,
+          "full_name": "silentbil/silent-remotes-card"
+        },
+        {
+          "id": "586363416",
+          "repository_manifest": {
+            "name": "Mushroom - Better Sliders",
+            "filename": "mushroom.js",
+            "homeassistant": "2022.11.0",
+            "render_readme": true
+          },
+          "full_name": "phischdev/lovelace-mushroom-better-sliders",
+          "category": "plugin",
+          "description": "Fork of Mushroom Cards - For better touch control of light sliders 🍄",
+          "downloads": 8376,
+          "etag_repository": "W/\"613085dd0f24028b235ad499a45b7d5ea7d789616e9d32d749358dea61d22e57\"",
+          "last_updated": "2023-03-04T13:31:55Z",
+          "stargazers_count": 13,
+          "topics": [
+            "card",
+            "mushroom",
+            "sliders",
+            "touch"
+          ],
+          "installed_commit": "c97f803",
+          "installed": true,
+          "last_commit": "c97f803",
+          "last_version": "v2.6.1-1",
+          "open_issues": 3,
+          "releases": true,
+          "version_installed": "v2.6.1-1",
+          "last_fetched": 1683637558.305595
+        },
+        {
+          "id": "332589148",
+          "new": true,
+          "full_name": "nicufarmache/lovelace-big-slider-card"
+        },
+        {
+          "id": "229219283",
+          "repository_manifest": {
+            "name": "Homekit panel card",
+            "render_readme": true,
+            "filename": "homekit-panel-card.js"
+          },
+          "full_name": "DBuit/Homekit-panel-card",
+          "category": "plugin",
+          "description": "Homekit panel card for home assistant",
+          "etag_repository": "W/\"3be43bd07fee71391e0eddcb8bb5cf748bb04517deb96d9e15128983cc4bc9ca\"",
+          "last_updated": "2023-01-05T03:23:38Z",
+          "stargazers_count": 260,
+          "installed_commit": "ff583be",
+          "installed": true,
+          "last_commit": "ff583be",
+          "last_version": "0.6.3",
+          "releases": true,
+          "version_installed": "0.6.3",
+          "last_fetched": 1680239967.68902
+        },
+        {
+          "id": "619284862",
+          "new": true,
+          "full_name": "AalianKhan/mushroom-strategy"
+        },
+        {
+          "id": "454670742",
+          "new": true,
+          "full_name": "mawinkler/astroweather-card"
+        },
+        {
+          "id": "618081815",
+          "new": true,
+          "full_name": "flixlix/power-flow-card-plus"
+        },
+        {
+          "id": "591270696",
+          "new": true,
+          "full_name": "aukedejong/lovelace-windrose-card"
+        },
+        {
+          "id": "609593305",
+          "new": true,
+          "full_name": "t1gr0u/rain-gauge-card"
+        },
+        {
+          "id": "607398282",
+          "new": true,
+          "full_name": "t1gr0u/uv-index-card"
+        },
+        {
+          "id": "560614992",
+          "new": true,
+          "full_name": "flyrmyr/system-flow-card"
+        },
+        {
+          "id": "622713177",
+          "new": true,
+          "full_name": "VeniVidiVici/givtcp-power-flow-card"
+        }
+      ]
+    }
+  }
+}

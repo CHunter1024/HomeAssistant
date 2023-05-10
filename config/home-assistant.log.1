@@ -1,0 +1,1318 @@
+2023-05-09 21:51:19.542 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration ha_cloud_music which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-05-09 21:51:19.542 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-05-09 21:51:19.542 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration colorfulclouds which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-05-09 21:51:19.543 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration xiaomi_miot which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-05-09 21:51:19.543 WARNING (SyncWorker_2) [homeassistant.loader] We found a custom integration xiaomi_cloud_map_extractor which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2023-05-09 21:51:38.681 ERROR (MainThread) [metno] Access to https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/2.0/complete returned error 'ClientConnectorError'
+2023-05-09 21:51:38.690 WARNING (MainThread) [homeassistant.config_entries] Config entry 'Home' for met integration not ready yet: Update failed: ; Retrying in background
+2023-05-09 21:51:41.356 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.360 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.361 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.362 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.363 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.363 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.364 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.366 ERROR (MainThread) [homeassistant.helpers.event] Error while processing template: Template("{% set entity = 'weather.smhi_home' %} {% if not is_state(entity, 'unknown') %}
+  {% set temp = state_attr(entity, 'temperature') | round %}
+  {% set precip = state_attr(entity, 'forecast')[0]['precipitation'] | round %}
+    Känns som {{ temp }}° med {{ 'ingen risk för regn' if precip == 0
+    else precip | string + 'mm regn \u2614\uFE0F' }}
+{% else %}
+  Kan inte läsa in väder...
+{% endif %}")
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 1430, in forgiving_round
+    value = round(float(value), precision)
+TypeError: float() argument must be a string or a real number, not 'NoneType'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 423, in async_render
+    render_result = _render_with_context(self.template, compiled, **kwargs)
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 1950, in _render_with_context
+    return template.render(**kwargs)
+  File "/usr/local/lib/python3.10/site-packages/jinja2/environment.py", line 1301, in render
+    self.environment.handle_exception()
+  File "/usr/local/lib/python3.10/site-packages/jinja2/environment.py", line 936, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "<template>", line 2, in top-level template code
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 1435, in forgiving_round
+    raise_no_default("round", value)
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 1411, in raise_no_default
+    raise ValueError(
+ValueError: Template error: round got invalid input 'None' when rendering template '{% set entity = 'weather.smhi_home' %} {% if not is_state(entity, 'unknown') %}
+  {% set temp = state_attr(entity, 'temperature') | round %}
+  {% set precip = state_attr(entity, 'forecast')[0]['precipitation'] | round %}
+    Känns som {{ temp }}° med {{ 'ingen risk för regn' if precip == 0
+    else precip | string + 'mm regn \u2614\uFE0F' }}
+{% else %}
+  Kan inte läsa in väder...
+{% endif %}' but no default was specified
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 540, in async_render_to_info
+    render_info._result = self.async_render(variables, strict=strict, **kwargs)
+  File "/usr/src/homeassistant/homeassistant/helpers/template.py", line 425, in async_render
+    raise TemplateError(err) from err
+homeassistant.exceptions.TemplateError: ValueError: Template error: round got invalid input 'None' when rendering template '{% set entity = 'weather.smhi_home' %} {% if not is_state(entity, 'unknown') %}
+  {% set temp = state_attr(entity, 'temperature') | round %}
+  {% set precip = state_attr(entity, 'forecast')[0]['precipitation'] | round %}
+    Känns som {{ temp }}° med {{ 'ingen risk för regn' if precip == 0
+    else precip | string + 'mm regn \u2614\uFE0F' }}
+{% else %}
+  Kan inte läsa in väder...
+{% endif %}' but no default was specified
+2023-05-09 21:51:41.371 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.372 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.373 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.374 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.376 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.377 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.377 WARNING (MainThread) [homeassistant.helpers.template] Template variable warning: 'None' has no attribute 'state' when rendering '<b> {% set lights = [
+  states.light.vardagsrum_tv,
+  states.light.vardagsrum_golv,
+  states.light.vardagsrum_horna,
+  states.light.studio_dator,
+  states.light.badrum_vask_2,
+  states.light.badrum_vask_1,
+  states.light.sovrum_tv,
+  states.light.garderob_lampa,
+  states.light.hall_spot_1,
+  states.light.hall_spot_2,
+  states.light.hall_spot_3,
+  states.light.sovrum_mattias,
+  states.light.sovrum_sanja,
+  states.light.studio_spot_1,
+  states.light.studio_spot_2,
+  states.switch.deltaco_sh_p01_socket
+] %}
+{% set devices = [
+  states.switch.imac,
+  states.switch.ps5_635_power,
+  states.switch.gosund_monitors_switch,
+  states.switch.gosund_fan_switch,
+  states.media_player.samsung,
+  states.media_player.sony_bravia_tv,
+  states.climate.ac
+] %}
+{% set lights_on = lights | selectattr('state','eq','on') | list %} {% set lights_name = lights | selectattr('state','eq','on') | map(attribute='name') | join(', ') %}
+{% set devices_on = devices | selectattr('state','search','(on|cool|fan_only|playing)') | list %} {% set devices_name = devices_on | map(attribute='name') | join(', ') %}
+{% if (lights_on | length == 0) and (devices_on | length > 0) %}
+  {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 1) %}
+  {{ lights_name }} och {{devices_name }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length > 1) %}
+  {{ lights_name }}, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 1) %}
+  {{ lights_on | length }} lampor och {{ devices_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length > 1) %}
+  {{ lights_on | length }} lampor, {{ devices_name | regex_replace(',([^,]*)$',' och\\1') }} är på
+
+{% elif (lights_on | length == 1) and (devices_on | length == 0) %}
+  {{ lights_name }} är på
+
+{% elif (lights_on | length > 1) and (devices_on | length == 0) %}
+  {{ lights_on | length }} lampor är på
+
+{% else %}
+  <font color='#6a7377'>Allt är avstängt</font>
+{% endif %} </b>'
+2023-05-09 21:51:41.379 ERROR (MainThread) [homeassistant.helpers.template_entity] TemplateError('ValueError: Template error: round got invalid input 'None' when rendering template '{% set entity = 'weather.smhi_home' %} {% if not is_state(entity, 'unknown') %}
+  {% set temp = state_attr(entity, 'temperature') | round %}
+  {% set precip = state_attr(entity, 'forecast')[0]['precipitation'] | round %}
+    Känns som {{ temp }}° med {{ 'ingen risk för regn' if precip == 0
+    else precip | string + 'mm regn \u2614\uFE0F' }}
+{% else %}
+  Kan inte läsa in väder...
+{% endif %}' but no default was specified') while processing template 'Template("{% set entity = 'weather.smhi_home' %} {% if not is_state(entity, 'unknown') %}
+  {% set temp = state_attr(entity, 'temperature') | round %}
+  {% set precip = state_attr(entity, 'forecast')[0]['precipitation'] | round %}
+    Känns som {{ temp }}° med {{ 'ingen risk för regn' if precip == 0
+    else precip | string + 'mm regn \u2614\uFE0F' }}
+{% else %}
+  Kan inte läsa in väder...
+{% endif %}")' for attribute 'weather' in entity 'sensor.template_sidebar'
+2023-05-09 21:51:41.405 WARNING (MainThread) [homeassistant.components.homeassistant.triggers.numeric_state] Error initializing '生日模式' trigger: In 'numeric_state' condition: entity sensor.date state '2023-05-09' cannot be processed as a number
+2023-05-09 21:51:46.393 ERROR (MainThread) [homeassistant.components.homeassistant_alerts] Error requesting homeassistant_alerts data: Cannot connect to host alerts.home-assistant.io:443 ssl:default [Try again]
+2023-05-09 21:52:32.517 ERROR (MainThread) [frontend.js.latest.202301100] https://ha.mojito.love/lovelace/0:0:0 Uncaught 
+2023-05-09 21:52:41.055 ERROR (MainThread) [homeassistant.helpers.entity] Update for switch.cuco_cp1d_76fb_switch fails
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7ff90f7549a0>: Failed to establish a new connection: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.io.mi.com', port=443): Max retries exceeded with url: /app/miotspec/prop/get (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff90f7549a0>: Failed to establish a new connection: [Errno -3] Try again'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 538, in async_update_ha_state
+    await self.async_device_update()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 736, in async_device_update
+    raise exc
+  File "/config/custom_components/xiaomi_miot/switch.py", line 94, in async_update
+    await super().async_update()
+  File "/config/custom_components/xiaomi_miot/__init__.py", line 1393, in async_update
+    results = await self.hass.async_add_executor_job(
+  File "/usr/local/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/config/custom_components/xiaomi_miot/core/xiaomi_cloud.py", line 68, in get_properties_for_mapping
+    rls = self.get_props(pms)
+  File "/config/custom_components/xiaomi_miot/core/xiaomi_cloud.py", line 83, in get_props
+    return self.request_miot_spec('prop/get', params)
+  File "/config/custom_components/xiaomi_miot/core/xiaomi_cloud.py", line 92, in request_miot_spec
+    rdt = self.request_miot_api('miotspec/' + api, {
+  File "/config/custom_components/xiaomi_miot/core/xiaomi_cloud.py", line 185, in request_miot_api
+    rsp = self.request_rc4_api(api, params, method, **kwargs)
+  File "/config/custom_components/xiaomi_miot/core/xiaomi_cloud.py", line 601, in request_rc4_api
+    response = self.session.post(url, data=params, timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.io.mi.com', port=443): Max retries exceeded with url: /app/miotspec/prop/get (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff90f7549a0>: Failed to establish a new connection: [Errno -3] Try again'))
+2023-05-09 21:52:47.418 ERROR (MainThread) [custom_components.hacs] Could not update theme - Timeout of 60s reached
+2023-05-09 21:53:11.049 ERROR (MainThread) [homeassistant.helpers.entity] Update for switch.cuco_cp1d_76fb_switch fails
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7ff90f74a530>: Failed to establish a new connection: [Errno -3] Try again
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/usr/local/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.io.mi.com', port=443): Max retries exceeded with url: /app/miotspec/prop/get (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff90f74a530>: Failed to establish a new connection: [Errno -3] Try again'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 538, in async_update_ha_state
+    await self.async_device_update()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 736, in async_device_update
+    raise exc
+  File "/config/custom_components/xiaomi_miot/switch.py", line 94, in async_update
+    await super().async_update()
+  File "/config/custom_components/xiaomi_miot/__init__.py", line 1393, in async_update
+    results = await self.hass.async_add_executor_job(
+  File "/usr/local/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/config/custom_components/xiaomi_miot/core/xiaomi_cloud.py", line 68, in get_properties_for_mapping
+    rls = self.get_props(pms)
+  File "/config/custom_components/xiaomi_miot/core/xiaomi_cloud.py", line 83, in get_props
+    return self.request_miot_spec('prop/get', params)
+  File "/config/custom_components/xiaomi_miot/core/xiaomi_cloud.py", line 92, in request_miot_spec
+    rdt = self.request_miot_api('miotspec/' + api, {
+  File "/config/custom_components/xiaomi_miot/core/xiaomi_cloud.py", line 185, in request_miot_api
+    rsp = self.request_rc4_api(api, params, method, **kwargs)
+  File "/config/custom_components/xiaomi_miot/core/xiaomi_cloud.py", line 601, in request_rc4_api
+    response = self.session.post(url, data=params, timeout=timeout)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 635, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.10/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.io.mi.com', port=443): Max retries exceeded with url: /app/miotspec/prop/get (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff90f74a530>: Failed to establish a new connection: [Errno -3] Try again'))
+2023-05-09 22:03:51.829 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pc/default_view:0:0 Uncaught 
+2023-05-09 22:04:05.180 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pc/default_view:0:0 Uncaught 
+2023-05-09 22:04:49.127 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pad/overview:0:0 Uncaught 
+2023-05-09 22:05:36.263 ERROR (MainThread) [homeassistant.components.websocket_api.http.connection] [140707721019936] Entity media_player.yun_yin_le does not support this service.
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/components/websocket_api/commands.py", line 200, in handle_call_service
+    await hass.services.async_call(
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1755, in async_call
+    task.result()
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:06:04.702 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pad/overview:0:0 Uncaught 
+2023-05-09 22:47:03.612 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_off (c:01H00FNT5TRSEWG9ZKETEBS350): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:04.537 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_on (c:01H00FNV2R4D8ZJHAX9N5TG2EJ): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:07.653 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_off (c:01H00FNY43WCEAKXZ8C652BRPH): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:08.308 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_on (c:01H00FNYRKEPD3PKYFYTDSHA3F): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:16.384 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pad/overview:0:0 Uncaught 
+2023-05-09 22:47:19.977 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_off (c:01H00FPA58XBZM603A850SY2Y8): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:21.153 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_on (c:01H00FPBA0YEKPCYPQ4ADYCYK7): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:21.718 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_off (c:01H00FPBVN40ZV5NRZZ6SSYAS9): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:22.318 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_on (c:01H00FPCEDV7Y45KF3X0PVT1Y1): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:22.930 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_off (c:01H00FPD1G5VN12376GQGA1W4W): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:23.419 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_on (c:01H00FPDGTEFTGVHWCVNDFHSWD): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:29.679 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_off (c:01H00FPKMDK8DQVYEQ7K26X5J4): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:30.339 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_on (c:01H00FPM92YGY61ZSNR8MRT04J): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:30.649 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_off (c:01H00FPMJRG1RRFZKVBEGVJMYS): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:30.863 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_on (c:01H00FPMSE378Y1P49JPWDHHY1): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:31.067 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_off (c:01H00FPMZS6N80DD8A809DMAYZ): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:31.602 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_on (c:01H00FPNGHDCYG3AT8Q5Q90J0H): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:32.153 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_off (c:01H00FPP1RSZ2FNQ5SS1FPNH84): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:47:32.551 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall media_player.turn_on (c:01H00FPPE63YA1SVHX7X7AS0S9): entity_id=['media_player.yun_yin_le']>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 655, in entity_service_call
+    raise HomeAssistantError(
+homeassistant.exceptions.HomeAssistantError: Entity media_player.yun_yin_le does not support this service.
+2023-05-09 22:53:48.321 ERROR (MainThread) [metno] Access to https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/2.0/complete returned error 'ClientConnectorError'
+2023-05-09 22:53:48.322 ERROR (MainThread) [homeassistant.components.met] Error fetching met data: Update failed: 
+2023-05-09 23:04:48.009 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pc/default_view:0:0 Uncaught 
+2023-05-09 23:05:15.385 ERROR (MainThread) [custom_components.hacs] Download failed - Cannot connect to host ghproxy.com:443 ssl:default [Try again]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 860, in getaddrinfo
+    return await self.run_in_executor(
+  File "/usr/local/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Try again
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/config/custom_components/hacs/base.py", line 734, in async_download_file
+    request = await self.session.get(
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host ghproxy.com:443 ssl:default [Try again]
+2023-05-09 23:05:21.409 ERROR (MainThread) [custom_components.hacs] Download failed - Cannot connect to host ghproxy.com:443 ssl:default [Try again]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 860, in getaddrinfo
+    return await self.run_in_executor(
+  File "/usr/local/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Try again
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/config/custom_components/hacs/base.py", line 734, in async_download_file
+    request = await self.session.get(
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host ghproxy.com:443 ssl:default [Try again]
+2023-05-09 23:05:27.435 ERROR (MainThread) [custom_components.hacs] Download failed - Cannot connect to host hub.fastgit.xyz:443 ssl:default [Try again]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 1154, in _create_direct_connection
+    hosts = await asyncio.shield(host_resolved)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 880, in _resolve_host
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/resolver.py", line 33, in resolve
+    infos = await self._loop.getaddrinfo(
+  File "/usr/local/lib/python3.10/asyncio/base_events.py", line 860, in getaddrinfo
+    return await self.run_in_executor(
+  File "/usr/local/lib/python3.10/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/usr/local/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Try again
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/config/custom_components/hacs/base.py", line 734, in async_download_file
+    request = await self.session.get(
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/client.py", line 535, in _request
+    conn = await self._connector.connect(
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 542, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 907, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/usr/local/lib/python3.10/site-packages/aiohttp/connector.py", line 1166, in _create_direct_connection
+    raise ClientConnectorError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host hub.fastgit.xyz:443 ssl:default [Try again]
+2023-05-09 23:06:29.413 WARNING (MainThread) [custom_components.hacs] A timeout of 60! seconds was encountered while downloading https://hub.fastgit.xyz/NemesisRE/kiosk-mode/releases/download/v1.9.0/kiosk-mode.js, using over 60 seconds to download a single file is not normal. This is not a problem with HACS but how your host communicates with GitHub. check the network on the host running Home Assistant. Tries left 1
+2023-05-09 23:06:30.426 ERROR (MainThread) [custom_components.hacs] Download from https://hub.fastgit.xyz/NemesisRE/kiosk-mode/releases/download/v1.9.0/kiosk-mode.js failed
+2023-05-09 23:06:31.441 ERROR (MainThread) [custom_components.hacs] <Plugin NemesisRE/kiosk-mode> [kiosk-mode.js] was not downloaded.
+2023-05-09 23:06:31.447 ERROR (MainThread) [homeassistant.core] Error executing service: <ServiceCall update.install (c:01H00GPSJ4QZSGX6N99PG0102Z): entity_id=['update.kiosk_mode_update'], backup=False>
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1773, in catch_exceptions
+    await coro_or_task
+  File "/usr/src/homeassistant/homeassistant/core.py", line 1792, in _execute_service
+    await cast(Callable[[ServiceCall], Awaitable[None]], handler.job.target)(
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_component.py", line 213, in handle_service
+    await service.entity_service_call(
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 678, in entity_service_call
+    future.result()  # pop exception if have
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 958, in async_request_call
+    await coro
+  File "/usr/src/homeassistant/homeassistant/helpers/service.py", line 715, in _handle_entity_call
+    await result
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 154, in async_install
+    await entity.async_install_with_progress(version, backup)
+  File "/usr/src/homeassistant/homeassistant/components/update/__init__.py", line 413, in async_install_with_progress
+    await self.async_install(version, backup)
+  File "/config/custom_components/hacs/update.py", line 85, in async_install
+    await self.repository.async_install()
+  File "/config/custom_components/hacs/repositories/base.py", line 895, in async_install
+    await self.async_install_repository()
+  File "/config/custom_components/hacs/repositories/base.py", line 991, in async_install_repository
+    raise HacsException("Could not download, see log for details")
+custom_components.hacs.exceptions.HacsException: Could not download, see log for details
+2023-05-09 23:08:24.672 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pc/default_view:0:0 Uncaught 
+2023-05-09 23:08:57.391 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pad/overview?disable_km:0:0 Uncaught 
+2023-05-09 23:09:15.788 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pc/default_view?disable_km:0:0 Uncaught 
+2023-05-09 23:15:02.906 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pc/default_view?disable_km=:0:0 Uncaught 
+2023-05-09 23:15:05.720 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pc/default_view:0:0 Uncaught 
+2023-05-09 23:15:15.885 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pc/default_view?disable_km=&edit=1:0:0 Uncaught 
+2023-05-09 23:15:34.226 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pc/default_view?disable_km=:0:0 Uncaught 
+2023-05-09 23:15:37.450 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pc/default_view:0:0 Uncaught 
+2023-05-09 23:15:49.206 ERROR (MainThread) [custom_components.colorfulclouds] Error requesting colorfulclouds data: HTTPSConnectionPool(host='api.caiyunapp.com', port=443): Max retries exceeded with url: /v2.5/TWiYguYuhOt83lkM/113.04956102292637,23.142814518912285/weather.json?dailysteps=5&hourlysteps=24&alert=true&unit=metric:v2&timestamp=1683645344 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7ff90d29afe0>: Failed to establish a new connection: [Errno -3] Try again'))
+2023-05-09 23:15:49.210 ERROR (MainThread) [homeassistant.components.automation.xin_jian_zi_dong_hua] 客厅温度设定: Error executing script. Error for call_service at pos 1: Error rendering data template: ValueError: Template error: float got invalid input 'unavailable' when rendering template '{{ states('sensor.fo_shan_shi_nan_hai_qu_wen_du') | float - 1 }}' but no default was specified
+2023-05-09 23:15:49.215 ERROR (MainThread) [homeassistant.components.automation.can_ting_wen_du_she_ding] 餐厅温度设定: Error executing script. Error for call_service at pos 1: Error rendering data template: ValueError: Template error: float got invalid input 'unavailable' when rendering template '{{ states('sensor.fo_shan_shi_nan_hai_qu_wen_du') | float - 1 }}' but no default was specified
+2023-05-09 23:15:49.217 ERROR (MainThread) [homeassistant.components.automation.zhu_wo_shi_wen_du_she_ding] 主卧室温度设定: Error executing script. Error for call_service at pos 1: Error rendering data template: ValueError: Template error: float got invalid input 'unavailable' when rendering template '{{ states('sensor.fo_shan_shi_nan_hai_qu_wen_du') | float - 1 }}' but no default was specified
+2023-05-09 23:15:49.217 ERROR (MainThread) [homeassistant.components.automation.di_er_wo_shi_wen_du_she_ding] 第二卧室温度设定: Error executing script. Error for call_service at pos 1: Error rendering data template: ValueError: Template error: float got invalid input 'unavailable' when rendering template '{{ states('sensor.fo_shan_shi_nan_hai_qu_wen_du') | float - 1 }}' but no default was specified
+2023-05-09 23:15:49.218 ERROR (MainThread) [homeassistant.components.automation.di_san_wo_shi_wen_du_she_ding] 第三卧室温度设定: Error executing script. Error for call_service at pos 1: Error rendering data template: ValueError: Template error: float got invalid input 'unavailable' when rendering template '{{ states('sensor.fo_shan_shi_nan_hai_qu_wen_du') | float - 1 }}' but no default was specified
+2023-05-09 23:15:49.219 ERROR (MainThread) [homeassistant.components.automation.xin_jian_zi_dong_hua] Error while executing automation automation.xin_jian_zi_dong_hua: Error rendering data template: ValueError: Template error: float got invalid input 'unavailable' when rendering template '{{ states('sensor.fo_shan_shi_nan_hai_qu_wen_du') | float - 1 }}' but no default was specified
+2023-05-09 23:15:49.221 ERROR (MainThread) [homeassistant.components.automation.can_ting_wen_du_she_ding] Error while executing automation automation.can_ting_wen_du_she_ding: Error rendering data template: ValueError: Template error: float got invalid input 'unavailable' when rendering template '{{ states('sensor.fo_shan_shi_nan_hai_qu_wen_du') | float - 1 }}' but no default was specified
+2023-05-09 23:15:49.222 ERROR (MainThread) [homeassistant.components.automation.zhu_wo_shi_wen_du_she_ding] Error while executing automation automation.zhu_wo_shi_wen_du_she_ding: Error rendering data template: ValueError: Template error: float got invalid input 'unavailable' when rendering template '{{ states('sensor.fo_shan_shi_nan_hai_qu_wen_du') | float - 1 }}' but no default was specified
+2023-05-09 23:15:49.222 ERROR (MainThread) [homeassistant.components.automation.di_er_wo_shi_wen_du_she_ding] Error while executing automation automation.di_er_wo_shi_wen_du_she_ding: Error rendering data template: ValueError: Template error: float got invalid input 'unavailable' when rendering template '{{ states('sensor.fo_shan_shi_nan_hai_qu_wen_du') | float - 1 }}' but no default was specified
+2023-05-09 23:15:49.223 ERROR (MainThread) [homeassistant.components.automation.di_san_wo_shi_wen_du_she_ding] Error while executing automation automation.di_san_wo_shi_wen_du_she_ding: Error rendering data template: ValueError: Template error: float got invalid input 'unavailable' when rendering template '{{ states('sensor.fo_shan_shi_nan_hai_qu_wen_du') | float - 1 }}' but no default was specified
+2023-05-09 23:17:07.554 ERROR (MainThread) [frontend.js.latest.202301100] https://ha.mojito.love/frontend_latest/app.c86c7218.js:850:203613 Error: Failed to execute 'define' on 'CustomElementRegistry': the name "weather-card" has already been used with this registry
+2023-05-09 23:17:17.257 ERROR (MainThread) [frontend.js.latest.202301100] https://ha.mojito.love/frontend_latest/app.c86c7218.js:850:203613 Error: Failed to execute 'define' on 'CustomElementRegistry': the name "weather-card" has already been used with this registry
+2023-05-09 23:18:43.664 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pc/default_view:0:0 Uncaught 
+2023-05-09 23:18:47.466 ERROR (MainThread) [frontend.js.latest.202301100] http://homeassistant:8123/dashboard-pc/default_view:0:0 Uncaught 
+2023-05-09 23:19:20.408 ERROR (MainThread) [homeassistant.components.hassio.handler] Timeout on /homeassistant/restart request

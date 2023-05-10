@@ -1,0 +1,5258 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "homekit_controller-entity-map",
+  "data": {
+    "pairings": {
+      "7E:F3:9F:9F:D8:41": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "玄关灯",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "LTFNLSHWGZD8C",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000043-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lightbulb",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000025-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "bool",
+                    "value": true,
+                    "description": "On"
+                  },
+                  {
+                    "type": "00000008-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "int",
+                    "value": 100,
+                    "description": "Brightness",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "94:70:15:79:64:AA": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "餐厅灯",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "NPLHBWM78LVGP",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000043-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lightbulb",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000025-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "bool",
+                    "value": true,
+                    "description": "On"
+                  },
+                  {
+                    "type": "00000008-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "int",
+                    "value": 100,
+                    "description": "Brightness",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "9D:08:93:17:D1:69": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "客厅灯",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "ZM499M8996ZZ6",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000043-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lightbulb",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000025-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "bool",
+                    "value": true,
+                    "description": "On"
+                  },
+                  {
+                    "type": "00000008-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "int",
+                    "value": 100,
+                    "description": "Brightness",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "3A:E8:7D:36:3A:E0": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "厨房灯",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "7WJ2FBP6NZSNZ",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000043-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lightbulb",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000025-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "bool",
+                    "value": true,
+                    "description": "On"
+                  },
+                  {
+                    "type": "00000008-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "int",
+                    "value": 100,
+                    "description": "Brightness",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "FC:E5:F4:FF:27:B9": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "走廊灯",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "DJNDDGTFK6GBG",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000043-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lightbulb",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000025-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "bool",
+                    "value": true,
+                    "description": "On"
+                  },
+                  {
+                    "type": "00000008-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "int",
+                    "value": 100,
+                    "description": "Brightness",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "80:8C:38:B8:1E:CE": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "卫生间灯",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "WMTGX529XBBJ3",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000043-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lightbulb",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000025-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "bool",
+                    "value": true,
+                    "description": "On"
+                  },
+                  {
+                    "type": "00000008-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "int",
+                    "value": 100,
+                    "description": "Brightness",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "C6:F3:00:C2:00:3B": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "主卧室卫生间灯",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "9WQW3ZGRNX7ZN",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000043-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lightbulb",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000025-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "bool",
+                    "value": true,
+                    "description": "On"
+                  },
+                  {
+                    "type": "00000008-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "int",
+                    "value": 100,
+                    "description": "Brightness",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "64:F0:35:AB:4E:A7": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "主卧室灯",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "TGF6XMJ5RMFVJ",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000043-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lightbulb",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000025-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "bool",
+                    "value": true,
+                    "description": "On"
+                  },
+                  {
+                    "type": "00000008-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "int",
+                    "value": 100,
+                    "description": "Brightness",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "88:13:65:30:42:5C": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "第二卧室灯",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "286TW2JXXGVMN",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000043-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lightbulb",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000025-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "bool",
+                    "value": true,
+                    "description": "On"
+                  },
+                  {
+                    "type": "00000008-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "int",
+                    "value": 100,
+                    "description": "Brightness",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "13:F6:C6:D6:4C:BB": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "第三卧室灯",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "KQZVHTHZ7KD57",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000043-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lightbulb",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000025-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "bool",
+                    "value": true,
+                    "description": "On"
+                  },
+                  {
+                    "type": "00000008-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "int",
+                    "value": 100,
+                    "description": "Brightness",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "9A:F7:C3:B8:3E:4B": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "小阳台灯",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "44CX6CV8K8K63",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000043-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lightbulb",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000025-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "bool",
+                    "value": true,
+                    "description": "On"
+                  },
+                  {
+                    "type": "00000008-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "int",
+                    "value": 100,
+                    "description": "Brightness",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "5C:77:3A:CB:9C:A4": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "阳台灯",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "8XNLZH7929RW4",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000043-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lightbulb",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000025-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "bool",
+                    "value": true,
+                    "description": "On"
+                  },
+                  {
+                    "type": "00000008-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "int",
+                    "value": 100,
+                    "description": "Brightness",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "7B:EE:1E:2F:85:5F": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "客厅空调",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "GG85DH9W5X8SF",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "0000004A-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Thermostat",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "0000000F-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Current Heating Cooling State"
+                  },
+                  {
+                    "type": "00000033-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Target Heating Cooling State"
+                  },
+                  {
+                    "type": "00000011-0000-1000-8000-0026BB765291",
+                    "iid": 19,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 20,
+                    "description": "Current Temperature",
+                    "unit": "celsius",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 0.1
+                  },
+                  {
+                    "type": "00000035-0000-1000-8000-0026BB765291",
+                    "iid": 20,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 20,
+                    "description": "Target Temperature",
+                    "unit": "celsius",
+                    "minValue": 10,
+                    "maxValue": 38,
+                    "minStep": 0.1
+                  },
+                  {
+                    "type": "00000036-0000-1000-8000-0026BB765291",
+                    "iid": 21,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Temperature Display Units"
+                  },
+                  {
+                    "type": "00000010-0000-1000-8000-0026BB765291",
+                    "iid": 22,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 60,
+                    "description": "Current Relative Humidity",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "00000034-0000-1000-8000-0026BB765291",
+                    "iid": 23,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 60,
+                    "description": "Target Relative Humidity",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "25:69:3B:4C:2C:64": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "餐厅空调",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "QKHQBK9Z8QKH9",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "0000004A-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Thermostat",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "0000000F-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Current Heating Cooling State"
+                  },
+                  {
+                    "type": "00000033-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Target Heating Cooling State"
+                  },
+                  {
+                    "type": "00000011-0000-1000-8000-0026BB765291",
+                    "iid": 19,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 20,
+                    "description": "Current Temperature",
+                    "unit": "celsius",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 0.1
+                  },
+                  {
+                    "type": "00000035-0000-1000-8000-0026BB765291",
+                    "iid": 20,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 20,
+                    "description": "Target Temperature",
+                    "unit": "celsius",
+                    "minValue": 10,
+                    "maxValue": 38,
+                    "minStep": 0.1
+                  },
+                  {
+                    "type": "00000036-0000-1000-8000-0026BB765291",
+                    "iid": 21,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Temperature Display Units"
+                  },
+                  {
+                    "type": "00000010-0000-1000-8000-0026BB765291",
+                    "iid": 22,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 60,
+                    "description": "Current Relative Humidity",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "00000034-0000-1000-8000-0026BB765291",
+                    "iid": 23,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 60,
+                    "description": "Target Relative Humidity",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "0C:62:03:52:C0:A7": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "主卧室空调",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "BFV3ZVJWFTW6J",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "0000004A-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Thermostat",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "0000000F-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Current Heating Cooling State"
+                  },
+                  {
+                    "type": "00000033-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Target Heating Cooling State"
+                  },
+                  {
+                    "type": "00000011-0000-1000-8000-0026BB765291",
+                    "iid": 19,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 20,
+                    "description": "Current Temperature",
+                    "unit": "celsius",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 0.1
+                  },
+                  {
+                    "type": "00000035-0000-1000-8000-0026BB765291",
+                    "iid": 20,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 20,
+                    "description": "Target Temperature",
+                    "unit": "celsius",
+                    "minValue": 10,
+                    "maxValue": 38,
+                    "minStep": 0.1
+                  },
+                  {
+                    "type": "00000036-0000-1000-8000-0026BB765291",
+                    "iid": 21,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Temperature Display Units"
+                  },
+                  {
+                    "type": "00000010-0000-1000-8000-0026BB765291",
+                    "iid": 22,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 60,
+                    "description": "Current Relative Humidity",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "00000034-0000-1000-8000-0026BB765291",
+                    "iid": 23,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 60,
+                    "description": "Target Relative Humidity",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "C4:6A:B4:E4:5A:07": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "第二卧室空调",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "XSBLFC2FRJT85",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "0000004A-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Thermostat",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "0000000F-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Current Heating Cooling State"
+                  },
+                  {
+                    "type": "00000033-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Target Heating Cooling State"
+                  },
+                  {
+                    "type": "00000011-0000-1000-8000-0026BB765291",
+                    "iid": 19,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 20,
+                    "description": "Current Temperature",
+                    "unit": "celsius",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 0.1
+                  },
+                  {
+                    "type": "00000035-0000-1000-8000-0026BB765291",
+                    "iid": 20,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 20,
+                    "description": "Target Temperature",
+                    "unit": "celsius",
+                    "minValue": 10,
+                    "maxValue": 38,
+                    "minStep": 0.1
+                  },
+                  {
+                    "type": "00000036-0000-1000-8000-0026BB765291",
+                    "iid": 21,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Temperature Display Units"
+                  },
+                  {
+                    "type": "00000010-0000-1000-8000-0026BB765291",
+                    "iid": 22,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 60,
+                    "description": "Current Relative Humidity",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "00000034-0000-1000-8000-0026BB765291",
+                    "iid": 23,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 60,
+                    "description": "Target Relative Humidity",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "1D:5E:AE:A7:A1:10": {
+        "config_num": 5,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "第三卧室空调",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "ZG2CNTQF5S929",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "0000004A-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Thermostat",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "0000000F-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Current Heating Cooling State"
+                  },
+                  {
+                    "type": "00000033-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Target Heating Cooling State"
+                  },
+                  {
+                    "type": "00000011-0000-1000-8000-0026BB765291",
+                    "iid": 19,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 20,
+                    "description": "Current Temperature",
+                    "unit": "celsius",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 0.1
+                  },
+                  {
+                    "type": "00000035-0000-1000-8000-0026BB765291",
+                    "iid": 20,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 20,
+                    "description": "Target Temperature",
+                    "unit": "celsius",
+                    "minValue": 10,
+                    "maxValue": 38,
+                    "minStep": 0.1
+                  },
+                  {
+                    "type": "00000036-0000-1000-8000-0026BB765291",
+                    "iid": 21,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Temperature Display Units"
+                  },
+                  {
+                    "type": "00000010-0000-1000-8000-0026BB765291",
+                    "iid": 22,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 60,
+                    "description": "Current Relative Humidity",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "00000034-0000-1000-8000-0026BB765291",
+                    "iid": 23,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "float",
+                    "value": 60,
+                    "description": "Target Relative Humidity",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "77:99:C1:53:51:B1": {
+        "config_num": 4,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "门锁",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "FBV935ZKMGR9P",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000045-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Lock Mechanism",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "0000001D-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 1,
+                    "description": "Lock Current State"
+                  },
+                  {
+                    "type": "0000001E-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 1,
+                    "description": "Lock Target State"
+                  }
+                ]
+              },
+              {
+                "iid": 19,
+                "type": "00000096-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 20,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Battery Service",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000068-0000-1000-8000-0026BB765291",
+                    "iid": 21,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 100,
+                    "description": "Battery Level",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "0000008F-0000-1000-8000-0026BB765291",
+                    "iid": 22,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Charging State"
+                  },
+                  {
+                    "type": "00000079-0000-1000-8000-0026BB765291",
+                    "iid": 23,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Status Low Battery"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "0B:97:C2:19:05:FF": {
+        "config_num": 9,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "客厅窗帘",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "W8ZPVT73FX7M9",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "0000008C-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Window Covering",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "0000006D-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 100,
+                    "description": "Current Position",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "0000007C-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 100,
+                    "description": "Target Position",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "00000072-0000-1000-8000-0026BB765291",
+                    "iid": 19,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 2,
+                    "description": "Position State"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "05:A4:D2:B2:61:D7": {
+        "config_num": 9,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "主卧室窗帘",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "FL7SD7VH33TSN",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "0000008C-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Window Covering",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "0000006D-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 100,
+                    "description": "Current Position",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "0000007C-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 100,
+                    "description": "Target Position",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "00000072-0000-1000-8000-0026BB765291",
+                    "iid": 19,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 2,
+                    "description": "Position State"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "BE:A5:03:C3:CE:AC": {
+        "config_num": 9,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "第二卧室窗帘",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "WDFCH59NCSTVP",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "0000008C-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Window Covering",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "0000006D-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 100,
+                    "description": "Current Position",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "0000007C-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 100,
+                    "description": "Target Position",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "00000072-0000-1000-8000-0026BB765291",
+                    "iid": 19,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 2,
+                    "description": "Position State"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "B8:FC:D5:A4:AD:CE": {
+        "config_num": 9,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "第三卧室窗帘",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "ZCQLCFPWTVT3B",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "0000008C-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Window Covering",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "0000006D-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 100,
+                    "description": "Current Position",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "0000007C-0000-1000-8000-0026BB765291",
+                    "iid": 18,
+                    "perms": [
+                      "pr",
+                      "pw",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 100,
+                    "description": "Target Position",
+                    "unit": "percentage",
+                    "minValue": 0,
+                    "maxValue": 100,
+                    "minStep": 1
+                  },
+                  {
+                    "type": "00000072-0000-1000-8000-0026BB765291",
+                    "iid": 19,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 2,
+                    "description": "Position State"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "AB:60:C7:B7:3B:56": {
+        "config_num": 7,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "主卧室人体传感器",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "JHH5JMKW7VJM4",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000086-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Occupancy Sensor",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000071-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 1,
+                    "description": "Occupancy Detected"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "53:F2:60:34:19:76": {
+        "config_num": 7,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "第二卧室人体传感器",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "2HKN8C7CW3K6N",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000086-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Occupancy Sensor",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000071-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 1,
+                    "description": "Occupancy Detected"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      },
+      "63:FF:F9:97:28:F3": {
+        "config_num": 8,
+        "accessories": [
+          {
+            "aid": 1,
+            "services": [
+              {
+                "iid": 1,
+                "type": "0000003E-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000014-0000-1000-8000-0026BB765291",
+                    "iid": 2,
+                    "perms": [
+                      "pw"
+                    ],
+                    "format": "bool",
+                    "description": "Identify"
+                  },
+                  {
+                    "type": "00000020-0000-1000-8000-0026BB765291",
+                    "iid": 3,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Company Name",
+                    "description": "Manufacturer",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000021-0000-1000-8000-0026BB765291",
+                    "iid": 4,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Model Name",
+                    "description": "Model",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 5,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "第三卧室人体传感器",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000030-0000-1000-8000-0026BB765291",
+                    "iid": 6,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "WV2D4HXBS96K5",
+                    "description": "Serial Number",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000052-0000-1000-8000-0026BB765291",
+                    "iid": 7,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "1.0.0",
+                    "description": "Firmware Revision",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 8,
+                "type": "00000055-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "0000004C-0000-1000-8000-0026BB765291",
+                    "iid": 9,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Setup"
+                  },
+                  {
+                    "type": "0000004E-0000-1000-8000-0026BB765291",
+                    "iid": 10,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pair Verify"
+                  },
+                  {
+                    "type": "0000004F-0000-1000-8000-0026BB765291",
+                    "iid": 11,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "uint8",
+                    "value": 0,
+                    "description": "Pairing Features"
+                  },
+                  {
+                    "type": "00000050-0000-1000-8000-0026BB765291",
+                    "iid": 12,
+                    "perms": [
+                      "pr",
+                      "pw"
+                    ],
+                    "format": "tlv8",
+                    "value": null,
+                    "description": "Pairing Pairings"
+                  }
+                ]
+              },
+              {
+                "iid": 13,
+                "type": "000000A2-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000037-0000-1000-8000-0026BB765291",
+                    "iid": 14,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "string",
+                    "value": "1.1.0",
+                    "description": "Version",
+                    "maxLen": 64
+                  }
+                ]
+              },
+              {
+                "iid": 15,
+                "type": "00000086-0000-1000-8000-0026BB765291",
+                "characteristics": [
+                  {
+                    "type": "00000023-0000-1000-8000-0026BB765291",
+                    "iid": 16,
+                    "perms": [
+                      "pr"
+                    ],
+                    "format": "string",
+                    "value": "Occupancy Sensor",
+                    "description": "Name",
+                    "maxLen": 64
+                  },
+                  {
+                    "type": "00000071-0000-1000-8000-0026BB765291",
+                    "iid": 17,
+                    "perms": [
+                      "pr",
+                      "ev"
+                    ],
+                    "format": "uint8",
+                    "value": 1,
+                    "description": "Occupancy Detected"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "broadcast_key": null,
+        "state_num": null
+      }
+    }
+  }
+}

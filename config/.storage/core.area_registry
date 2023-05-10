@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "aliases": [],
+        "name": "宿舍",
+        "id": "su_she",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "餐厅",
+        "id": "can_ting",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "玄关",
+        "id": "xuan_guan",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "客厅",
+        "id": "ke_ting",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "厨房",
+        "id": "chu_fang",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "走廊",
+        "id": "zou_lang",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "阳台",
+        "id": "yang_tai",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "主卧室",
+        "id": "zhu_wo",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "第二卧室",
+        "id": "ci_wo_1",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "第三卧室",
+        "id": "ci_wo_2deng",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "卫生间",
+        "id": "wei_sheng_jian",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "小阳台",
+        "id": "she_bei_kong_jian",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "name": "D4-520",
+        "id": "d4_520",
+        "picture": null
+      }
+    ]
+  }
+}

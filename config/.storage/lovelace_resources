@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_resources",
+  "data": {
+    "items": [
+      {
+        "url": "/hacsfiles/home-assistant-sun-card/home-assistant-sun-card.js?hacstag=366482637014",
+        "type": "module",
+        "id": "ff4d59bca1be402ab8ced7543efafb2e"
+      },
+      {
+        "url": "/hacsfiles/search-card/search-card.js?hacstag=197759180191042",
+        "type": "module",
+        "id": "c7de4e91b2f6429d80253530c1936208"
+      },
+      {
+        "url": "/hacsfiles/lovelace-colorfulclouds-weather-card/colorfulclouds-weather-card.js?hacstag=291480917132",
+        "type": "module",
+        "id": "863c404da31947eca725b72755828984"
+      },
+      {
+        "url": "/hacsfiles/lovelace-mushroom/mushroom.js?hacstag=444350375261",
+        "type": "module",
+        "id": "3aaf91b3793744e080044ba86886d541"
+      },
+      {
+        "url": "/hacsfiles/lovelace-card-tools/card-tools.js?hacstag=16140332811",
+        "type": "module",
+        "id": "816f6a3dda8d45eca8db12fa7bb5e9da"
+      },
+      {
+        "url": "/hacsfiles/config-template-card/config-template-card.js?hacstag=172177543136",
+        "type": "module",
+        "id": "b5ee92257197488a9161033c21a681a1"
+      },
+      {
+        "url": "/hacsfiles/mini-graph-card/mini-graph-card-bundle.js?hacstag=1512800620110",
+        "type": "module",
+        "id": "882a51f98e1941f1b4e182381e682393"
+      },
+      {
+        "url": "/hacsfiles/simple-weather-card/simple-weather-card-bundle.js?hacstag=172998062083",
+        "type": "module",
+        "id": "5a83ced7a03a47d2abba9877f092d9fd"
+      },
+      {
+        "url": "/hacsfiles/weather-card/weather-card.js?hacstag=192732636150",
+        "type": "module",
+        "id": "e69704d4e08a48ddb8e749598844d734"
+      },
+      {
+        "url": "/hacsfiles/lovelace-xiaomi-vacuum-map-card/xiaomi-vacuum-map-card.js?hacstag=193372044212",
+        "type": "module",
+        "id": "ddc5311c43304fbfbe52f26e4fef06fc"
+      },
+      {
+        "url": "/hacsfiles/mini-media-player/mini-media-player-bundle.js?hacstag=1485208381165",
+        "type": "module",
+        "id": "4a590d11aa8b4cfc88bbbb767d1ee409"
+      },
+      {
+        "url": "/hacsfiles/Homekit-panel-card/homekit-panel-card.js?hacstag=229219283063",
+        "type": "module",
+        "id": "5a5d1485e7044e218e5a3133ef30749a"
+      },
+      {
+        "url": "/hacsfiles/button-card/button-card.js?hacstag=146194325350",
+        "type": "module",
+        "id": "d3be5bb1e1e847548944721776dd6164"
+      },
+      {
+        "url": "/hacsfiles/kiosk-mode/kiosk-mode.js?hacstag=497319128178",
+        "type": "module",
+        "id": "1e423255c829407294a58dc076969c92"
+      },
+      {
+        "url": "/hacsfiles/lovelace-card-mod/card-mod.js?hacstag=190927524314",
+        "type": "module",
+        "id": "d8b4aa699fc44fe3a1652f2b0d9467b8"
+      }
+    ]
+  }
+}

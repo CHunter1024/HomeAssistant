@@ -1,0 +1,415 @@
+- id: '1681880955929'
+  alias: 客厅温度设定
+  description: 自动化设定虚拟设备的温度变化
+  trigger:
+  - platform: state
+    entity_id:
+    - sensor.fo_shan_shi_nan_hai_qu_wen_du
+    alias: 外界温度发生改变
+  condition:
+  - condition: device
+    device_id: fb580918c3848b92bd438814cde8fe7f
+    domain: climate
+    entity_id: climate.ke_ting_kong_diao_thermostat
+    type: is_hvac_mode
+    hvac_mode: 'off'
+    alias: 客厅空调为关闭状态
+  action:
+  - service: climate.set_temperature
+    data:
+      temperature: '{{ states(''sensor.fo_shan_shi_nan_hai_qu_wen_du'') | float -
+        1 }}'
+    target:
+      device_id: fb580918c3848b92bd438814cde8fe7f
+    alias: 客厅温度设定为外界温度 - 1°
+  mode: single
+- id: '1681881651678'
+  alias: 早上起床（时间）
+  description: ''
+  trigger:
+  - platform: time
+    at: 06:30:00
+  condition: []
+  action:
+  - type: turn_on
+    device_id: f88d3388adbf132f061ce2ef905cb9c6
+    entity_id: light.zhu_wo_shi_deng_lightbulb
+    domain: light
+    brightness_pct: 3
+  - type: turn_on
+    device_id: 8183353ffb7947b30c57bbc672d7afd9
+    entity_id: light.wei_sheng_jian_deng_lightbulb
+    domain: light
+    brightness_pct: 3
+  - type: turn_on
+    device_id: 9df132d2a92a853ede9c4c70f474c0ad
+    entity_id: light.zou_lang_deng_lightbulb
+    domain: light
+    brightness_pct: 3
+  - device_id: c0c6751e2d451d93f6b14df8d97bd602
+    domain: cover
+    entity_id: cover.zhu_wo_shi_chuang_lian_window_covering
+    type: set_position
+    position: 0
+  - device_id: 8ee52995fba99014b974917ced120854
+    domain: cover
+    entity_id: cover.ke_ting_chuang_lian_window_covering
+    type: set_position
+    position: 0
+  - device_id: 82bcbb5e03f0ee6fd94c36367e47508b
+    domain: cover
+    entity_id: cover.di_er_wo_shi_chuang_lian_window_covering
+    type: set_position
+    position: 0
+  - device_id: 0148d7130ae4f72bbbfca54f31ce381e
+    domain: cover
+    entity_id: cover.di_san_wo_shi_chuang_lian_window_covering
+    type: set_position
+    position: 0
+  mode: single
+- id: '1681882172528'
+  alias: 门锁关
+  description: ''
+  trigger:
+  - platform: device
+    device_id: 061c8ecae29abef1e7461e4eb9a44411
+    domain: lock
+    entity_id: lock.men_suo_lock_mechanism
+    type: locked
+  condition: []
+  action:
+  - device_id: 4e42092ea266989d37154a521603e6aa
+    domain: climate
+    entity_id: climate.zhu_wo_shi_kong_diao_thermostat
+    type: set_hvac_mode
+    hvac_mode: 'off'
+  - type: turn_off
+    device_id: 8637aabaf1e5d4bda11d48c8c285352f
+    entity_id: light.can_ting_deng_lightbulb
+    domain: light
+  - type: turn_off
+    device_id: 944fc65927e92f3e1bc12d651728088d
+    entity_id: light.chu_fang_deng_lightbulb
+    domain: light
+  - type: turn_off
+    device_id: 0669efbe1f2a52ba89dae5bb7ad1fda5
+    entity_id: light.di_er_wo_shi_deng_lightbulb
+    domain: light
+  - type: turn_off
+    device_id: eda82dc7eb65af4b2b249dc7aeb74d01
+    entity_id: light.di_san_wo_shi_deng_lightbulb
+    domain: light
+  - type: turn_off
+    device_id: 9cd6eabd47d0e8df96825bf0cd8fd17a
+    entity_id: light.ke_ting_deng_lightbulb
+    domain: light
+  - type: turn_off
+    device_id: 8183353ffb7947b30c57bbc672d7afd9
+    entity_id: light.wei_sheng_jian_deng_lightbulb
+    domain: light
+  - type: turn_off
+    device_id: 9df132d2a92a853ede9c4c70f474c0ad
+    entity_id: light.zou_lang_deng_lightbulb
+    domain: light
+  - type: turn_off
+    device_id: 6010865a182e8537fea9d0b5cc3f40a6
+    entity_id: light.zhu_wo_shi_wei_sheng_jian_deng_lightbulb
+    domain: light
+  - type: turn_off
+    device_id: f88d3388adbf132f061ce2ef905cb9c6
+    entity_id: light.zhu_wo_shi_deng_lightbulb
+    domain: light
+  - type: turn_off
+    device_id: 58f563e8fd3cc0b1c37ef9b35e032900
+    entity_id: light.yang_tai_deng_lightbulb
+    domain: light
+  - type: turn_off
+    device_id: 33ce628dc0d087f86bb3bba370155d96
+    entity_id: light.xuan_guan_deng_lightbulb
+    domain: light
+  mode: single
+- id: '1681883023458'
+  alias: 生日模式
+  description: ''
+  trigger:
+  - platform: numeric_state
+    entity_id: sensor.date
+    above: 140
+    below: 141
+  condition: []
+  action:
+  - service: media_player.play_media
+    target:
+      entity_id: media_player.yun_yin_le
+    data:
+      media_content_id: cloudmusic://163/playlist?title=Demo_000%E5%96%9C%E6%AC%A2%E7%9A%84%E9%9F%B3%E4%B9%90&id=546400722
+      media_content_type: playlist
+    metadata:
+      title: Demo_000喜欢的音乐
+      thumbnail:
+      media_class: playlist
+      children_media_class:
+      navigateIds:
+      - {}
+      - media_content_type: album
+        media_content_id: cloudmusic://163/my/created?title=%E6%88%91%E7%9A%84%E6%AD%8C%E5%8D%95
+      - media_content_type: music
+        media_content_id: cloudmusic://163/playlist?title=Demo_000%E5%96%9C%E6%AC%A2%E7%9A%84%E9%9F%B3%E4%B9%90&id=546400722
+  - type: turn_on
+    device_id: 9df132d2a92a853ede9c4c70f474c0ad
+    entity_id: light.zou_lang_deng_lightbulb
+    domain: light
+    brightness_pct: 10
+  - parallel:
+    - type: turn_on
+      device_id: 6010865a182e8537fea9d0b5cc3f40a6
+      entity_id: light.zhu_wo_shi_wei_sheng_jian_deng_lightbulb
+      domain: light
+      brightness_pct: 10
+    - device_id: fb580918c3848b92bd438814cde8fe7f
+      domain: climate
+      entity_id: climate.ke_ting_kong_diao_thermostat
+      type: set_hvac_mode
+      hvac_mode: cool
+    - device_id: 9c2eb3368a76aa2289229982cecd2059
+      domain: light
+      entity_id: light.xiao_yang_tai_deng_lightbulb
+      type: brightness_increase
+  mode: single
+- id: '1681883513675'
+  alias: 睡觉觉（24点）
+  description: ''
+  trigger:
+  - platform: time
+    at: 00:00:00
+  condition: []
+  action:
+  - parallel:
+    - type: turn_off
+      device_id: 8637aabaf1e5d4bda11d48c8c285352f
+      entity_id: light.can_ting_deng_lightbulb
+      domain: light
+    - type: turn_off
+      device_id: 944fc65927e92f3e1bc12d651728088d
+      entity_id: light.chu_fang_deng_lightbulb
+      domain: light
+    - type: turn_off
+      device_id: 0669efbe1f2a52ba89dae5bb7ad1fda5
+      entity_id: light.di_er_wo_shi_deng_lightbulb
+      domain: light
+    - type: turn_off
+      device_id: 9df132d2a92a853ede9c4c70f474c0ad
+      entity_id: light.zou_lang_deng_lightbulb
+      domain: light
+    - type: turn_off
+      device_id: 6010865a182e8537fea9d0b5cc3f40a6
+      entity_id: light.zhu_wo_shi_wei_sheng_jian_deng_lightbulb
+      domain: light
+    - type: turn_off
+      device_id: 58f563e8fd3cc0b1c37ef9b35e032900
+      entity_id: light.yang_tai_deng_lightbulb
+      domain: light
+    - type: turn_off
+      device_id: 9c2eb3368a76aa2289229982cecd2059
+      entity_id: light.xiao_yang_tai_deng_lightbulb
+      domain: light
+  - parallel:
+    - device_id: 82bcbb5e03f0ee6fd94c36367e47508b
+      domain: cover
+      entity_id: cover.di_er_wo_shi_chuang_lian_window_covering
+      type: set_position
+      position: 100
+    - device_id: 8ee52995fba99014b974917ced120854
+      domain: cover
+      entity_id: cover.ke_ting_chuang_lian_window_covering
+      type: set_position
+      position: 100
+    - device_id: 0148d7130ae4f72bbbfca54f31ce381e
+      domain: cover
+      entity_id: cover.di_san_wo_shi_chuang_lian_window_covering
+      type: set_position
+      position: 100
+    - device_id: c0c6751e2d451d93f6b14df8d97bd602
+      domain: cover
+      entity_id: cover.zhu_wo_shi_chuang_lian_window_covering
+      type: set_position
+      position: 100
+  - parallel:
+    - device_id: 4e42092ea266989d37154a521603e6aa
+      domain: climate
+      entity_id: climate.zhu_wo_shi_kong_diao_thermostat
+      type: set_hvac_mode
+      hvac_mode: 'off'
+    - device_id: 8f497b943e7465002edbdd069ff0a91b
+      domain: climate
+      entity_id: climate.di_san_wo_shi_kong_diao_thermostat
+      type: set_hvac_mode
+      hvac_mode: 'off'
+    - device_id: 5e0bf72bdb64d3be8abb2f144855b402
+      domain: climate
+      entity_id: climate.di_er_wo_shi_kong_diao_thermostat
+      type: set_hvac_mode
+      hvac_mode: 'off'
+    - device_id: fb580918c3848b92bd438814cde8fe7f
+      domain: climate
+      entity_id: climate.ke_ting_kong_diao_thermostat
+      type: set_hvac_mode
+      hvac_mode: 'off'
+    - device_id: 797d2099c78d6dd11774f8a5f4f41100
+      domain: climate
+      entity_id: climate.can_ting_kong_diao_thermostat
+      type: set_hvac_mode
+      hvac_mode: 'off'
+  mode: single
+- id: '1681904784366'
+  alias: 餐厅温度设定
+  description: 自动化设定虚拟设备的温度变化
+  trigger:
+  - platform: state
+    entity_id:
+    - sensor.fo_shan_shi_nan_hai_qu_wen_du
+    alias: 外界温度发生改变
+  condition:
+  - condition: device
+    device_id: 797d2099c78d6dd11774f8a5f4f41100
+    domain: climate
+    entity_id: climate.can_ting_kong_diao_thermostat
+    type: is_hvac_mode
+    hvac_mode: 'off'
+    alias: 餐厅空调为关闭状态
+  action:
+  - service: climate.set_temperature
+    data:
+      temperature: '{{ states(''sensor.fo_shan_shi_nan_hai_qu_wen_du'') | float -
+        1 }}'
+    alias: 餐厅温度设定为外界温度 - 1°
+    target:
+      device_id: 797d2099c78d6dd11774f8a5f4f41100
+  mode: single
+- id: '1681904946029'
+  alias: 主卧室温度设定
+  description: 自动化设定虚拟设备的温度变化
+  trigger:
+  - platform: state
+    entity_id:
+    - sensor.fo_shan_shi_nan_hai_qu_wen_du
+    alias: 外界温度发生改变
+  condition:
+  - condition: device
+    device_id: 4e42092ea266989d37154a521603e6aa
+    domain: climate
+    entity_id: climate.zhu_wo_shi_kong_diao_thermostat
+    type: is_hvac_mode
+    hvac_mode: 'off'
+    alias: 主卧室空调为关闭状态
+  action:
+  - service: climate.set_temperature
+    data:
+      temperature: '{{ states(''sensor.fo_shan_shi_nan_hai_qu_wen_du'') | float -
+        1 }}'
+    alias: 主卧室温度设定为外界温度 - 1°
+    target:
+      device_id: 4e42092ea266989d37154a521603e6aa
+  mode: single
+- id: '1681905058460'
+  alias: 第二卧室温度设定
+  description: 自动化设定虚拟设备的温度变化
+  trigger:
+  - platform: state
+    entity_id:
+    - sensor.fo_shan_shi_nan_hai_qu_wen_du
+    alias: 外界温度发生改变
+  condition:
+  - condition: device
+    device_id: 5e0bf72bdb64d3be8abb2f144855b402
+    domain: climate
+    entity_id: climate.di_er_wo_shi_kong_diao_thermostat
+    type: is_hvac_mode
+    hvac_mode: 'off'
+    alias: 第二卧室空调为关闭状态
+  action:
+  - service: climate.set_temperature
+    data:
+      temperature: '{{ states(''sensor.fo_shan_shi_nan_hai_qu_wen_du'') | float -
+        1 }}'
+    alias: 第二卧室温度设定为外界温度 - 1°
+    target:
+      device_id: 5e0bf72bdb64d3be8abb2f144855b402
+  mode: single
+- id: '1681905165244'
+  alias: 第三卧室温度设定
+  description: 自动化设定虚拟设备的温度变化
+  trigger:
+  - platform: state
+    entity_id:
+    - sensor.fo_shan_shi_nan_hai_qu_wen_du
+    alias: 外界温度发生改变
+  condition:
+  - condition: device
+    device_id: 8f497b943e7465002edbdd069ff0a91b
+    domain: climate
+    entity_id: climate.di_san_wo_shi_kong_diao_thermostat
+    type: is_hvac_mode
+    hvac_mode: 'off'
+    alias: 第三卧室空调为关闭状态
+  action:
+  - service: climate.set_temperature
+    data:
+      temperature: '{{ states(''sensor.fo_shan_shi_nan_hai_qu_wen_du'') | float -
+        1 }}'
+    alias: 第三卧室温度设定为外界温度 - 1°
+    target:
+      device_id: 8f497b943e7465002edbdd069ff0a91b
+  mode: single
+- id: '1681915857091'
+  alias: 人走灯凉（主卧）
+  description: ''
+  trigger:
+  - type: not_occupied
+    platform: device
+    device_id: b8ead39245a21526e0212354dba446f0
+    entity_id: binary_sensor.zhu_wo_shi_ren_ti_chuan_gan_qi_occupancy_sensor
+    domain: binary_sensor
+  condition: []
+  action:
+  - type: turn_off
+    device_id: f88d3388adbf132f061ce2ef905cb9c6
+    entity_id: light.zhu_wo_shi_deng_lightbulb
+    domain: light
+  - type: turn_off
+    device_id: 6010865a182e8537fea9d0b5cc3f40a6
+    entity_id: light.zhu_wo_shi_wei_sheng_jian_deng_lightbulb
+    domain: light
+  mode: single
+- id: '1681915984929'
+  alias: 人走灯凉（次卧）
+  description: ''
+  trigger:
+  - type: not_occupied
+    platform: device
+    device_id: 163a98fdb9717a03c022a13f12c3f500
+    entity_id: binary_sensor.di_er_wo_shi_ren_ti_chuan_gan_qi_occupancy_sensor
+    domain: binary_sensor
+  condition: []
+  action:
+  - type: turn_off
+    device_id: 0669efbe1f2a52ba89dae5bb7ad1fda5
+    entity_id: light.di_er_wo_shi_deng_lightbulb
+    domain: light
+  mode: single
+- id: '1681916017149'
+  alias: 人走灯凉（三卧）
+  description: ''
+  trigger:
+  - type: not_occupied
+    platform: device
+    device_id: 3a867311776cc0d95cc235089d70bf60
+    entity_id: binary_sensor.di_san_wo_shi_ren_ti_chuan_gan_qi_occupancy_sensor
+    domain: binary_sensor
+  condition: []
+  action:
+  - type: turn_off
+    device_id: eda82dc7eb65af4b2b249dc7aeb74d01
+    entity_id: light.di_san_wo_shi_deng_lightbulb
+    domain: light
+  mode: single

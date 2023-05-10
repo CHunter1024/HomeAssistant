@@ -1,0 +1,1822 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "ed33625818410d552c72cccb036bc351"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "3fa5ff0bee574afa1499e68e64fd42db",
+        "identifiers": [
+          [
+            "hassio",
+            "core"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Core",
+        "name_by_user": null,
+        "name": "Home Assistant Core",
+        "sw_version": "2023.1.7",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "ed33625818410d552c72cccb036bc351"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "5569e3f658b166f2b4fb6049ed177bc8",
+        "identifiers": [
+          [
+            "hassio",
+            "supervisor"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Supervisor",
+        "name_by_user": null,
+        "name": "Home Assistant Supervisor",
+        "sw_version": "2023.04.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "ed33625818410d552c72cccb036bc351"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "6010507065fe69d2fd255f4911e292f9",
+        "identifiers": [
+          [
+            "hassio",
+            "OS"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Operating System",
+        "name_by_user": null,
+        "name": "Home Assistant Operating System",
+        "sw_version": "9.5",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2f8df6e248e884482c809f8aa6e94caa"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "403b5cfd30c257c564b88f7bcc42e78c",
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "ed33625818410d552c72cccb036bc351"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_ssh",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "11d80a4b23b815ba5d50f2e2a2161d42",
+        "identifiers": [
+          [
+            "hassio",
+            "core_ssh"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Terminal & SSH",
+        "sw_version": "9.7.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "e1c7d12aba37481fca45858605ca8c6b",
+        "identifiers": [
+          [
+            "hacs",
+            "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+          ]
+        ],
+        "manufacturer": "hacs.xyz",
+        "model": "",
+        "name_by_user": null,
+        "name": "HACS",
+        "sw_version": "1.30.1.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "bbaac5a0415dc723bbd26f582f68873c",
+        "identifiers": [
+          [
+            "hacs",
+            "318182014"
+          ]
+        ],
+        "manufacturer": "al-one",
+        "model": "integration",
+        "name_by_user": null,
+        "name": "Xiaomi Miot Auto",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "su_she",
+        "config_entries": [
+          "e74b1960104927df353337c7aa6acfcf"
+        ],
+        "configuration_url": "https://home.miot-spec.com/s/yeelink.light.lamp1",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "a3a46fa3a180b87cc18b03a857988be2",
+        "identifiers": [
+          [
+            "xiaomi_miot",
+            "34:ce:00:c3:84:26-e74b1960104927df353337c7aa6acfcf"
+          ]
+        ],
+        "manufacturer": "yeelink",
+        "model": "yeelink.light.lamp1",
+        "name_by_user": null,
+        "name": "小米台灯",
+        "sw_version": "2.0.4_0066",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "ed33625818410d552c72cccb036bc351"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_configurator",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "6b8a10ab3d23783f20fdab455cae90ee",
+        "identifiers": [
+          [
+            "hassio",
+            "core_configurator"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "File editor",
+        "sw_version": "5.6.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "9b9525991fa872124b79f49cdc2095f6",
+        "identifiers": [
+          [
+            "hacs",
+            "290436986"
+          ]
+        ],
+        "manufacturer": "fineemb",
+        "model": "integration",
+        "name_by_user": null,
+        "name": "彩云天气",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "12ca2fdb176c055b15c57279477cbea8",
+        "identifiers": [
+          [
+            "hacs",
+            "236318024"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "theme",
+        "name_by_user": null,
+        "name": "iOS Themes - Dark Mode and Light Mode",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "237f64232c832d26bcb8716519f93e5e",
+        "identifiers": [
+          [
+            "hacs",
+            "456201687"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "theme",
+        "name_by_user": null,
+        "name": "Mushroom Themes",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "29cef5dd1ecc2ef36df78cd29a0eed30",
+        "identifiers": [
+          [
+            "hacs",
+            "366482637"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "Sun Card",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "ec1b4dd3e60b39740bdbd508cab01e8b",
+        "identifiers": [
+          [
+            "hacs",
+            "197759180"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "Search Card",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "4c6822ade7813ae5c5258153424010d7",
+        "identifiers": [
+          [
+            "hacs",
+            "291480917"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "Colorfulclouds Weather Card",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "d13b2a1f71e01ca0693e8ec129c2178c",
+        "identifiers": [
+          [
+            "hacs",
+            "586363416"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "Mushroom - Better Sliders",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "65b8e8dd93e1ac0e960192b6189b6128",
+        "identifiers": [
+          [
+            "hacs",
+            "161403328"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "card-tools",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "d4_520",
+        "config_entries": [
+          "e74b1960104927df353337c7aa6acfcf"
+        ],
+        "configuration_url": "https://home.miot-spec.com/s/cuco.plug.cp1d",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "4c497be2fb9c6aaf629dc331cac0e157",
+        "identifiers": [
+          [
+            "xiaomi_miot",
+            "10:b7:13:f0:76:fb-e74b1960104927df353337c7aa6acfcf"
+          ]
+        ],
+        "manufacturer": "cuco",
+        "model": "cuco.plug.cp1d",
+        "name_by_user": null,
+        "name": "驱蚊器",
+        "sw_version": "2.1.3_0002",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "de20a044e66566ef35dbd96a4aff8161",
+        "identifiers": [
+          [
+            "hacs",
+            "444350375"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "Mushroom",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "f94853bf988fd61686cdac69744ea71b",
+        "identifiers": [
+          [
+            "hacs",
+            "172177543"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "Config Template Card",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "60c5a0c189cf4ba597a76122f1520ccb",
+        "identifiers": [
+          [
+            "hacs",
+            "151280062"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "mini-graph-card",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "b263c25ce0992b1d7419e626ad36527f",
+        "identifiers": [
+          [
+            "hacs",
+            "172998062"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "Simple Weather Card",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "d202701f982a6c2a9a4f21d3b441881b",
+        "identifiers": [
+          [
+            "hacs",
+            "192732636"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "Weather Card",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "f683ef33ea65006262d432a22f2de59b",
+        "identifiers": [
+          [
+            "hacs",
+            "193372044"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "Xiaomi Vacuum Map Card",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "cd315dbc8bce4467a9218544a0c14301",
+        "identifiers": [
+          [
+            "hacs",
+            "148520838"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "Mini Media Player",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "efc67c75bed759cef21acd7d252f7ba6",
+        "identifiers": [
+          [
+            "hacs",
+            "229219283"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "Homekit panel card",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "32d54f2104e9ff096919a2912540b5be",
+        "identifiers": [
+          [
+            "hacs",
+            "299753146"
+          ]
+        ],
+        "manufacturer": "PiotrMachowski",
+        "model": "integration",
+        "name_by_user": null,
+        "name": "Xiaomi Cloud Map Extractor",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": "xuan_guan",
+        "config_entries": [
+          "aa03755432bbe21814ddfcfb4f11a0f1"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "33ce628dc0d087f86bb3bba370155d96",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "7E:F3:9F:9F:D8:41:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "玄关灯",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "can_ting",
+        "config_entries": [
+          "5c66f53856ecb32440c6cfcee58b37f2"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "8637aabaf1e5d4bda11d48c8c285352f",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "94:70:15:79:64:AA:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "餐厅灯",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "ke_ting",
+        "config_entries": [
+          "72bbd673dab85e50ee996c4b98eae578"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "9cd6eabd47d0e8df96825bf0cd8fd17a",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "9D:08:93:17:D1:69:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "客厅灯",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "chu_fang",
+        "config_entries": [
+          "aaab0d813d006c6c66cec50743126cf0"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "944fc65927e92f3e1bc12d651728088d",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "3A:E8:7D:36:3A:E0:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "厨房灯",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "zou_lang",
+        "config_entries": [
+          "53de27477527da9e91f29ece9adef4ca"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "9df132d2a92a853ede9c4c70f474c0ad",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "FC:E5:F4:FF:27:B9:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "走廊灯",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "wei_sheng_jian",
+        "config_entries": [
+          "9252237c0059e3515379be0d5f2f4124"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "8183353ffb7947b30c57bbc672d7afd9",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "80:8C:38:B8:1E:CE:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "卫生间灯",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "zhu_wo",
+        "config_entries": [
+          "e76a5701b48a3a554a67bbccdea294d6"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "6010865a182e8537fea9d0b5cc3f40a6",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "C6:F3:00:C2:00:3B:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "主卧室卫生间灯",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "zhu_wo",
+        "config_entries": [
+          "1c0ca1b77575254b5da919be2962b7bd"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "f88d3388adbf132f061ce2ef905cb9c6",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "64:F0:35:AB:4E:A7:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "主卧室灯",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "ci_wo_1",
+        "config_entries": [
+          "757f83ccb7ce16589e805979a02a2332"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "0669efbe1f2a52ba89dae5bb7ad1fda5",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "88:13:65:30:42:5C:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "第二卧室灯",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "ci_wo_2deng",
+        "config_entries": [
+          "60cb44bc9561d34b16980724dd5495da"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "eda82dc7eb65af4b2b249dc7aeb74d01",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "13:F6:C6:D6:4C:BB:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "第三卧室灯",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "she_bei_kong_jian",
+        "config_entries": [
+          "a121c528122d89c9e7e4cde552d0842b"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "9c2eb3368a76aa2289229982cecd2059",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "9A:F7:C3:B8:3E:4B:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "小阳台灯",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "yang_tai",
+        "config_entries": [
+          "86fdd24f77da6e63140b6b6f292f8f90"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "58f563e8fd3cc0b1c37ef9b35e032900",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "5C:77:3A:CB:9C:A4:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "阳台灯",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "ke_ting",
+        "config_entries": [
+          "650c85ecb9d33415920eaa5f452168c5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "fb580918c3848b92bd438814cde8fe7f",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "7B:EE:1E:2F:85:5F:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "客厅空调",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "can_ting",
+        "config_entries": [
+          "f437a322863c8b567d06ef5c3f55ab09"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "797d2099c78d6dd11774f8a5f4f41100",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "25:69:3B:4C:2C:64:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "餐厅空调",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "zhu_wo",
+        "config_entries": [
+          "eb47f2bb8db1c76c0f41e5bfbd6ca292"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "4e42092ea266989d37154a521603e6aa",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "0C:62:03:52:C0:A7:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "主卧室空调",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "ci_wo_1",
+        "config_entries": [
+          "594533894c7ead4ed3ba200cf80d41f4"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "5e0bf72bdb64d3be8abb2f144855b402",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "C4:6A:B4:E4:5A:07:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "第二卧室空调",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "ci_wo_2deng",
+        "config_entries": [
+          "ec73edaed247c3f250ec529608e38752"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "8f497b943e7465002edbdd069ff0a91b",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "1D:5E:AE:A7:A1:10:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "第三卧室空调",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3427a6d83a2b8fca7fada6b106a3167d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "0db8a1a161fb7f5369300c1eff913a9d",
+        "identifiers": [
+          [
+            "colorfulclouds",
+            "113_04956102292637-23_142814518912285"
+          ]
+        ],
+        "manufacturer": "Colorfulclouds, Inc.",
+        "model": null,
+        "name_by_user": null,
+        "name": "佛山市南海区",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "858345f86acb88bf4ae1518dd4e7156b",
+        "identifiers": [
+          [
+            "hacs",
+            "146194325"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "button-card",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "301c3dc1159914316cf4a05618473bf9",
+        "identifiers": [
+          [
+            "hacs",
+            "497319128"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "Kiosk Mode",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "2c2e13094b4ceb5ba206d19db2a5c4ff",
+        "identifiers": [
+          [
+            "hacs",
+            "190927524"
+          ]
+        ],
+        "manufacturer": "",
+        "model": "plugin",
+        "name_by_user": null,
+        "name": "card-mod",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "abeb208b5283de5d02fcf3d8ccc39b5b"
+        ],
+        "configuration_url": "homeassistant://hacs",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "4530537d80d529e43379766dd3953f22",
+        "identifiers": [
+          [
+            "hacs",
+            "551559468"
+          ]
+        ],
+        "manufacturer": "shaonianzhentan",
+        "model": "integration",
+        "name_by_user": null,
+        "name": "云音乐",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "3a39227147370de3e6d81fa9593738c5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "f195fe0ba993d9a67a31009a12478457",
+        "identifiers": [
+          [
+            "ha_cloud_music",
+            "https://github.com/shaonianzhentan/ha_cloud_music"
+          ]
+        ],
+        "manufacturer": "shaonianzhentan",
+        "model": "CloudMusic",
+        "name_by_user": null,
+        "name": "云音乐",
+        "sw_version": "2023.3.30",
+        "via_device_id": null
+      },
+      {
+        "area_id": "xuan_guan",
+        "config_entries": [
+          "7a11953efa4ee721dfe491ebfa20eb03"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "061c8ecae29abef1e7461e4eb9a44411",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "77:99:C1:53:51:B1:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "门锁",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "ke_ting",
+        "config_entries": [
+          "ad2135bb7b414bbb59574b1773ee7c9c"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "8ee52995fba99014b974917ced120854",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "0B:97:C2:19:05:FF:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "客厅窗帘",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "zhu_wo",
+        "config_entries": [
+          "7f58b6cd759a983628dc8136f2a2f4c0"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "c0c6751e2d451d93f6b14df8d97bd602",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "05:A4:D2:B2:61:D7:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "主卧室窗帘",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "ci_wo_1",
+        "config_entries": [
+          "e69be588c66963b215af086a3c16eae5"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "82bcbb5e03f0ee6fd94c36367e47508b",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "BE:A5:03:C3:CE:AC:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "第二卧室窗帘",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "ci_wo_2deng",
+        "config_entries": [
+          "30a4ff924b85edaa9b6122bdc61c6786"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "0148d7130ae4f72bbbfca54f31ce381e",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "B8:FC:D5:A4:AD:CE:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "第三卧室窗帘",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "480edc15c5f64ab1b3e4d39f1ea60e9f"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "352c24a7f4836df275c3c22b7e5cceb2",
+        "identifiers": [
+          [
+            "mobile_app",
+            "80170295-2CB6-468F-A209-400AA889FB5F"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPad6,3",
+        "name_by_user": null,
+        "name": "iPad Pro 9.7",
+        "sw_version": "15.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "zhu_wo",
+        "config_entries": [
+          "94adc7c29dc07f488a9bb77b680e797d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "b8ead39245a21526e0212354dba446f0",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "AB:60:C7:B7:3B:56:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "主卧室人体传感器",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "ci_wo_1",
+        "config_entries": [
+          "72ff7f81633487237fea7998668a31a6"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "163a98fdb9717a03c022a13f12c3f500",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "53:F2:60:34:19:76:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "第二卧室人体传感器",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": "ci_wo_2deng",
+        "config_entries": [
+          "140eec6aa792ddbb66b20015e6455910"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "",
+        "id": "3a867311776cc0d95cc235089d70bf60",
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "63:FF:F9:97:28:F3:aid:1"
+          ]
+        ],
+        "manufacturer": "Company Name",
+        "model": "Model Name",
+        "name_by_user": null,
+        "name": "第三卧室人体传感器",
+        "sw_version": "1.0.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "d23081beac5c68e198efca11bd93d2d6"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "cd:c7:61:be:7e:fd"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "5b6a03fff6964b15537b1b6554df2afe",
+        "identifiers": [
+          [
+            "homekit",
+            "d23081beac5c68e198efca11bd93d2d6",
+            "homekit.bridge"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "HomeKit Bridge",
+        "name_by_user": null,
+        "name": "HASS Bridge:21064",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "1bafd132da7fcbfd53c7269a0cb3d16c"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "2e:5b:b2:72:38:76"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "ade552502aff6cdef9013000f3ab1002",
+        "identifiers": [
+          [
+            "homekit",
+            "1bafd132da7fcbfd53c7269a0cb3d16c",
+            "homekit.bridge"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "HomeKit Accessory",
+        "name_by_user": null,
+        "name": "门锁:21066",
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "2cd9316c18b272078e7bf904d7400a87"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "mac",
+            "3f:d9:75:a3:c2:5f"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "75fe2466e4f9cfa139acb21ffad9e9ec",
+        "identifiers": [
+          [
+            "homekit",
+            "2cd9316c18b272078e7bf904d7400a87",
+            "homekit.bridge"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "HomeKit Accessory",
+        "name_by_user": null,
+        "name": "云音乐:21065",
+        "sw_version": null,
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "D3:6E:42:A2:71:24:aid:1"
+          ]
+        ],
+        "id": "c48dcbc1904601f5ffd661f750192422",
+        "orphaned_timestamp": 1681829973.488937
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "76:AD:4A:E9:EC:CE:aid:1"
+          ]
+        ],
+        "id": "7dd3b9f02a41e9fae1114d9e00eec0b0",
+        "orphaned_timestamp": 1681831440.7919807
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "24:8A:CB:E4:4D:18:aid:1"
+          ]
+        ],
+        "id": "5856a4fc477b02056f999a952b3bc89a",
+        "orphaned_timestamp": 1681876509.9814508
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "mobile_app",
+            "0289EDED-934B-4408-B5AD-B368963A1D42"
+          ]
+        ],
+        "id": "bdaa613d8c065915ad7f76e22eb5c735",
+        "orphaned_timestamp": 1681896117.257728
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "CA:1F:95:3E:FF:02:aid:1"
+          ]
+        ],
+        "id": "25999ea12f354d855bddb3a2ab96b598",
+        "orphaned_timestamp": 1681906302.536166
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "2B:57:E6:1F:F1:26:aid:1"
+          ]
+        ],
+        "id": "34c5a68770bc1dd6ce3ae6d5c97a3948",
+        "orphaned_timestamp": 1681907421.0071225
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "5C:41:F4:89:8F:C8:aid:1"
+          ]
+        ],
+        "id": "24b4367bef83c6579bfea16d53ace138",
+        "orphaned_timestamp": 1681907430.0505633
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "A7:45:B1:3A:4F:CD:aid:1"
+          ]
+        ],
+        "id": "bb9074c3bf44a3154c48a47d9e120c69",
+        "orphaned_timestamp": 1681907997.6962914
+      },
+      {
+        "config_entries": [],
+        "connections": [],
+        "identifiers": [
+          [
+            "homekit_controller:accessory-id",
+            "64:17:33:30:CE:84:aid:1"
+          ]
+        ],
+        "id": "c8c3ef96082d9302f4514f4dc8068c07",
+        "orphaned_timestamp": 1681908199.1780891
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "65:99:78:fa:67:9f"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "b61527792cce446070e47976929bdfaf",
+            "homekit.bridge"
+          ]
+        ],
+        "id": "ca6d749df951a0fc2eaf0303a1ed8315",
+        "orphaned_timestamp": 1681964428.3573222
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "08:d8:63:79:99:6d"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "b34522f8956f1336ec3ac33517c20335",
+            "homekit.bridge"
+          ]
+        ],
+        "id": "a61885c1770b15411e7104a107727389",
+        "orphaned_timestamp": 1681964431.258192
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "4c:05:43:79:a7:56"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "e0101e2ea53055d15e6d0d4fd767171f",
+            "homekit.bridge"
+          ]
+        ],
+        "id": "9e8ae4a9f944f3630817848fed240cba",
+        "orphaned_timestamp": 1681964649.9981349
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "ed:90:07:e4:ed:35"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "eb77b6b316a4bfcf05853c2eff767510",
+            "homekit.bridge"
+          ]
+        ],
+        "id": "0829d068be43f6419356842904abc600",
+        "orphaned_timestamp": 1681964653.2552564
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "fd:f5:f6:d4:bc:63"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "ee0ee07f620bf605ab63fd7a84b27b2b",
+            "homekit.bridge"
+          ]
+        ],
+        "id": "afa32714501dfacdefb5fa2fdaef1e47",
+        "orphaned_timestamp": 1681964656.088745
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "8d:f3:8d:01:ca:ac"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "81464cc0e93ef39e3ca0aa90eb135144",
+            "homekit.bridge"
+          ]
+        ],
+        "id": "05a90ff4a431b93c58b9fc58483b1a31",
+        "orphaned_timestamp": 1681964695.309128
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "18:ad:31:60:bf:f5"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "37b8b7f8a5b0444aad3b2504b1160002",
+            "homekit.bridge"
+          ]
+        ],
+        "id": "a0ecd2d288f877b2fec7c23f61ff24ef",
+        "orphaned_timestamp": 1681964699.1316416
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "1e:e7:f2:8e:1d:c6"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "ef8b5626522dea292acfd06da1242eb7",
+            "homekit.bridge"
+          ]
+        ],
+        "id": "aa87563851c880bc1673143b459dba26",
+        "orphaned_timestamp": 1681964701.4087536
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "84:3e:bc:d4:56:e3"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "b16d0288e375fd9b7764339a6bd4bbea",
+            "homekit.bridge"
+          ]
+        ],
+        "id": "2085c655141a745b7fdcd50ca5851903",
+        "orphaned_timestamp": 1683641059.7298365
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "9f:4b:69:2f:72:59"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "966a9baa13254bd35e72aef97d236207",
+            "homekit.bridge"
+          ]
+        ],
+        "id": "f262dd57cf6c3060b5c33abe69f6cc4d",
+        "orphaned_timestamp": 1683641063.8514907
+      },
+      {
+        "config_entries": [],
+        "connections": [
+          [
+            "mac",
+            "32:de:f5:d5:a8:31"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "d059446e6f873237fc47857c983db175",
+            "homekit.bridge"
+          ]
+        ],
+        "id": "a72e482fc190877c94229883da9c80d7",
+        "orphaned_timestamp": 1683641066.5585854
+      }
+    ]
+  }
+}

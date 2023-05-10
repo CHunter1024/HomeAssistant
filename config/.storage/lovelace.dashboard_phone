@@ -1,0 +1,713 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_phone",
+  "data": {
+    "config": {
+      "title": "我的家",
+      "views": [
+        {
+          "path": "overview",
+          "title": "家庭总览",
+          "icon": "mdi:home-lightbulb-outline",
+          "badges": [],
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "cards": [
+                {
+                  "type": "custom:search-card"
+                },
+                {
+                  "type": "history-graph",
+                  "entities": [
+                    "sun.sun"
+                  ],
+                  "hours_to_show": 12
+                },
+                {
+                  "type": "iframe",
+                  "url": "https://embed.windy.com/embed2.html?lat=23.148555&lon=113.059465&detailLat=23.148555&detailLon=113.059465&width=750&height=650&zoom=8&level=surface&overlay=rain&product=ecmwf&menu=&message=true&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=%C2%B0C&radarRange=-1",
+                  "aspect_ratio": "32%"
+                },
+                {
+                  "type": "custom:weather-card",
+                  "entity": "weather.fo_shan_shi_nan_hai_qu",
+                  "houer_forecast": false,
+                  "show_forecast": true,
+                  "icon": "/hacsfiles/lovelace-colorfulclouds-weather-card/icons/animated/",
+                  "name": ""
+                }
+              ]
+            },
+            {
+              "type": "vertical-stack",
+              "cards": [
+                {
+                  "type": "picture-elements",
+                  "image": "/local/ui-1/background/灯光全关.png",
+                  "elements": [
+                    {
+                      "type": "image",
+                      "entity": "light.xuan_guan_deng_lightbulb",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "style": {
+                        "pointer-events": "none",
+                        "top": "50%",
+                        "left": "50%",
+                        "width": "100%",
+                        "mix_blend_mode": "lighten"
+                      },
+                      "state_image": {
+                        "off": "/local/ui-1/透明.png",
+                        "on": "/local/ui-1/light/玄关开灯.png"
+                      }
+                    },
+                    {
+                      "type": "state-icon",
+                      "entity": "light.xuan_guan_deng_lightbulb",
+                      "tap_action": {
+                        "action": "toggle"
+                      },
+                      "icon": "mdi:ceiling-light",
+                      "state_color": true,
+                      "style": {
+                        "top": "15%",
+                        "left": "86.5%"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "entity": "light.can_ting_deng_lightbulb",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "style": {
+                        "pointer-events": "none",
+                        "top": "50%",
+                        "left": "50%",
+                        "width": "100%",
+                        "mix_blend_mode": "lighten"
+                      },
+                      "state_image": {
+                        "off": "/local/ui-1/透明.png",
+                        "on": "/local/ui-1/light/餐厅开灯.png"
+                      }
+                    },
+                    {
+                      "type": "state-icon",
+                      "entity": "light.can_ting_deng_lightbulb",
+                      "tap_action": {
+                        "action": "toggle"
+                      },
+                      "icon": "mdi:ceiling-light",
+                      "state_color": true,
+                      "style": {
+                        "top": "37.5%",
+                        "left": "80%"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "entity": "light.ke_ting_deng_lightbulb",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "style": {
+                        "pointer-events": "none",
+                        "top": "50%",
+                        "left": "50%",
+                        "width": "100%",
+                        "mix_blend_mode": "lighten"
+                      },
+                      "state_image": {
+                        "off": "/local/ui-1/透明.png",
+                        "on": "/local/ui-1/light/客厅开灯.png"
+                      }
+                    },
+                    {
+                      "type": "state-icon",
+                      "entity": "light.ke_ting_deng_lightbulb",
+                      "tap_action": {
+                        "action": "toggle"
+                      },
+                      "icon": "mdi:ceiling-light",
+                      "state_color": true,
+                      "style": {
+                        "top": "65%",
+                        "left": "75%"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "entity": "light.chu_fang_deng_lightbulb",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "style": {
+                        "pointer-events": "none",
+                        "top": "50%",
+                        "left": "50%",
+                        "width": "100%",
+                        "mix_blend_mode": "lighten"
+                      },
+                      "state_image": {
+                        "off": "/local/ui-1/透明.png",
+                        "on": "/local/ui-1/light/厨房开灯.png"
+                      }
+                    },
+                    {
+                      "type": "state-icon",
+                      "entity": "light.chu_fang_deng_lightbulb",
+                      "tap_action": {
+                        "action": "toggle"
+                      },
+                      "icon": "mdi:ceiling-light",
+                      "state_color": true,
+                      "style": {
+                        "top": "15%",
+                        "left": "68%"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "entity": "light.zou_lang_deng_lightbulb",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "style": {
+                        "pointer-events": "none",
+                        "top": "50%",
+                        "left": "50%",
+                        "width": "100%",
+                        "mix_blend_mode": "lighten"
+                      },
+                      "state_image": {
+                        "off": "/local/ui-1/透明.png",
+                        "on": "/local/ui-1/light/走廊开灯.png"
+                      }
+                    },
+                    {
+                      "type": "state-icon",
+                      "entity": "light.zou_lang_deng_lightbulb",
+                      "tap_action": {
+                        "action": "toggle"
+                      },
+                      "icon": "mdi:ceiling-light",
+                      "state_color": true,
+                      "style": {
+                        "top": "50.5%",
+                        "left": "50%"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "entity": "light.yang_tai_deng_lightbulb",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "style": {
+                        "pointer-events": "none",
+                        "top": "50%",
+                        "left": "50%",
+                        "width": "100%",
+                        "mix_blend_mode": "lighten"
+                      },
+                      "state_image": {
+                        "off": "/local/ui-1/透明.png",
+                        "on": "/local/ui-1/light/阳台开灯.png"
+                      }
+                    },
+                    {
+                      "type": "state-icon",
+                      "entity": "light.yang_tai_deng_lightbulb",
+                      "tap_action": {
+                        "action": "toggle"
+                      },
+                      "icon": "mdi:ceiling-light",
+                      "state_color": true,
+                      "style": {
+                        "top": "88.5%",
+                        "left": "75%"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "entity": "light.zhu_wo_shi_deng_lightbulb",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "style": {
+                        "pointer-events": "none",
+                        "top": "50%",
+                        "left": "50%",
+                        "width": "100%",
+                        "mix_blend_mode": "lighten"
+                      },
+                      "state_image": {
+                        "off": "/local/ui-1/透明.png",
+                        "on": "/local/ui-1/light/主卧室开灯.png"
+                      }
+                    },
+                    {
+                      "type": "state-icon",
+                      "entity": "light.zhu_wo_shi_deng_lightbulb",
+                      "tap_action": {
+                        "action": "toggle"
+                      },
+                      "icon": "mdi:ceiling-light",
+                      "state_color": true,
+                      "style": {
+                        "top": "70%",
+                        "left": "20%"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "entity": "light.di_er_wo_shi_deng_lightbulb",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "style": {
+                        "pointer-events": "none",
+                        "top": "50%",
+                        "left": "50%",
+                        "width": "100%",
+                        "mix_blend_mode": "lighten"
+                      },
+                      "state_image": {
+                        "off": "/local/ui-1/透明.png",
+                        "on": "/local/ui-1/light/第二卧室开灯.png"
+                      }
+                    },
+                    {
+                      "type": "state-icon",
+                      "entity": "light.di_er_wo_shi_deng_lightbulb",
+                      "tap_action": {
+                        "action": "toggle"
+                      },
+                      "icon": "mdi:ceiling-light",
+                      "state_color": true,
+                      "style": {
+                        "top": "68%",
+                        "left": "50%"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "entity": "light.di_san_wo_shi_deng_lightbulb",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "style": {
+                        "pointer-events": "none",
+                        "top": "50%",
+                        "left": "50%",
+                        "width": "100%",
+                        "mix_blend_mode": "lighten"
+                      },
+                      "state_image": {
+                        "off": "/local/ui-1/透明.png",
+                        "on": "/local/ui-1/light/第三卧室开灯.png"
+                      }
+                    },
+                    {
+                      "type": "state-icon",
+                      "entity": "light.di_san_wo_shi_deng_lightbulb",
+                      "tap_action": {
+                        "action": "toggle"
+                      },
+                      "icon": "mdi:ceiling-light",
+                      "state_color": true,
+                      "style": {
+                        "top": "35%",
+                        "left": "32%"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "entity": "light.wei_sheng_jian_deng_lightbulb",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "style": {
+                        "pointer-events": "none",
+                        "top": "50%",
+                        "left": "50%",
+                        "width": "100%",
+                        "mix_blend_mode": "lighten"
+                      },
+                      "state_image": {
+                        "off": "/local/ui-1/透明.png",
+                        "on": "/local/ui-1/light/卫生间开灯.png"
+                      }
+                    },
+                    {
+                      "type": "state-icon",
+                      "entity": "light.wei_sheng_jian_deng_lightbulb",
+                      "tap_action": {
+                        "action": "toggle"
+                      },
+                      "icon": "mdi:ceiling-light",
+                      "state_color": true,
+                      "style": {
+                        "top": "36%",
+                        "left": "55%"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "entity": "light.zhu_wo_shi_wei_sheng_jian_deng_lightbulb",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "style": {
+                        "pointer-events": "none",
+                        "top": "50%",
+                        "left": "50%",
+                        "width": "100%",
+                        "mix_blend_mode": "lighten"
+                      },
+                      "state_image": {
+                        "off": "/local/ui-1/透明.png",
+                        "on": "/local/ui-1/light/主卧室卫生间开灯.png"
+                      }
+                    },
+                    {
+                      "type": "state-icon",
+                      "entity": "light.zhu_wo_shi_wei_sheng_jian_deng_lightbulb",
+                      "tap_action": {
+                        "action": "toggle"
+                      },
+                      "icon": "mdi:ceiling-light",
+                      "state_color": true,
+                      "style": {
+                        "top": "50%",
+                        "left": "15.5%"
+                      }
+                    },
+                    {
+                      "type": "image",
+                      "entity": "light.xiao_yang_tai_deng_lightbulb",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "style": {
+                        "pointer-events": "none",
+                        "top": "50%",
+                        "left": "50%",
+                        "width": "100%",
+                        "mix_blend_mode": "lighten"
+                      },
+                      "state_image": {
+                        "off": "/local/ui-1/透明.png",
+                        "on": "/local/ui-1/light/小阳台开灯.png"
+                      }
+                    },
+                    {
+                      "type": "state-icon",
+                      "entity": "light.xiao_yang_tai_deng_lightbulb",
+                      "tap_action": {
+                        "action": "toggle"
+                      },
+                      "icon": "mdi:ceiling-light",
+                      "state_color": true,
+                      "style": {
+                        "top": "13%",
+                        "left": "51%"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "custom:mushroom-template-card",
+                      "primary": "灯",
+                      "secondary": "{{states('sensor.number_lights_on')}} 盏开着",
+                      "icon": "mdi:lightbulb-group",
+                      "icon_color": "{% if states('sensor.number_lights_on')  == '0' %}\n\n{% elif states('sensor.number_lights_on')  > '0' %}\nyellow\n{% endif %}",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "hold_action": {
+                        "action": "none"
+                      },
+                      "double_tap_action": {
+                        "action": "none"
+                      }
+                    },
+                    {
+                      "type": "custom:mushroom-template-card",
+                      "primary": "空调",
+                      "secondary": "{{states('sensor.number_climates_on')}} 台开着",
+                      "icon": "mdi:air-conditioner",
+                      "icon_color": "{% if states('sensor.number_climates_on')  == '0' %}\n\n{% elif states('sensor.number_climates_on')  > '0' %}\nblue\n{% endif %}",
+                      "tap_action": {
+                        "action": "none"
+                      },
+                      "hold_action": {
+                        "action": "none"
+                      },
+                      "double_tap_action": {
+                        "action": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "custom:mushroom-lock-card",
+                  "entity": "lock.men_suo_lock_mechanism"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "灯光",
+          "path": "",
+          "icon": "mdi:lightbulb-group",
+          "badges": [],
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "cards": [
+                {
+                  "type": "tile",
+                  "entity": "light.xuan_guan_deng_lightbulb",
+                  "features": [
+                    {
+                      "type": "light-brightness"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "light.can_ting_deng_lightbulb",
+                  "features": [
+                    {
+                      "type": "light-brightness"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "light.ke_ting_deng_lightbulb",
+                  "features": [
+                    {
+                      "type": "light-brightness"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "light.chu_fang_deng_lightbulb",
+                  "features": [
+                    {
+                      "type": "light-brightness"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "light.wei_sheng_jian_deng_lightbulb",
+                  "features": [
+                    {
+                      "type": "light-brightness"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "light.zou_lang_deng_lightbulb",
+                  "features": [
+                    {
+                      "type": "light-brightness"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "light.zhu_wo_shi_deng_lightbulb",
+                  "features": [
+                    {
+                      "type": "light-brightness"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "light.zhu_wo_shi_wei_sheng_jian_deng_lightbulb",
+                  "features": [
+                    {
+                      "type": "light-brightness"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "light.di_er_wo_shi_deng_lightbulb",
+                  "features": [
+                    {
+                      "type": "light-brightness"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "light.di_san_wo_shi_deng_lightbulb",
+                  "features": [
+                    {
+                      "type": "light-brightness"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "light.yang_tai_deng_lightbulb",
+                  "features": [
+                    {
+                      "type": "light-brightness"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "light.xiao_yang_tai_deng_lightbulb",
+                  "features": [
+                    {
+                      "type": "light-brightness"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "空调",
+          "path": "",
+          "icon": "mdi:air-conditioner",
+          "badges": [],
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "cards": [
+                {
+                  "type": "custom:mushroom-climate-card",
+                  "entity": "climate.ke_ting_kong_diao_thermostat",
+                  "icon": "mdi:air-conditioner",
+                  "show_temperature_control": true,
+                  "collapsible_controls": true,
+                  "hvac_modes": [
+                    "cool",
+                    "heat"
+                  ]
+                },
+                {
+                  "type": "custom:mushroom-climate-card",
+                  "entity": "climate.can_ting_kong_diao_thermostat",
+                  "icon": "mdi:air-conditioner",
+                  "show_temperature_control": true,
+                  "collapsible_controls": true,
+                  "hvac_modes": [
+                    "cool",
+                    "heat"
+                  ]
+                },
+                {
+                  "type": "custom:mushroom-climate-card",
+                  "entity": "climate.zhu_wo_shi_kong_diao_thermostat",
+                  "icon": "mdi:air-conditioner",
+                  "show_temperature_control": true,
+                  "collapsible_controls": true,
+                  "hvac_modes": [
+                    "cool",
+                    "heat"
+                  ]
+                },
+                {
+                  "type": "custom:mushroom-climate-card",
+                  "entity": "climate.di_er_wo_shi_kong_diao_thermostat",
+                  "icon": "mdi:air-conditioner",
+                  "show_temperature_control": true,
+                  "collapsible_controls": true,
+                  "hvac_modes": [
+                    "cool",
+                    "heat"
+                  ]
+                },
+                {
+                  "type": "custom:mushroom-climate-card",
+                  "entity": "climate.di_san_wo_shi_kong_diao_thermostat",
+                  "icon": "mdi:air-conditioner",
+                  "hvac_modes": [
+                    "cool",
+                    "heat"
+                  ],
+                  "show_temperature_control": true,
+                  "collapsible_controls": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "窗帘",
+          "path": "",
+          "icon": "mdi:curtains",
+          "badges": [],
+          "cards": [
+            {
+              "type": "vertical-stack",
+              "cards": [
+                {
+                  "type": "tile",
+                  "entity": "cover.ke_ting_chuang_lian_window_covering",
+                  "features": [
+                    {
+                      "type": "cover-open-close"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "cover.zhu_wo_shi_chuang_lian_window_covering",
+                  "features": [
+                    {
+                      "type": "cover-open-close"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "cover.di_er_wo_shi_chuang_lian_window_covering",
+                  "features": [
+                    {
+                      "type": "cover-open-close"
+                    }
+                  ]
+                },
+                {
+                  "type": "tile",
+                  "entity": "cover.di_san_wo_shi_chuang_lian_window_covering",
+                  "features": [
+                    {
+                      "type": "cover-open-close"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

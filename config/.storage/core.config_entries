@@ -1,0 +1,811 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "ed33625818410d552c72cccb036bc351",
+        "version": 1,
+        "domain": "hassio",
+        "title": "Supervisor",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "system",
+        "unique_id": "hassio",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "62f78232115bc2e278a27032e7d2a0f5",
+        "version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d20f93ace053dcc9348a94792fde5911",
+        "version": 1,
+        "domain": "radio_browser",
+        "title": "Radio Browser",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2f8df6e248e884482c809f8aa6e94caa",
+        "version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "track_home": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "abeb208b5283de5d02fcf3d8ccc39b5b",
+        "version": 1,
+        "domain": "hacs",
+        "title": "",
+        "data": {
+          "token": "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"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e74b1960104927df353337c7aa6acfcf",
+        "version": 1,
+        "domain": "xiaomi_miot",
+        "title": "米家设备",
+        "data": {
+          "username": "2396598264@qq.com",
+          "password": "x123ABCabc#=911",
+          "server_country": "cn",
+          "user_id": "707936757",
+          "service_token": "B6xaa8D86SEiKFE4yzdqCJjL1eJMwe46m0vZeG7lTBobccylmHWnjGZ7wvyfnr71bKiehmE3WDw2kk6caS8RRaH2bxjsXrR61oakIEcE1RtAY8FYEufzNFN6n3BE+6Ou8n5B2j+tUUygmnZXE016TVYtVFdBaVTvTJ4mC7Oyx7M=",
+          "ssecurity": "gUmDxANO3vfcbAn1Yv2LsQ==",
+          "sid": "xiaomiio",
+          "device_id": "06JKWUGK7UL5DCJA",
+          "conn_mode": "auto",
+          "filter_did": "include",
+          "did_list": [
+            "61655822",
+            "539426252"
+          ],
+          "config_version": 0.3,
+          "disable_message": false
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "aa03755432bbe21814ddfcfb4f11a0f1",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "玄关灯",
+        "data": {
+          "AccessoryPairingID": "7E:F3:9F:9F:D8:41",
+          "AccessoryLTPK": "7bf79eba6e4cc5865ba00077adc6d219bf900d2fa93bdc2f9e8fb34bcd79f38f",
+          "iOSPairingId": "25c7e5f0-8fce-42c5-80e1-c27dab30a5b0",
+          "iOSDeviceLTSK": "a394f93f08096b7c0cbd1687b985dbb02c65484649f5173734052a9ddd91ebe2",
+          "iOSDeviceLTPK": "cf2dee7db264552af94079bdf1b5e9530d60905f65a2512cca1d1d56252f8d36",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49212,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "7e:f3:9f:9f:d8:41",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "5c66f53856ecb32440c6cfcee58b37f2",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "餐厅灯",
+        "data": {
+          "AccessoryPairingID": "94:70:15:79:64:AA",
+          "AccessoryLTPK": "f7273bc06131f83af872093245c58d9d39ecf2ba6194333f424a0de76963b045",
+          "iOSPairingId": "66f489d9-9400-4d90-a744-e32044262d02",
+          "iOSDeviceLTSK": "4916687647667ef49eb551cb806166472fa703de3790fb3fe488c8ace8b74afd",
+          "iOSDeviceLTPK": "859af4e9e534f2d714b0bc7f8c3107cff315d17b61db33d9e7d49d7fb7816375",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49202,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "94:70:15:79:64:aa",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "72bbd673dab85e50ee996c4b98eae578",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "客厅灯",
+        "data": {
+          "AccessoryPairingID": "9D:08:93:17:D1:69",
+          "AccessoryLTPK": "45f0f0cc2b3a692b4fcebbc2671e439aa1e3969326473dc1741a768a04466b58",
+          "iOSPairingId": "20b6759f-446d-4f87-bf4f-496aad1b563e",
+          "iOSDeviceLTSK": "d02bff0d7832cd4c4fa847b52073a2eb5efa2eb09868e6e27611b4e62befaca5",
+          "iOSDeviceLTPK": "af19a5e95320e57002ddfaaac944b9c63aa77432d6ae62a520307b9fb49b059f",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49196,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "9d:08:93:17:d1:69",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "aaab0d813d006c6c66cec50743126cf0",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "厨房灯",
+        "data": {
+          "AccessoryPairingID": "3A:E8:7D:36:3A:E0",
+          "AccessoryLTPK": "62d65879a2879694d71998341a81c76e689485ba48a3067d4557c5d0b5d48ae2",
+          "iOSPairingId": "a85e1a69-9d7c-42d5-abcc-30fd1dd109f2",
+          "iOSDeviceLTSK": "270deca3c768cd3fc867a47f7f5b335b2de89b728502ec0ae13c913f5bdcc3ab",
+          "iOSDeviceLTPK": "531607d3eab433145118f75f8136ce6317ecd2a736819e80f170e90e85ad61fd",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49197,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "3a:e8:7d:36:3a:e0",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "53de27477527da9e91f29ece9adef4ca",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "走廊灯",
+        "data": {
+          "AccessoryPairingID": "FC:E5:F4:FF:27:B9",
+          "AccessoryLTPK": "dfbe8e1214545a3898b22551239acc4271a09b2079d4105779ab6c2d9271be7a",
+          "iOSPairingId": "2fae3aa7-4d41-4bd3-83b0-517938daa3fc",
+          "iOSDeviceLTSK": "b6eac8f0c4c9ee6d9c3d6308fb1af2cb88241678997998104dc1ded4c1699cd4",
+          "iOSDeviceLTPK": "bcd310a3848d165943c8f21fd654831215fc0e723503b45dc2e3eae7eca570ad",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49210,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "fc:e5:f4:ff:27:b9",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "9252237c0059e3515379be0d5f2f4124",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "卫生间灯",
+        "data": {
+          "AccessoryPairingID": "80:8C:38:B8:1E:CE",
+          "AccessoryLTPK": "9017a8fc275b84e9f2be7a45d6cd8888238ffae056e4afaf26f307113b409748",
+          "iOSPairingId": "500ed2b9-e790-4a5d-83e9-3a48aede8a17",
+          "iOSDeviceLTSK": "1b8e3cb89a3b012523a7d4f6fd64760e4337e403e2e2cdc784e5a15c4095a6e9",
+          "iOSDeviceLTPK": "84abbc3807ce859f60992ea447f54de2bfdce597b8f40cbdc5ef4da661bac290",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49211,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "80:8c:38:b8:1e:ce",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e76a5701b48a3a554a67bbccdea294d6",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "主卧室卫生间灯",
+        "data": {
+          "AccessoryPairingID": "C6:F3:00:C2:00:3B",
+          "AccessoryLTPK": "b7e82f15cdf0ec653549a29e6efe6b31d5c6024de877632c72ccc79f917ff788",
+          "iOSPairingId": "ab3c4af1-07ff-476d-bdd0-43dcce9777df",
+          "iOSDeviceLTSK": "72b69e1780b4942c3795c43127bf254d544cca4717b02fc0bb429fa71111aa9f",
+          "iOSDeviceLTPK": "d0bc863bab97da4534a386f2ecd2a845e27e0d47b6f88e5614aa25ef2c105ee9",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49194,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "c6:f3:00:c2:00:3b",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1c0ca1b77575254b5da919be2962b7bd",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "主卧室灯",
+        "data": {
+          "AccessoryPairingID": "64:F0:35:AB:4E:A7",
+          "AccessoryLTPK": "958f77f950d7edbd503228ecd4572f7ecbf1c5f3eec6bea8a75c4c1379eaee1f",
+          "iOSPairingId": "8faa04e6-7c49-4362-abc0-f6a9ab22276b",
+          "iOSDeviceLTSK": "28942c1d0b9269be6c656e84610b507d9f58c03291e0b0d8585286e7feee957a",
+          "iOSDeviceLTPK": "1d600f4feea43e011c1260c688768745697039cb8da044429f7433546f19b55d",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49195,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "64:f0:35:ab:4e:a7",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "757f83ccb7ce16589e805979a02a2332",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "第二卧室灯",
+        "data": {
+          "AccessoryPairingID": "88:13:65:30:42:5C",
+          "AccessoryLTPK": "2be880b050abfa389da29790cbb49e03a90436d62d32de6207028db69cd70186",
+          "iOSPairingId": "a4a6a4e4-04d4-4470-ac25-47f18aca4769",
+          "iOSDeviceLTSK": "20726936121ec93ed7c467a748ee8bdd704f5fcc87dcd7a495576243df2b93d9",
+          "iOSDeviceLTPK": "1e15059913bdf4f988308c7370e2ce38ea7a8a61ebf02d67366550b2867a4604",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49218,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "88:13:65:30:42:5c",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "60cb44bc9561d34b16980724dd5495da",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "第三卧室灯",
+        "data": {
+          "AccessoryPairingID": "13:F6:C6:D6:4C:BB",
+          "AccessoryLTPK": "c9d029f72249bd9352875d8104fe7a293ffafa306c2e7a0483f5b990a5ec34ea",
+          "iOSPairingId": "fd44d836-9726-4654-9c00-8817aacb142d",
+          "iOSDeviceLTSK": "550d5d4dba48b34e9e1ada91b95143e634e13f94802a059d354121ca82f2c66f",
+          "iOSDeviceLTPK": "70530572b9a05a59b35879cb71249e379349ca824478c219746badff9b86d35d",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49213,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "13:f6:c6:d6:4c:bb",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "a121c528122d89c9e7e4cde552d0842b",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "小阳台灯",
+        "data": {
+          "AccessoryPairingID": "9A:F7:C3:B8:3E:4B",
+          "AccessoryLTPK": "13993a0a2a51c305f673f483699ab28353d35eafa23beaf3621a0159b03b12aa",
+          "iOSPairingId": "006bad3c-ae0e-4c84-a095-510d67837afc",
+          "iOSDeviceLTSK": "f4a1daff0a2af428e7abb0bd599be40576f28e8f2cfde52da01b4a512318dd26",
+          "iOSDeviceLTPK": "264e746e9dc278560f7ba415b4acf85f381f67a309aca911e15b80e88084beb6",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49217,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "9a:f7:c3:b8:3e:4b",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "86fdd24f77da6e63140b6b6f292f8f90",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "阳台灯",
+        "data": {
+          "AccessoryPairingID": "5C:77:3A:CB:9C:A4",
+          "AccessoryLTPK": "c381cf369e26df5b2017b53686c399f062367acab9e2c72ce36f80af0d4802db",
+          "iOSPairingId": "c729fec7-1eaf-4bc4-bc0f-9075ef04854f",
+          "iOSDeviceLTSK": "e61359751977f6eec798d01f6a0f84875ea91636365c173df457b7a2a8851e1d",
+          "iOSDeviceLTPK": "a2c78b97b960aba868fa7fa1d7d96f444d6e76662579bfd5a2f63e671704792f",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49203,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "5c:77:3a:cb:9c:a4",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "650c85ecb9d33415920eaa5f452168c5",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "客厅空调",
+        "data": {
+          "AccessoryPairingID": "7B:EE:1E:2F:85:5F",
+          "AccessoryLTPK": "2df25c360b0618557e511b235a220f53bbe3fcadc013f4f3506a05a2b438c825",
+          "iOSPairingId": "d40cdf59-ce98-4fb7-a48d-09bc70191518",
+          "iOSDeviceLTSK": "cb59219e81c84c8950eeb2e7dd1d16e6c2b3b4002308f6c0db229c7f3cb663ba",
+          "iOSDeviceLTPK": "f9a56b68e116d4ba35f9aa4cc7cee1a496a66b2a3d0bf8d744614eaee58df996",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49219,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "7b:ee:1e:2f:85:5f",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "f437a322863c8b567d06ef5c3f55ab09",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "餐厅空调",
+        "data": {
+          "AccessoryPairingID": "25:69:3B:4C:2C:64",
+          "AccessoryLTPK": "49bdb53a295729fb5015d4996e410e9ae38de47a2c10d332da64f33224cecba5",
+          "iOSPairingId": "af810186-67cb-4e62-854f-41cde0a3934b",
+          "iOSDeviceLTSK": "19ea4315ce66b984df17368118246fccb78e8e441c2271c1fd50e7ac5b9c3f87",
+          "iOSDeviceLTPK": "cf23f03109456db2ac3547ba7188985351ec4be2baca9b690da16e3ecd46eaf9",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49199,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "25:69:3b:4c:2c:64",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "eb47f2bb8db1c76c0f41e5bfbd6ca292",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "主卧室空调",
+        "data": {
+          "AccessoryPairingID": "0C:62:03:52:C0:A7",
+          "AccessoryLTPK": "8b650a88070bcc3f442f73d51863fbe7362c153784f84a60e03f14ff5afbd6cf",
+          "iOSPairingId": "e42f1a36-5895-492d-87ea-7ffdd0266929",
+          "iOSDeviceLTSK": "f1797a02afd223cc9d4bc7719f40fe002822e988eda1bad40021355f2aa1ed70",
+          "iOSDeviceLTPK": "9040d99b52514c7922a16702395b02138e3c94a38b455eff06b7491f174375f9",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49200,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "0c:62:03:52:c0:a7",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "594533894c7ead4ed3ba200cf80d41f4",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "第二卧室空调",
+        "data": {
+          "AccessoryPairingID": "C4:6A:B4:E4:5A:07",
+          "AccessoryLTPK": "ae2a58227702744d55d3719bdaae6a3861dc059add2e8ab127bbde2d1a790d2f",
+          "iOSPairingId": "cae19c60-4f84-4b06-9a97-d3f1961b18f9",
+          "iOSDeviceLTSK": "6a22efc3e4da0d95d86fef5d477d192674c62a9fe5daad622a3533a21d7e85bd",
+          "iOSDeviceLTPK": "b7396c7af4069af92d1b9785c18a16f407fc280fbc94b21f301fd1206912b92c",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49204,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "c4:6a:b4:e4:5a:07",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ec73edaed247c3f250ec529608e38752",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "第三卧室空调",
+        "data": {
+          "AccessoryPairingID": "1D:5E:AE:A7:A1:10",
+          "AccessoryLTPK": "b19a838a535d1080865970e527ff3ed5b161a793a37f9432147e2d8790a86d9a",
+          "iOSPairingId": "4b0e6b90-8ec3-4cc4-a67b-03d2cc1a050b",
+          "iOSDeviceLTSK": "0b9d436faf690f794261e1a304011d85c29b580be56acb2593fe582792478dc8",
+          "iOSDeviceLTPK": "f9acaf575bd6197f5e3c2eecc6f6d761602ef0369a9175e96b9c3c8f4b7a4fec",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49207,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "1d:5e:ae:a7:a1:10",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3427a6d83a2b8fca7fada6b106a3167d",
+        "version": 1,
+        "domain": "colorfulclouds",
+        "title": "佛山市南海区",
+        "data": {
+          "api_key": "TWiYguYuhOt83lkM",
+          "api_version": "v2.5",
+          "longitude": 113.04956102292637,
+          "latitude": 23.142814518912285,
+          "name": "佛山市南海区"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": "113_04956102292637-23_142814518912285",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "3a39227147370de3e6d81fa9593738c5",
+        "version": 1,
+        "domain": "ha_cloud_music",
+        "title": "ha_cloud_music",
+        "data": {
+          "url": "http://music.mojito.love"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7a11953efa4ee721dfe491ebfa20eb03",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "门锁",
+        "data": {
+          "AccessoryPairingID": "77:99:C1:53:51:B1",
+          "AccessoryLTPK": "be51d9d43828ef7ca4d7f1fb6a6d1061673c1756badbaf9c3b8067fc9533bef8",
+          "iOSPairingId": "99ea849d-c162-4c25-82ce-43ad78925305",
+          "iOSDeviceLTSK": "dda80f2abac7afc8b38da5506b7f240908e26b351aa5b2b148a55139d40d876a",
+          "iOSDeviceLTPK": "0b8af67fdcb41ec11b656c2deeab7d05c8431951a78f7b7026d6da9339e49d1c",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49208,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "77:99:c1:53:51:b1",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "ad2135bb7b414bbb59574b1773ee7c9c",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "客厅窗帘",
+        "data": {
+          "AccessoryPairingID": "0B:97:C2:19:05:FF",
+          "AccessoryLTPK": "1b52f869e3c789cbd87e962979077832d805200aba209ea7734d2d5680f7adf9",
+          "iOSPairingId": "c843bdab-6429-4de8-a7e6-955f5d9a3a97",
+          "iOSDeviceLTSK": "10606939be9fbcc030ac7518f6a64ecfa58c956a99a874d8666803527eb6fc4e",
+          "iOSDeviceLTPK": "cfadd9ad4cbf54d6796a45bf95f05264295d4ef98c154643fe640820481b62f8",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49216,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "0b:97:c2:19:05:ff",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "7f58b6cd759a983628dc8136f2a2f4c0",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "主卧室窗帘",
+        "data": {
+          "AccessoryPairingID": "05:A4:D2:B2:61:D7",
+          "AccessoryLTPK": "6cef40dfdcca6ec22ed0a412b9b1f7efb288f063063293de566fd3c3e811f9c9",
+          "iOSPairingId": "cb78e786-852c-4753-8e31-3547fb98293c",
+          "iOSDeviceLTSK": "f75bbb35825abc606510a907b88c28ebbb1050fa90c6344819e65ff1451894d3",
+          "iOSDeviceLTPK": "dca9ea956dc5adeb0a4817c18caeccaf8045a443b982c071295eeec09d463acf",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49215,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "05:a4:d2:b2:61:d7",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e69be588c66963b215af086a3c16eae5",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "第二卧室窗帘",
+        "data": {
+          "AccessoryPairingID": "BE:A5:03:C3:CE:AC",
+          "AccessoryLTPK": "d3bb7f0ef6383570bbc91c6cf07ee509fffd4f86c1f4d6a2624e2cb61f8c082e",
+          "iOSPairingId": "561930e7-d1da-4e1c-bd19-0a6a6fcc5086",
+          "iOSDeviceLTSK": "20f175ba3c161c0e05ad2e88228386873ec575343c1b7d490af1a1ab4ddf0e5c",
+          "iOSDeviceLTPK": "650f00ddf0c467f1a1085130f14e3e1bae4019812d1bdab735aefd5f6bd3faec",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49206,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "be:a5:03:c3:ce:ac",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "30a4ff924b85edaa9b6122bdc61c6786",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "第三卧室窗帘",
+        "data": {
+          "AccessoryPairingID": "B8:FC:D5:A4:AD:CE",
+          "AccessoryLTPK": "4f5f1bcc7cd94fb877941a34c122d2dfd259d3b85eed9c6a1f26a902e9b2c75f",
+          "iOSPairingId": "20cbf75a-04cf-4447-af45-f70ab2c66ba6",
+          "iOSDeviceLTSK": "f141f1f321c8417751d3c87fbc912494a6cd88ee66e72edb89fcc319356bff38",
+          "iOSDeviceLTPK": "98bbf0ce3319f4c885702be559861bce16c2906bb056b0212ae530f26cece0c5",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49205,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "b8:fc:d5:a4:ad:ce",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "480edc15c5f64ab1b3e4d39f1ea60e9f",
+        "version": 1,
+        "domain": "mobile_app",
+        "title": "iPad Pro 9.7",
+        "data": {
+          "model": "iPad6,3",
+          "device_name": "iPad Pro 9.7",
+          "app_id": "io.robbie.HomeAssistant",
+          "app_name": "Home Assistant",
+          "os_name": "iPadOS",
+          "os_version": "15.0",
+          "supports_encryption": true,
+          "app_version": "2023.4 (2023.460)",
+          "device_id": "80170295-2CB6-468F-A209-400AA889FB5F",
+          "manufacturer": "Apple",
+          "app_data": {},
+          "webhook_id": "10176294c858716f1bb483ff3dea4ee77873395324ddd3052cd5ffe35aabf7c2",
+          "secret": "5f09889afb9889491fd0e542616db62f59de907a3911ca80f297eba99a11460a",
+          "user_id": "12776da75a3e4827a918a4836f11c05a",
+          "no_legacy_encryption": true
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "registration",
+        "unique_id": "io.robbie.HomeAssistant-80170295-2CB6-468F-A209-400AA889FB5F",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "94adc7c29dc07f488a9bb77b680e797d",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "主卧室人体传感器",
+        "data": {
+          "AccessoryPairingID": "AB:60:C7:B7:3B:56",
+          "AccessoryLTPK": "30970c9c4f3d5a1ca0d11812dc3bfa41af43b0420608d37b5a215d915f6517b9",
+          "iOSPairingId": "bfac8b0e-6b2c-4007-8829-14377596f76e",
+          "iOSDeviceLTSK": "b582889fc52aed8e2bbd1c3a6b1e1f7aff168471b13b8f5336ac36d135c14930",
+          "iOSDeviceLTPK": "90655a65cef145cd39e0d1aa465c9563fb7d14d3a4a9797693c1bb2f1dfa14ea",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49198,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "ab:60:c7:b7:3b:56",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "72ff7f81633487237fea7998668a31a6",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "第二卧室人体传感器",
+        "data": {
+          "AccessoryPairingID": "53:F2:60:34:19:76",
+          "AccessoryLTPK": "112f721f0925f80e56dc1db4c97f336b6839885411c475ac969165d033ecabeb",
+          "iOSPairingId": "ab6837a3-0616-4b63-83ba-349ed4c32830",
+          "iOSDeviceLTSK": "3ac534eafb59597cc2d099eb0fdbbd04ebf53449414b8b41a8d6e584bd97c5a5",
+          "iOSDeviceLTPK": "409a1ea1e4728baeb441b536d7ea3b3670b3fc86bbf0dcde6c65a82a4e446a9a",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49214,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "53:f2:60:34:19:76",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "140eec6aa792ddbb66b20015e6455910",
+        "version": 1,
+        "domain": "homekit_controller",
+        "title": "第三卧室人体传感器",
+        "data": {
+          "AccessoryPairingID": "63:FF:F9:97:28:F3",
+          "AccessoryLTPK": "16a7141cffb9bc3d7bae61e36231574807b84bb96076f585f12dede55517545e",
+          "iOSPairingId": "2dc23775-bb01-4960-86aa-5d265c860676",
+          "iOSDeviceLTSK": "f1e3cd3b2688ab1a47af13783594ac34ad621403a36ee2c7d59e929b0db5114b",
+          "iOSDeviceLTPK": "9e607ce28e95d0be0a9f9c6ad13793514a76861591a7d14c4202426224285a29",
+          "AccessoryIP": "192.168.1.117",
+          "AccessoryPort": 49209,
+          "Connection": "IP"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "zeroconf",
+        "unique_id": "63:ff:f9:97:28:f3",
+        "disabled_by": null
+      },
+      {
+        "entry_id": "d23081beac5c68e198efca11bd93d2d6",
+        "version": 1,
+        "domain": "homekit",
+        "title": "HASS Bridge:21064",
+        "data": {
+          "name": "HASS Bridge",
+          "exclude_accessory_mode": true,
+          "port": 21064
+        },
+        "options": {
+          "filter": {
+            "include_domains": [
+              "alarm_control_panel",
+              "climate",
+              "cover",
+              "humidifier",
+              "fan",
+              "light",
+              "lock",
+              "media_player",
+              "remote",
+              "switch",
+              "vacuum",
+              "water_heater"
+            ],
+            "exclude_domains": [],
+            "include_entities": [],
+            "exclude_entities": []
+          },
+          "mode": "bridge"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "2cd9316c18b272078e7bf904d7400a87",
+        "version": 1,
+        "domain": "homekit",
+        "title": "云音乐:21065",
+        "data": {
+          "port": 21065,
+          "name": " "
+        },
+        "options": {
+          "filter": {
+            "include_domains": [],
+            "exclude_domains": [],
+            "include_entities": [
+              "media_player.yun_yin_le"
+            ],
+            "exclude_entities": []
+          },
+          "mode": "accessory"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "accessory",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "1bafd132da7fcbfd53c7269a0cb3d16c",
+        "version": 1,
+        "domain": "homekit",
+        "title": "门锁:21066",
+        "data": {
+          "port": 21066,
+          "name": "  8J"
+        },
+        "options": {
+          "filter": {
+            "include_domains": [],
+            "exclude_domains": [],
+            "include_entities": [
+              "lock.men_suo_lock_mechanism"
+            ],
+            "exclude_entities": []
+          },
+          "mode": "accessory"
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "accessory",
+        "unique_id": null,
+        "disabled_by": null
+      }
+    ]
+  }
+}
